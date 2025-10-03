@@ -4,8 +4,8 @@
 
 Setiap aktivitas manusia maupun organisasi memiliki potensi risiko, baik dalam bentuk kecelakaan kerja, kerugian finansial, gangguan operasional, maupun kerusakan lingkungan. Dalam konteks bisnis modern yang kompleks, risiko tidak dapat dihindari, tetapi harus **dikelola secara sistematis**.
 
-Sistem Manajemen Penilaian Risiko (Risk Assessment Management System) hadir sebagai kerangka kerja untuk:
-- Mengidentifikasi risiko sejak dini,    
+Sistem Manajemen Penilaian Risiko (Risk Assessment Management System, RASM) hadir sebagai kerangka kerja untuk:
+- Mengidentifikasi risiko sejak dini, 
 - Menganalisis tingkat keparahan dan kemungkinan terjadinya,    
 - Mengevaluasi dampak terhadap tujuan organisasi,    
 - Menentukan langkah pengendalian yang efektif.    
@@ -16,8 +16,15 @@ Dengan pendekatan ini, organisasi dapat meningkatkan **keamanan, efisiensi, kebe
 
 ## 1.2 Definisi Risiko dan Manajemen Risiko
 
-- **Risiko**: Kombinasi antara kemungkinan terjadinya suatu peristiwa (probability/likelihood) dan konsekuensi dari peristiwa tersebut (impact/consequence).    
+### 1.2.1 Risiko
+Risiko adalah kombinasi antara kemungkinan terjadinya suatu peristiwa (probability/likelihood) dan konsekuensi dari peristiwa tersebut (impact/consequence).
+
+Risiko adalah kemungkinan terjadinya peristiwa yang tidak diinginkan yang dapat menimbulkan kerugian bagi perusahaan jika tidak segera diantisipasi atau dikelola dengan baik. Seluruh kegiatan baik kegiatan individu maupun operasional perusahaan berpeluang menghadapi risiko. Risiko bisnis yang dihadapi perusahaan tergantung dari besarnya pengambilan risiko oleh pihak manajemen. Jika perusahaan ingin memperoleh keuntungan yang besar maka risiko bisnis yang dihadapi juga semakin besar. Pola pengambilan risiko menunjukkan sikap yang berbeda-beda dari pihak manajemen ketika dihadapkan pada pengambilan risiko. Perusahaan yang menjalankan 5 bisnis di era digital saat ini dihadapkan pada tantangan dan hambatan yang semakin kompleks dan beragam. Risiko pemanfaatan teknologi informasi menjadi risiko utama yang dihadapi perusahaan. Oleh karena itu perusahaan harus mempersiapkan diri untuk menghadapi risiko teknologi informasi denganmembentuk divisi khusus yang mengelola risiko. Manajemen risiko teknologi informasi yang efektif menjadi kunci kesuksesan bisnis di era digital.[^1]
+
+### 1.2.2 Hazard (Bahaya)
 - **Hazard (Bahaya)**: Sumber potensi bahaya yang dapat menyebabkan kerugian, cedera, atau kerusakan.    
+
+### 1.2.3 Manajemen Risiko:
 - **Manajemen Risiko**: Proses terstruktur dalam mengidentifikasi, menganalisis, mengevaluasi, mengendalikan, dan memantau risiko agar tetap berada pada tingkat yang dapat diterima.    
 
 Contoh sederhana:
@@ -78,3 +85,7 @@ Beberapa standar dan pedoman internasional yang digunakan dalam risk assessment:
 📌 **Tugas untuk Mahasiswa (Bab 1):**
 1. Buatlah contoh risiko yang mungkin terjadi dalam aktivitas sehari-hari di kampus atau rumah, identifikasi hazard, risiko, serta dampaknya.    
 2. Cari dan rangkum 1 artikel/jurnal terkait penerapan manajemen risiko di salah satu sektor (misalnya industri, IT, kesehatan, transportasi).    
+
+---
+# Referensi:
+[^1]: [BukuDigital-MANAJEMENRISIKOERADIGITAL](obsidian://open?vault=risk-management&file=ebook%2FBukuDigital-MANAJEMENRISIKOERADIGITAL.pdf)

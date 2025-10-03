@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/02-framework.md",
-                "mode": "source",
+                "file": "docs/01-pendahuluan.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-framework"
+              "title": "01-pendahuluan"
             }
           }
         ],
@@ -198,16 +198,23 @@
       "bases:Create new base": false
     }
   },
-  "active": "4e7a5d0c30b775d8",
+  "active": "abe85434cafbeec3",
   "lastOpenFiles": [
+    "ebook/BukuDigital-MANAJEMENRISIKOERADIGITAL.pdf",
+    "ebook/Buku - Manajemen Risiko - Tatan_Sukwika.pdf",
     "docs/01-pendahuluan.md",
+    "docs/README.md",
+    "ebook/README.md",
+    "ebook/MANAJEMEN-RISIKO-BUKU-AJAR.pdf",
+    "ebook",
+    "New folder",
+    "README.md",
+    "Untitled.base",
+    "Untitled 1.base",
+    "docs/02-framework.md",
     "docs/04-metode-identifikasi.md",
     "docs/03-prinsip.md",
-    "docs/referensi.md",
-    "docs/02-framework.md",
-    "README.md",
     "arsip",
-    "docs",
-    "New folder"
+    "docs"
   ]
 }
