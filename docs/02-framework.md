@@ -1,99 +1,189 @@
-# **BAB 2 – KERANGKA STANDAR & REGULASI DALAM RISK ASSESSMENT MANAGEMENT SYSTEM**
-
-## 2.1 Pendahuluan
-
-Agar manajemen risiko dapat berjalan secara efektif, diperlukan **kerangka standar dan regulasi** yang jelas. Standar berfungsi sebagai pedoman internasional yang memberikan konsistensi, sedangkan regulasi berfungsi sebagai kewajiban hukum yang harus dipatuhi oleh organisasi.
-
-Dengan adanya standar dan regulasi:
-- Organisasi memiliki **acuan metodologi** yang seragam.    
-- Praktik manajemen risiko dapat **diukur, diaudit, dan dievaluasi**.    
-- Tercipta **kepastian hukum dan kepatuhan (compliance)**.    
+# **Kerangka Standar & Regulasi dalam Manajemen Risiko**
 
 ---
 
-## 2.2 Standar Internasional dalam Manajemen Risiko
+## 1. Pendahuluan
 
-### 2.2.1 **ISO 31000:2018 – Risk Management Guidelines*
-- **Ruang lingkup**: Memberikan prinsip, kerangka kerja, dan proses manajemen risiko yang dapat diterapkan pada berbagai organisasi.    
-- **Prinsip utama**:    
-    1. Terintegrasi ke dalam seluruh aktivitas organisasi.        
-    2. Terstruktur dan komprehensif.        
-    3. Didasarkan pada informasi terbaik.        
-    4. Disesuaikan dengan konteks organisasi.        
-    5. Mengutamakan pengambilan keputusan.        
-    6. Mempertimbangkan faktor manusia dan budaya.        
-    7. Bersifat dinamis, responsif terhadap perubahan.        
-    8. Berkelanjutan untuk perbaikan (continuous improvement).        
-- **Kerangka proses**: Identifikasi → Analisis → Evaluasi → Pengendalian → Monitoring → Komunikasi.    
+Manajemen risiko memerlukan **kerangka kerja (framework)** yang terstandar agar dapat diterapkan secara konsisten di berbagai organisasi dan sektor.  
+Standar dan regulasi membantu:
 
----
-
-### 2.2.2 **ISO 45001:2018 – Occupational Health and Safety Management Systems*
-- Fokus pada **Keselamatan dan Kesehatan Kerja (K3)**.    
-- Mencakup identifikasi bahaya, penilaian risiko K3, serta program pengendalian.    
-- Diterapkan melalui pendekatan **PDCA (Plan-Do-Check-Act)**.    
-- Tujuan utama: mengurangi kecelakaan kerja, penyakit akibat kerja, serta meningkatkan keselamatan pekerja.    
-
----
-
-### 2.2.3 **OHSAS 18001 (Occupational Health and Safety Assessment Series)**
-- Standar lama sebelum digantikan ISO 45001.    
-- Banyak digunakan di industri manufaktur, konstruksi, dan energi.    
-- Fokus: sistem manajemen keselamatan kerja, namun saat ini organisasi didorong untuk migrasi ke **ISO 45001**.    
-
----
-
-### 2.2.4 **COSO ERM (Enterprise Risk Management Framework)*
-- Dikembangkan oleh **Committee of Sponsoring Organizations of the Treadway Commission (COSO)**.    
-- Fokus pada **manajemen risiko perusahaan secara menyeluruh (enterprise-wide)**.    
-- Menekankan hubungan antara **strategi bisnis, tujuan organisasi, dan risiko**.    
-- Cocok untuk sektor keuangan, korporasi besar, dan lembaga publik.    
-
----
-
-### 2.2.5 Standar & Metodologi Lain
-- **NIST Risk Management Framework (RMF)** → banyak digunakan di sektor TI & keamanan siber. 
-- **IEC 31010** → metode penilaian risiko (FMEA, HAZOP, FTA, dll.).    
-- **Basel II/III Accord** → standar internasional untuk risiko di sektor perbankan.    
-
----
-
-## 2.3 Regulasi Nasional (Indonesia)
-
-Dalam konteks Indonesia, regulasi yang terkait manajemen risiko meliputi:
-- **UU No. 1 Tahun 1970** → Keselamatan Kerja.    
-- **PP No. 50 Tahun 2012** → Penerapan Sistem Manajemen K3.    
-- **UU No. 32 Tahun 2009** → Perlindungan dan Pengelolaan Lingkungan Hidup.    
-- **POJK (Peraturan Otoritas Jasa Keuangan)** → penerapan manajemen risiko di sektor perbankan & keuangan.    
-- **Permenaker** → aturan teknis tentang K3 dan audit SMK3.    
-
----
-
-## 2.4 Perbandingan Standar Internasional dan Regulasi Nasional
-
-|Aspek|Standar Internasional (ISO 31000, ISO 45001)|Regulasi Nasional (UU, PP, Permen)|
-|---|---|---|
-|Sifat|Rekomendasi / pedoman|Wajib / mengikat hukum|
-|Lingkup|Universal, dapat diterapkan di semua sektor|Spesifik pada negara & sektor tertentu|
-|Tujuan|Memberikan best practices global|Memberikan kepastian hukum & perlindungan|
-|Contoh|ISO 31000, COSO, NIST|UU 1/1970, PP 50/2012, POJK|
-
----
-
-## 2.5 Studi Kasus
-- **Kasus 1 (Internasional)**: Sebuah perusahaan minyak menerapkan ISO 31000 dan ISO 45001 untuk mengurangi risiko ledakan pabrik → hasilnya terjadi penurunan kecelakaan kerja sebesar 35% dalam 2 tahun.    
-- **Kasus 2 (Indonesia)**: PT XYZ diwajibkan menerapkan PP No. 50/2012 tentang SMK3. Hasil audit SMK3 menunjukkan kepatuhan meningkat, sehingga perusahaan lolos tender proyek besar BUMN.
+- Memberikan **panduan praktis**.
+    
+- Menjamin **kepatuhan hukum**.
+    
+- Memudahkan **perbandingan (benchmarking)** antar organisasi.
+    
+- Meningkatkan **kepercayaan stakeholder**.
     
 
 ---
 
-## 2.6 Ringkasan
-- Standar internasional seperti **ISO 31000, ISO 45001, COSO ERM** memberikan pedoman global.   
-- Regulasi nasional seperti **UU K3, PP 50/2012, POJK** memberikan kewajiban hukum di Indonesia. 
-- Perpaduan antara standar dan regulasi menciptakan sistem manajemen risiko yang efektif sekaligus patuh hukum.    
+## 2. Standar Internasional Terkait Manajemen Risiko
+
+### a. **ISO 31000:2018 – Risk Management Guidelines**
+
+- Merupakan **standar internasional** untuk kerangka manajemen risiko.
+    
+- Fokus pada **prinsip, kerangka kerja, dan proses**.
+    
+- Cocok untuk semua jenis organisasi, sektor, dan ukuran.
+    
+- Elemen utama:
+    
+    1. Prinsip manajemen risiko.
+        
+    2. Kerangka kerja organisasi.
+        
+    3. Proses manajemen risiko (identifikasi – analisis – evaluasi – perlakuan – monitoring – komunikasi).
+        
 
 ---
 
-📌 **Tugas untuk Mahasiswa (Bab 2):**
-1. Cari 1 standar internasional **selain ISO 31000** dan buat ringkasan penerapannya.    
-2. Identifikasi minimal 2 regulasi di Indonesia yang mewajibkan penerapan manajemen risiko pada sektor tertentu (contoh: perbankan, K3, lingkungan).    
+### b. **COSO ERM (Enterprise Risk Management Framework)**
+
+- Dikembangkan oleh **Committee of Sponsoring Organizations of the Treadway Commission**.
+    
+- Lebih fokus pada **integrasi risiko dengan tata kelola perusahaan**.
+    
+- Komponen utama COSO ERM:
+    
+    1. Governance & Culture.
+        
+    2. Strategy & Objective-Setting.
+        
+    3. Performance.
+        
+    4. Review & Revision.
+        
+    5. Information, Communication & Reporting.
+        
+
+---
+
+### c. **ISO 27001 (Information Security Management System)**
+
+- Standar untuk **manajemen risiko keamanan informasi**.
+    
+- Digunakan oleh sektor TI, perbankan, kesehatan, dan pendidikan.
+    
+- Fokus pada kontrol keamanan data & cyber risk.
+    
+
+---
+
+### d. **ISO 22301 (Business Continuity Management System)**
+
+- Standar untuk menjaga **kelangsungan bisnis** dalam situasi krisis (bencana alam, pandemi, cyber attack).
+    
+- Mengintegrasikan risk management dengan **business continuity planning**.
+    
+
+---
+
+### e. **ISO 45001 (Occupational Health & Safety Management System)**
+
+- Standar internasional untuk **keselamatan & kesehatan kerja (K3)**.
+    
+- Sangat penting di sektor manufaktur, konstruksi, dan energi.
+    
+
+---
+
+## 3. Regulasi Nasional (Indonesia)
+
+### a. **Regulasi di Sektor Publik**
+
+- Peraturan Pemerintah (PP) No. 60 Tahun 2008 tentang **Sistem Pengendalian Intern Pemerintah (SPIP)**.
+    
+- Menekankan penerapan manajemen risiko di instansi pemerintah.
+    
+
+### b. **Regulasi di Sektor Perbankan**
+
+- Peraturan OJK (Otoritas Jasa Keuangan):
+    
+    - **POJK No. 18/POJK.03/2016** tentang Penerapan Manajemen Risiko untuk Bank Umum.
+        
+    - Bank wajib menerapkan manajemen risiko di seluruh aktivitas usaha.
+        
+
+### c. **Regulasi di Sektor Korporasi**
+
+- UU No. 40 Tahun 2007 tentang **Perseroan Terbatas** → menekankan prinsip tata kelola perusahaan yang baik (Good Corporate Governance/GCG) termasuk pengelolaan risiko.
+    
+
+### d. **Regulasi di Sektor Energi & Industri**
+
+- Peraturan Kementerian ESDM tentang K3 di sektor pertambangan dan migas.
+    
+- Peraturan lingkungan (KLHK) terkait Analisis Mengenai Dampak Lingkungan (AMDAL).
+    
+
+---
+
+## 4. Perbandingan ISO 31000 vs COSO ERM
+
+|Aspek|ISO 31000|COSO ERM|
+|---|---|---|
+|Fokus|Prinsip & proses risiko|Integrasi risiko dengan strategi bisnis|
+|Sifat|Generik, semua sektor|Khusus korporasi & keuangan|
+|Dokumen Utama|Guidelines (panduan umum)|Framework + tools implementasi|
+|Pendekatan|Risk-based thinking|Enterprise Risk Management (ERM)|
+
+---
+
+## 5. Manfaat Penerapan Standar & Regulasi
+
+- **Kepastian hukum** → mematuhi aturan pemerintah & regulator.
+    
+- **Efisiensi operasional** → proses risiko lebih terstruktur.
+    
+- **Kepatuhan internasional** → memudahkan kerjasama global.
+    
+- **Meningkatkan kredibilitas organisasi**.
+    
+- **Menekan biaya akibat risiko** (financial loss, denda, reputasi).
+    
+
+---
+
+## 6. Tantangan Implementasi
+
+- Kurangnya pemahaman dan literasi manajemen risiko.
+    
+- Biaya sertifikasi standar cukup tinggi.
+    
+- Resistensi budaya organisasi (risk awareness rendah).
+    
+- Perubahan regulasi yang cepat.
+    
+
+---
+
+## 7. Ringkasan
+
+- Kerangka standar & regulasi memberikan **pedoman, kepatuhan, dan struktur** dalam manajemen risiko.
+    
+- **ISO 31000** → paling umum dan fleksibel untuk semua sektor.
+    
+- **COSO ERM** → menekankan integrasi risiko dengan strategi perusahaan.
+    
+- Regulasi nasional (OJK, PP 60/2008, UU PT) mengikat organisasi di Indonesia.
+    
+- Penerapan standar & regulasi = meningkatkan **transparansi, akuntabilitas, dan keberlanjutan organisasi**.
+    
+
+---
+
+## 📌 Tugas Mahasiswa
+
+1. Bandingkan **ISO 31000** dan **COSO ERM**: kelebihan & kekurangannya.
+    
+2. Cari contoh regulasi manajemen risiko di sektor pilihan (keuangan, kesehatan, pendidikan, energi).
+    
+3. Diskusikan: mengapa organisasi harus mengikuti standar internasional meskipun sudah ada regulasi nasional?
+    
+
+---
+
+Apakah Anda ingin saya sekalian buatkan **diagram visual perbandingan kerangka ISO 31000 & COSO ERM** supaya mahasiswa lebih mudah memahami?
