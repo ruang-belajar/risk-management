@@ -130,18 +130,7 @@ Kasus ini menunjukkan kegagalan pada beberapa tahap **siklus manajemen risiko**:
 
 ---
 
-## 🌐 7. **Kerangka Analisis Risiko Data Digital**
-
-|Langkah|Deskripsi|Contoh Implementasi|
-|---|---|---|
-|**1. Identifikasi Aset Data**|Menentukan data apa yang dikumpulkan dan oleh siapa.|Data profil pengguna, foto, kontak, preferensi.|
-|**2. Penilaian Risiko (Risk Assessment)**|Menganalisis potensi penyalahgunaan data.|Akses pihak ketiga, API terbuka.|
-|**3. Mitigasi & Kontrol**|Menetapkan kebijakan privasi dan audit sistem.|Pembatasan API, izin granular, enkripsi data.|
-|**4. Monitoring & Review**|Melakukan audit rutin dan laporan transparan.|Laporan tahunan privasi, compliance review.|
-
----
-
-## 💬 8. **Refleksi: Perspektif Etika dan Kepercayaan**
+## 💬 7. **Refleksi: Perspektif Etika dan Kepercayaan**
 
 Krisis ini menunjukkan bahwa:
 
@@ -152,7 +141,7 @@ Etika penggunaan data kini menjadi bagian penting dari **Enterprise Risk Managem
 
 ---
 
-## 🧭 9. **Kesimpulan**
+## 🧭 8. **Kesimpulan**
 
 1. **Kegagalan pengawasan risiko privasi** di Facebook menunjukkan lemahnya tata kelola data.
     

@@ -150,20 +150,7 @@ Setelah krisis, berbagai langkah _risk management reform_ dilakukan, antara lain
 
 ---
 
-## 🌐 9. **Relevansi dengan Prinsip ISO 31000**
-
-Dalam kerangka **ISO 31000:2018**, krisis ini menunjukkan pentingnya:
-
-|Prinsip ISO 31000|Relevansi pada Kasus|
-|---|---|
-|**Terintegrasi dalam proses organisasi**|Manajemen risiko tidak boleh terpisah dari strategi bisnis.|
-|**Berdasarkan informasi terbaik yang tersedia**|Model risiko harus diuji terhadap skenario ekstrem.|
-|**Keterlibatan stakeholder**|Investor dan regulator perlu memahami risiko nyata dari produk keuangan.|
-|**Peningkatan berkelanjutan**|Sistem risiko harus selalu dievaluasi dan diperbarui sesuai perubahan pasar.|
-
----
-
-## 📊 10. **Kesimpulan**
+## 📊 9. **Kesimpulan**
 
 Krisis subprime mortgage menunjukkan bahwa:
 

@@ -48,56 +48,82 @@ Risiko terdiri dari beberapa elemen penting:
         
     - Biasanya dinilai dalam skala (rendah – sedang – tinggi).
 
-| Skala | Keterangan                    | Probabilitas (%) | Contoh                         |
-| ----- | ----------------------------- | ---------------- | ------------------------------ |
-| 1     | Sangat jarang (very unlikely) | < 5%             | Terjadi sekali dalam 10 tahun  |
-| 2     | Jarang (unlikely)             | 5–20%            | Terjadi 1 kali dalam 5 tahun   |
-| 3     | Kadang-kadang (possible)      | 20–50%           | Terjadi 1–2 kali dalam 3 tahun |
-| 4     | Sering (likely)               | 50–80%           | Terjadi setahun sekali         |
-| 5     | Sangat sering (very likely)   | > 80%            | Hampir pasti terjadi           |
-        
 
 ---
 
 ### 2.3. Jenis Risiko
 
-Secara umum, risiko dapat diklasifikasikan berdasarkan beberapa pendekatan:
-1. Berdasarkan dampaknya (positif/negatif)    
-2. Berdasarkan sumbernya (internal/eksternal)    
-3. Berdasarkan sifat atau karakteristiknya (murni/spekulatif)    
-4. Berdasarkan bidang atau area aktivitas organisasi
-#### a. Berdasarkan Dampak
-
-|Jenis Risiko|Penjelasan|Contoh|
-|---|---|---|
-|**Risiko Negatif (Threats)**|Risiko yang dapat menghambat atau merugikan pencapaian tujuan organisasi.|Kebakaran, kehilangan data, penurunan penjualan.|
-|**Risiko Positif (Opportunities)**|Risiko yang muncul sebagai peluang dari ketidakpastian. Bila dikelola baik, dapat memberikan keuntungan.|Perubahan teknologi yang membuka pasar baru, fluktuasi mata uang yang menguntungkan ekspor.|
-
-> ⚠️ _Catatan:_  
-> Dalam konteks modern (ISO 31000), **risiko tidak selalu berarti kerugian**. Risiko bisa juga berupa _opportunity_ — ketidakpastian yang menghasilkan hasil positif.
+#### a. Risiko Berdasarkan Sumbernya
+* Risiko Internal: Risiko yang berasal dari dalam organisasi dan bisa dikontrol oleh manajemen.
+  **Contoh:**
+	- Kesalahan manusia (human error)	    
+	- Kegagalan sistem IT internal	    
+	- Konflik internal antar divisi	    
+	- Kecurangan atau fraud internal
+* Risiko Eksternal: Risiko yang datang dari luar organisasi dan biasanya sulit dikontrol.  
+  **Contoh:**
+	- Perubahan kebijakan pemerintah	    
+	- Fluktuasi ekonomi global	    
+	- Pandemi (seperti COVID-19)	    
+	- Perubahan perilaku konsumen
+#### b. Risiko Berdasarkan Dampaknya
+* **Risiko Strategis:** Berkaitan dengan keputusan jangka panjang organisasi.  
+  **Contoh:**
+	- Salah memilih model bisnis	    
+	- Gagal beradaptasi dengan teknologi baru	    
+	- Akuisisi yang tidak berhasil	    
+* **Risiko Operasional:** Berkaitan dengan proses bisnis sehari-hari.  
+  **Contoh:**
+	- Kegagalan sistem produksi	    
+	- Kerusakan mesin	    
+	- Gangguan pasokan bahan baku    
+* **Risiko Keuangan:** Terkait kondisi ekonomi, keuangan, dan likuiditas organisasi.  
+  **Contoh:**
+	- Fluktuasi kurs mata uang	    
+	- Gagal bayar utang	    
+	- Penurunan nilai investasi
+* **Risiko Reputasi:** Menyangkut persepsi publik terhadap organisasi.  
+  **Contoh:**
+	- Kasus privasi data (misal: Facebook–Cambridge Analytica)	    
+	- Layanan buruk yang viral di media sosial	    
+	- Skandal etika atau hukum
+* **Risiko Kepatuhan (Compliance Risk):** Terjadi akibat pelanggaran hukum, regulasi, atau standar industri.  
+  **Contoh:**
+	- Tidak mematuhi regulasi lingkungan	    
+	- Pelanggaran pajak atau perizinan	    
+	- Tidak sesuai dengan standar ISO
     
+---
 
-#### b. Berdasarkan Sumber
+#### c. Risiko Berdasarkan Objek Terdampak
 
-|Jenis Risiko|Penjelasan|Contoh|
-|---|---|---|
-|**Risiko Internal**|Risiko yang berasal dari dalam organisasi dan dapat dikontrol secara langsung.|Kesalahan manusia, kegagalan mesin, kesalahan data, lemahnya prosedur.|
-|**Risiko Eksternal**|Risiko yang berasal dari luar organisasi dan sulit dikontrol.|Bencana alam, perubahan regulasi, kondisi ekonomi, pandemi.|
+| Kategori Risiko                        | Fokus Utama                              | Contoh Kasus                |
+| -------------------------------------- | ---------------------------------------- | --------------------------- |
+| **Teknologi**                          | Gangguan sistem TI, keamanan siber       | Serangan ransomware         |
+| **Lingkungan (Environmental)**         | Dampak terhadap alam & keberlanjutan     | Pencemaran limbah industri  |
+| **Sosial**                             | Dampak terhadap masyarakat & stakeholder | Pemutusan kerja massal      |
+| **Kesehatan & Keselamatan Kerja (K3)** | Perlindungan pekerja & operasional aman  | Kecelakaan kerja di pabrik  |
+| **Politik & Hukum**                    | Ketidakstabilan regulasi & kebijakan     | Embargo, sanksi perdagangan |
 
-> 🔎 _Penting:_  
-> Risiko eksternal tidak bisa dihindari, tapi bisa diantisipasi dengan perencanaan kontinjensi (_contingency planning_).
+---
+
+####  d. Risiko Berdasarkan Kemungkinan dan Dampak
+
+Dalam matriks risiko, risiko sering dibedakan menurut dua sumbu:
+
+- **Probabilitas (Likelihood)** — seberapa besar kemungkinan terjadi
     
+- **Dampak (Impact)** — seberapa parah konsekuensinya
+    
+Contoh penggambaran matriks risiko:
 
-#### c. Berdasarkan Sifat
-
-|Jenis Risiko|Penjelasan|Contoh|
-|---|---|---|
-|**Risiko Internal**|Risiko yang berasal dari dalam organisasi dan dapat dikontrol secara langsung.|Kesalahan manusia, kegagalan mesin, kesalahan data, lemahnya prosedur.|
-|**Risiko Eksternal**|Risiko yang berasal dari luar organisasi dan sulit dikontrol.|Bencana alam, perubahan regulasi, kondisi ekonomi, pandemi.|
-
-> 🔎 _Penting:_  
-> Risiko eksternal tidak bisa dihindari, tapi bisa diantisipasi dengan perencanaan kontinjensi (_contingency planning_).
-
+| **Kemungkinan / Dampak**               | **1 – Rendah** | **2 – Sedang Rendah** | **3 – Sedang** | **4 – Tinggi**    | **5 – Sangat Tinggi** |
+| -------------------------------------- | -------------- | --------------------- | -------------- | ----------------- | --------------------- |
+| **5 – Sangat Sering (Almost Certain)** | **Sedang**     | **Tinggi**            | **Tinggi**     | **Sangat Tinggi** | **Sangat Tinggi**     |
+| **4 – Sering (Likely)**                | **Sedang**     | **Sedang**            | **Tinggi**     | **Tinggi**        | **Sangat Tinggi**     |
+| **3 – Kadang (Possible)**              | **Rendah**     | **Sedang**            | **Sedang**     | **Tinggi**        | **Tinggi**            |
+| **2 – Jarang (Unlikely)**              | **Rendah**     | **Rendah**            | **Sedang**     | **Sedang**        | **Tinggi**            |
+| **1 – Sangat Jarang (Rare)**           | **Rendah**     | **Rendah**            | **Rendah**     | **Sedang**        | **Sedang**            |
 
 ---
 
@@ -106,19 +132,11 @@ Secara umum, risiko dapat diklasifikasikan berdasarkan beberapa pendekatan:
 Dalam manajemen risiko, keputusan yang diambil sering kali **tidak hanya berdasarkan data objektif**, tetapi juga dipengaruhi oleh **cara manusia memandang risiko itu sendiri**.  
 Pandangan atau pemahaman ini disebut **Persepsi Risiko (Risk Perception)**.
 
-Persepsi risiko merupakan _bagaimana individu atau kelompok memahami, menafsirkan, dan bereaksi terhadap risiko yang dihadapi_, baik secara rasional maupun emosional.
-
-Risiko sering kali dipersepsikan berbeda oleh tiap orang/organisasi.
-
-- **Risk Averse**: cenderung menghindari risiko.
-    
-- **Risk Neutral**: melihat risiko secara objektif.
-    
+Persepsi risiko merupakan _bagaimana individu atau kelompok memahami, menafsirkan, dan bereaksi terhadap risiko yang dihadapi_, baik secara rasional maupun emosional. Sikap orang terhadap resiko itu bisa berbeda:
+- **Risk Averse**: cenderung menghindari risiko.    
+- **Risk Neutral**: melihat risiko secara objektif.    
 - **Risk Taker**: berani mengambil risiko demi peluang besar.
     
-
-👉 Inilah mengapa dalam organisasi perlu ada **risk appetite (selera risiko)** dan **risk tolerance (batas risiko yang dapat diterima)**.
-
 #### Karakteristik Persepsi Risiko
 
 Persepsi risiko memiliki beberapa karakteristik penting:
@@ -158,15 +176,10 @@ Menurut Paul Slovic dan beberapa peneliti lainnya, persepsi risiko dipengaruhi o
 ---
 
 ### 2.5. Hubungan Risiko dengan Tujuan
-
 - Risiko **tidak bisa dipisahkan dari tujuan**.
-    
 - Tanpa tujuan, kita tidak bisa menilai apakah suatu kejadian itu “risiko” atau bukan.
-    
-- Contoh:
-    
-    - Tujuan: menyelesaikan proyek tepat waktu.
-        
+- Contoh:    
+    - Tujuan: menyelesaikan proyek tepat waktu.        
     - Risiko: keterlambatan pasokan material → menghambat pencapaian tujuan.
 
 ---
@@ -272,8 +285,6 @@ Lebih banyak akan dibahas di [PRINSIP DAN PROSES MANAJEMEN RISIKO](03-prinsip.md
     
 6. **Komunikasi & Konsultasi** → memastikan semua stakeholder memahami risiko.
     
-
-_(Diagram siklus bisa ditampilkan seperti pada materi sebelumnya)_
 
 ---
 
