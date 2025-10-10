@@ -1,4 +1,4 @@
-# **Kerangka Standar & Regulasi dalam Manajemen Risiko**
+# Kerangka Standar & Regulasi dalam Manajemen Risiko
 
 ---
 
@@ -35,7 +35,8 @@ Standar dan regulasi membantu:
     2. Kerangka kerja organisasi.
         
     3. Proses manajemen risiko (identifikasi – analisis – evaluasi – perlakuan – monitoring – komunikasi).
-        
+
+Pembahasan lengkapnya simak di [PRINSIP DAN PROSES MANAJEMEN RISIKO](03-prinsip.md)
 
 ---
 
@@ -183,7 +184,3 @@ Standar dan regulasi membantu:
     
 3. Diskusikan: mengapa organisasi harus mengikuti standar internasional meskipun sudah ada regulasi nasional?
     
-
----
-
-Apakah Anda ingin saya sekalian buatkan **diagram visual perbandingan kerangka ISO 31000 & COSO ERM** supaya mahasiswa lebih mudah memahami?

@@ -3,19 +3,27 @@
 ## 4.1 Pendahuluan
 Identifikasi risiko adalah **langkah awal** dalam proses manajemen risiko. Tanpa identifikasi yang tepat, risiko yang signifikan bisa terlewat dan menyebabkan kegagalan sistem pengendalian.  
 Tujuan utama identifikasi risiko adalah untuk:
+
 - Menemukan potensi **bahaya (hazard)** yang ada dalam aktivitas, proses, atau sistem.  
+
 - Mengidentifikasi peristiwa yang dapat menghambat pencapaian tujuan organisasi.    
+
 - Menyusun **daftar risiko (risk register)** yang akan dianalisis lebih lanjut.    
 
 ---
 ## 4.2 Prinsip Identifikasi Risiko
+
 1. **Menyeluruh** → mencakup semua aspek organisasi (manusia, teknologi, proses, lingkungan).   
+
 2. **Sistematis** → menggunakan metode terstruktur, bukan hanya intuisi.    
+
 3. **Berkelanjutan** → dilakukan secara periodik, bukan sekali saja.    
+
 4. **Kontekstual** → mempertimbangkan lingkungan internal & eksternal organisasi.    
 
 ---
 ## 4.3 Sumber Risiko
+
 - **Internal**: kelemahan sistem, SDM, infrastruktur, keuangan.    
 - **Eksternal**: regulasi pemerintah, kondisi ekonomi, bencana alam, persaingan pasar.    
 - **Teknis/Operasional**: kegagalan mesin, human error, gangguan teknologi.    
