@@ -36,7 +36,7 @@ Standar dan regulasi membantu:
         
     3. Proses manajemen risiko (identifikasi – analisis – evaluasi – perlakuan – monitoring – komunikasi).
 
-Pembahasan lengkapnya simak di [PRINSIP DAN PROSES MANAJEMEN RISIKO](03-prinsip.md)
+Pembahasan lengkapnya simak di [PRINSIP DAN PROSES MANAJEMEN RISIKO](03-prinsip-iso-31000.md)
 
 ---
 

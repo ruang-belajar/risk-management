@@ -17,7 +17,7 @@
 | ------ | -------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------ |
 | 1      | [**Pendahuluan Manajemen Risiko**](1-pendahuluan.md)                 | Definisi risiko, hazard vs risk, tujuan risk management                      | Ceramah, diskusi               |
 | 2      | [**Kerangka Standar & Regulasi**](02-framework.md)                   | ISO 31000, ISO 45001, OHSAS 18001, regulasi nasional                         | Studi literatur                |
-| 3      | [**Prinsip & Proses Manajemen Risiko**](03-prinsip.md)               | Identifikasi, analisis, evaluasi, pengendalian, komunikasi                   | Diskusi, studi kasus           |
+| 3      | [**Prinsip & Proses Manajemen Risiko**](03-prinsip-iso-31000.md)               | Identifikasi, analisis, evaluasi, pengendalian, komunikasi                   | Diskusi, studi kasus           |
 | 4      | [**Metode Identifikasi Risiko**](04-metode-identifikasi.md)          | Checklist, brainstorming, HAZOP, FMEA, What-if Analysis                      | Latihan kelompok               |
 | 5      | [**Metode Analisis Risiko Kualitatif**](05-analisis-kualitatif.md)   | Risk matrix, scoring system, risk ranking                                    | Praktikum (software sederhana) |
 | 6      | [**Metode Analisis Risiko Kuantitatif**](06-analisis-kuantitatif.md) | Fault Tree Analysis (FTA), Event Tree Analysis (ETA), Monte Carlo Simulation | Praktikum                      |

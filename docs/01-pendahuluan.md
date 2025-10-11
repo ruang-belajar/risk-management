@@ -267,7 +267,7 @@ Menurut Paul Slovic dan beberapa peneliti lainnya, persepsi risiko dipengaruhi o
 7. **Memperhitungkan Faktor Manusia & Budaya**.    
 8. **Perbaikan Berkelanjutan**.
 
-Lebih banyak akan dibahas di [PRINSIP DAN PROSES MANAJEMEN RISIKO](03-prinsip.md)
+Lebih banyak akan dibahas di [PRINSIP DAN PROSES MANAJEMEN RISIKO](03-prinsip-iso-31000.md)
 
 ---
 
