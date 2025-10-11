@@ -272,51 +272,25 @@ Lebih banyak akan dibahas di [PRINSIP DAN PROSES MANAJEMEN RISIKO](03-prinsip.md
 ---
 
 ## 5. Siklus Manajemen Risiko
-
 1. **Identifikasi Risiko** → menemukan potensi risiko.
-    
 2. **Analisis Risiko** → menilai probabilitas & dampak.
-    
 3. **Evaluasi Risiko** → menentukan prioritas risiko.
-    
 4. **Perlakuan/Pengendalian Risiko** → strategi mitigasi (hindari, kurangi, pindahkan, terima).
-    
 5. **Monitoring & Review** → pemantauan berkelanjutan.
-    
 6. **Komunikasi & Konsultasi** → memastikan semua stakeholder memahami risiko.
     
-
 ---
 
-## 6. Jenis Risiko dalam Organisasi
-
-- **Risiko Strategis** → kegagalan strategi bisnis.
-    
-- **Risiko Operasional** → gangguan proses internal.
-    
-- **Risiko Keuangan** → fluktuasi nilai tukar, likuiditas.
-    
-- **Risiko Kepatuhan (Compliance)** → pelanggaran hukum/regulasi.
-    
-- **Risiko Reputasi** → menurunnya kepercayaan publik.
-    
-- **Risiko Teknologi & Informasi** → cyber attack, kegagalan sistem.
-    
-
----
-
-## 7. Contoh Kasus Nyata
+## 6. Contoh Kasus Nyata
 
 - **Kasus Keuangan (2008)**: Krisis global akibat subprime mortgage → kurangnya manajemen risiko perbankan. Check [Subprime Morgage Case 2028](/case/case-subprime-morgage-2008.md)
     
 - **Kasus Teknologi (Facebook–Cambridge Analytica)**: kebocoran data pengguna → risiko reputasi & regulasi. Check [Facebook–Cambridge Analytica](/case/case-facebook-cambridge.md)
-    
-- **Kasus Kesehatan (COVID-19)**: risiko pandemi → pentingnya manajemen risiko kesehatan global. Check [Kasus Covid-19](/case/case-covid.md)
-    
+        
 
 ---
 
-## 8. Diskusi
+## 7. Diskusi
 
 **Kasus 1**
 Perusahaan A adalah BPR yang baru berdiri, sedang merencanakan pembangunan sistem informasi. Pihak manajemen dihadapkan pada pilihan berikut:

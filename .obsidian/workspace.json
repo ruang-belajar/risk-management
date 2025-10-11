@@ -8,7 +8,33 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b0dda36567971ef6",
+            "id": "c43c5e71a3fc3150",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "ebook/MANAJEMEN-RISIKO-BUKU-AJAR.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "MANAJEMEN-RISIKO-BUKU-AJAR"
+            }
+          },
+          {
+            "id": "cb95d608839ddcca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/01-pendahuluan.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01-pendahuluan"
+            }
+          },
+          {
+            "id": "401735d9f2a44d38",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,7 +47,8 @@
               "title": "01-pendahuluan"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/README.md",
+                "file": "docs/01-pendahuluan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +131,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for 01-pendahuluan"
             }
           },
           {
@@ -113,12 +140,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/README.md",
+                "file": "docs/01-pendahuluan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              "title": "Outgoing links from 01-pendahuluan"
             }
           },
           {
@@ -142,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/README.md",
+                "file": "docs/01-pendahuluan.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of 01-pendahuluan"
             }
           }
         ]
@@ -169,42 +196,42 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b0dda36567971ef6",
+  "active": "401735d9f2a44d38",
   "lastOpenFiles": [
-    "case/README.md",
-    "case/case-risky-corporate-action.md",
+    "docs/02-framework.md",
     "docs/01-pendahuluan.md",
-    "case/case-subprime-morgage-2008.md",
+    "docs/03-prinsip.md",
+    "docs/07-evaluasi.md",
+    "arsip/02-framework.md",
     "case/case-facebook-cambridge.md",
-    "docs/05-analisis-kualitatif.md",
-    "docs/README.md",
-    "README.md",
     "ebook/buku-tata-kelola-teknologi-informasi-2023.pdf",
     "ebook/buku-tata-kelola-teknologi-informasi-2019.pdf",
-    "ebook/buku-tata-kelola-teknologi-informasi.pdf",
-    "ebook/Unconfirmed 110679.crdownload",
-    "docs/03-prinsip.md",
-    "ebook/Unconfirmed 169396.crdownload",
     "ebook/analisis-risiko-operasional-(studi-kasus-pada-pt-pln-ulp-kolaka).pdf",
-    "case/case-covid.md",
-    "case",
-    "docs/02-framework.md",
     "ebook/Case-Unilever.pdf",
     "ebook/Buku-Kumpulan-Studi-Kasus-Manajemen-Risiko-di-Indonesia.pdf",
-    "ebook/101.+ANALISIS+RISIKO+OPERASIONAL+(STUDI+KASUS+PADA+PT+PLN+ULP+KOLAKA).pdf",
+    "case/case-subprime-morgage-2008.md",
+    "case/case-risky-corporate-action.md",
+    "case/case-covid.md",
+    "case/README.md",
+    "case",
     "arsip/case.md",
     "docs/06-analisis-kuantitatif.md",
-    "arsip/02-framework.md",
+    "ebook/BukuDigital-MANAJEMENRISIKOERADIGITAL.pdf",
+    "ebook/MANAJEMEN-RISIKO-BUKU-AJAR.pdf",
+    "docs/README.md",
     "arsip/01-pendahuluan.md",
     "docs/10-audit.md",
     "docs/12-case.md",
     "docs/11-reporting.md",
+    "arsip",
     "docs/13-tools.md",
     "docs/09-implementasi.md",
     "docs/08-control.md",
-    "docs/07-evaluasi.md",
+    "img",
+    "docs/05-analisis-kualitatif.md",
     "img/Pasted image 20251003162239.png",
     "docs/04-metode-identifikasi.md",
-    "ebook/README.md"
+    "ebook/README.md",
+    "README.md"
   ]
 }
