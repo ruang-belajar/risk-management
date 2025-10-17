@@ -1,20 +1,21 @@
 # PRINSIP DAN PROSES MANAJEMEN RISIKO
 
-## 3.1 Pendahuluan
+## 1 Pendahuluan
 
 Manajemen risiko bukan hanya sekadar identifikasi bahaya, tetapi merupakan **sistem yang terstruktur dan berkelanjutan**. Pada Bab ini, mahasiswa akan mempelajari **prinsip-prinsip utama** manajemen risiko dan bagaimana prosesnya dijalankan dalam organisasi.
 
 ---
 
-## 3.2 Prinsip Manajemen Risiko (Berdasarkan ISO 31000:2018)
+## 2 Prinsip Manajemen Risiko (Berdasarkan ISO 31000:2018)
 
 Menurut ISO 31000, manajemen risiko harus berlandaskan pada prinsip-prinsip berikut:
 1. **Terintegrasi (Integrated)**  
-    → Risiko harus menjadi bagian dari seluruh aktivitas organisasi, mulai dari strategi, operasional, hingga pengambilan keputusan.    
+	→  Risiko harus menjadi bagian dari seluruh aktivitas organisasi, mulai dari strategi, operasional, hingga pengambilan keputusan.    
 2. **Terstruktur & Komprehensif (Structured & Comprehensive)**  
-    → Proses yang sistematis membantu mencapai hasil yang konsisten.    
+	→ Proses yang sistematis membantu mencapai hasil yang konsisten. Hal ini dicapat dengan menerapkan rancangan kerangka kerja manajemen risiko
 3. **Didasarkan pada Informasi Terbaik (Best Available Information)**  
-    → Keputusan risiko harus didukung data, analisis, dan pengalaman.    
+    → Keputusan risiko harus didukung data, analisis, dan pengalaman.   
+    → Manajemen risiko harus memperhitungkan semua batasan dan ketidakpastian yang berhubungan dengan informasi dan harapan tersebut.    
 4. **Disesuaikan (Customized)**  
     → Setiap organisasi unik; manajemen risiko harus menyesuaikan konteks, budaya, dan tujuan.
 5. **Inklusif (Inclusive)**  
@@ -27,102 +28,202 @@ Menurut ISO 31000, manajemen risiko harus berlandaskan pada prinsip-prinsip beri
     → Proses harus dievaluasi dan ditingkatkan secara terus menerus.    
 
 ---
-## 3.3 Kerangka Umum Manajemen Risiko (Risk Management Framework)
+## 3 Kerangka Umum Manajemen Risiko (Risk Management Framework)
 
-Kerangka kerja manajemen risiko biasanya mencakup:
-1. **Konteks Organisasi**: Memahami visi, misi, tujuan, dan lingkungan kerja.    
-2. **Tata Kelola (Governance)**: Dukungan manajemen puncak & kebijakan risiko.    
-3. **Integrasi**: Risiko melekat pada proses bisnis.    
-4. **Sumber Daya & Kompetensi**: SDM, dana, dan teknologi untuk mendukung.    
-5. **Komunikasi & Pelaporan**: Informasi risiko harus transparan.    
-6. **Pemantauan & Review**: Audit, evaluasi, dan perbaikan berkelanjutan.    
+ISO 31000 mengusulkan **kerangka kerja (framework)** yang mencakup 5 elemen utama:
+
+1. **Komitmen dan Kepemimpinan Manajemen**
+    
+    - Pimpinan perusahaan menetapkan _risk policy_ dan _risk appetite_.
+        
+    - Contoh: CTO menetapkan toleransi risiko keamanan (misalnya, 0% toleransi terhadap kebocoran data).
+        
+2. **Integrasi dengan Proses Organisasi**
+    
+    - Manajemen risiko diintegrasikan ke setiap tahap **Software Development Life Cycle (SDLC)**.
+        
+    - Misalnya: analisis risiko dilakukan sebelum tahap desain sistem dimulai.
+        
+3. **Desain Kerangka Kerja**
+    
+    - Menentukan struktur tanggung jawab (misalnya: _Risk Officer_, _Security Lead_).
+        
+    - Menetapkan metode identifikasi risiko, seperti _threat modeling_, _FMEA_, atau _risk register_.
+        
+4. **Implementasi Proses Manajemen Risiko**
+    
+    - Menerapkan langkah-langkah identifikasi, analisis, evaluasi, dan mitigasi risiko pada proyek.
+        
+    - Menggunakan alat bantu seperti _risk matrix_ dan _control checklist_.
+        
+5. **Pemantauan dan Perbaikan Berkelanjutan**
+    
+    - Evaluasi berkala efektivitas kontrol risiko.
+        
+    - Pembelajaran dari insiden sebelumnya untuk memperkuat sistem berikutnya.
 
 ---
 
-## 3.4 Proses Manajemen Risiko
+## 4. Proses Manajemen Risiko
 
-### 3.4.1 Tahapan Proses Manajemen Risiko
-Risiko yang dihadapi perusahaan harus diminimalisir dengan pengelolaan risiko secara khusus oleh perusahaan. Perusahaan membentuk tim pengelola risiko yang akan mengimplementasikan manajemen risiko dalam aktivitas bisnis. Menurut ISO 13000: 2018 proses manajemen risiko adalah proses yang sistematis dalam menerapkan kebijakan, prosedur dan praktek dalam aktivitas komunikasi dan konsultasi risiko, menetapkan konteks dan kriteria risiko, melaksanakan penilaian risiko (risk assesment) yang meliputi identifikasi risiko, analisis risiko, dan evaluasi risiko, perlakukan risiko (risk treatment), pemantauan dan peninjauan, perekaman, dan pelaporan pengelolaan risiko. Proses manajemen risiko dapat dilihat pada gambar berikut ini :
+Risiko yang dihadapi perusahaan harus diminimalisir dengan pengelolaan risiko secara khusus oleh perusahaan. Perusahaan membentuk tim pengelola risiko yang akan mengimplementasikan manajemen risiko dalam aktivitas bisnis. Menurut ISO 13000: 2018 proses manajemen risiko adalah proses yang sistematis dalam menerapkan kebijakan, prosedur dan praktek dalam aktivitas komunikasi dan konsultasi risiko, menetapkan konteks dan kriteria risiko, melaksanakan penilaian risiko (risk assesment) yang meliputi identifikasi risiko, analisis risiko, dan evaluasi risiko, perlakukan risiko (risk treatment), pemantauan dan peninjauan, perekaman, dan pelaporan pengelolaan risiko. Tahapan proses manajemen risiko dapat dilihat pada gambar berikut ini :
 ![[Pasted image 20251003162239.png]]
-1. **Penentuan Cakupan, Konteks, dan Kriteria Risiko**
-	Proses manajemen risiko diawali dengan memahami cakupan (ruang lingkup), konteks dan kriteria risiko yang berpeluang terjadi di era digital. Menurut standar ISO 13000 : 2018 dalam pengelolaan risiko d perlu ditetapkan ruang lingkup. Konteks dan kriteria risiko setelah melalui tahapan komunikasi dan konsultasi dengan berbagai pemangku kepentingan (stakehokder). Penetapan ruang lingkup, konteks dan kriteria risiko bertujuan untuk melakukan inovasi dalam proses manajemen risiko dan menentukan kebijakan risiko yang paling tepat.
-	1. **Penetapan Cakupan (Ruang Lingkup)**
-		Ruang lingkup risiko (cakupan) sangat penting ditentukan terlebih dahulu oleh organisasi dengan rumusan yang jelas, sasaran apa yang ingin di capai dan harus relevan dengan sasaran organisasi secara umum. Beberapa poin penting dalam penetapan ruang lingkup (cakupan) yaitu: sasaran dan keputusan yang akan diambil, penetapan teknik penilaian risiko, waktu dan lokasi, jumlah sumber daya yang dibutuhkan, serta hubungan ruang lingkup manajemen risiko dengan proses operasional perusahaan. 
-	2. **Penentuan konteks manajemen risiko** 
-		Penentuan konteks manajemen risiko baik internal maupun eksternal adalah tahapan berikutnya setelah menetapkan cakupan. Konteks internal dan eksternal merupakan lingkungan organisasi yang mendukung terwujudnya sasaran organisasi. Konteks manajemen risiko sebaiknya ditetapkan melalui pemahaman terhadap lingkungan organisasi. Konteks manajemen risiko sebaiknya berdasar pada pemahaman lingkungan organisasi. Pemahaman tentang konteks internal dan eksternal penting dilakukan karena manajemen risiko dijalankan sesuai dengan sasaran dan kegiatan organisasi. Pemahaman terhadap faktor- faktor internal dan eksternal diperlukan karena seringkali menjadi sumber risiko. 
-		Konteks Faktor internal organisasi yang harus dipahami diantaranya: 
-		a. Visi, misi dan tujuan perusahaan 
-		b. Tata Kelola organisasi, struktur organisasi, pendelegasian tugas, tanggung jawab dan wewenang.
-		c. Standar operasional dan peraturan serta model kebijakan organisasi
-		d. Sumber daya organisasi yang dimiliki sumber daya manusia, teknologi, proses, dan sistem informasi.
-		e. Hubungan antar anggota organisasi (stakeholder) internal. 
-		f. Saling ketergantungan antarpersonal organisasi (interdependence) dan interkoneksi (Interconection). 
-		Sedangkan konteks faktor eksternal organisasi yang harus dipahami dalam manajemen risiko terdiri dari: 
-		a. Faktor sosial ekonomi, budaya, politik, regulasi, finansial, teknologi dan lingkungan baik skala regional, nasional maupun internasional. 
-		b. Faktor pendorong dan tren utama di lapangan yang dapat mempengaruhi sasaran organisasi. 
-		c. Hubungan dengan stakeholder eksternal, persepsi, nilai serta kebutuhan dan harapan mereka.
-		d. Hubungan dan komitmen pihak eksternal dengan organisasi. 
-		e. Kompleksitas jaringan kerja (teamwork) dengan pihak eksternal. 
-	3. **Penentuan kriteria Risiko**
-		Setelah memahami konteks manajemen risiko baik internal maupun eksternal maka tahap berikutnya adalah menentukan kriteria risiko yang akan di kelola. Menurut ISO 310000 (2018) kriteria risiko diperlukan untuk membantu tim pengelola risiko untuk menentukan dan mengevaluasi besaran (bobot) risiko yang akan di ambil untuk mencapai tujuan dan sasaran organisasi. Kriteria risiko bersifat dinamis sehingga setiap saat dapat diubah sesuai kebutuhan. 10 Kriteria risiko harus sejalan dengan kerangka kerja dan kebijakan manajemen risiko, dirancang sesuai dengan tujuan dan ruang lingkup kegiatan organisasi. Kriteria risiko juga harus menggambarkan nilai, sasaran, dan sumber daya organisasi. Penetapan kriteria risiko harus mempertimbangkan kewajiban organisasi dan pandangan atau pendapat seluruh pemangku kepentingan (stakeholder).
-2. **Penilaian Risiko (Risk Assesment)**
-	Setelah melaksanakan tahap awal dengan menetapkan ruang lingkup, konteks dan kriteria risiko maka tahapan kedua dari manajemen risiko adalah melakukan penilaian risiko (risk assesment).Mengacu pada ISO 31000 tahun 2018 aktivitas penilaian risiko meliputi identifikasi risiko, analisis risiko dan evaluasi risiko. Pengelolaan risiko di era digital akan berjalan efektif jika diawali dengan pemahaman terhadap risiko teknologi informasi termasuk risiko kepatuhan, risiko keamanan sistem, risiko privasi dan rahasia perusahaan, serta risiko operasional.
-	1. **Identifikasi risiko**
-		Tim manajemen risiko harus melaksanakan identifikasi untuk mengenali risiko yang terjadi dan sejauhmana kerugian yang dihadapi perusahaan berdampak terhadap tujuan organisasi. Proses identifikasi risiko meliputi risiko yang bersumber dari internal maupun eksternal perusahaan. Seluruh risiko yang berhasil diidentifikasi harus di register mencakup jenis risiko, faktor penyebab (risk factor), dan dampak risiko (risk impact). Risiko dapat teridentifikasi melalui proses pengambilan data dari arsip atau dokumen perusahaan, data historis, wawancara, brainstorming atau mengadakan Focus Group Discussion (FGD) para pemangku kepentingan, benchmark dengan perusahaan lain atau sektor industri yang relevan.
-	2. **Analisis Risiko** 
-		Setelah risiko teridentifikasi maka langkah selanjutnya adalah menganalisis risiko-risiko tersebut. Tujuan analisis risiko adalah mendalami sifat risiko, mengkaji dan mengukur bobot risiko. Faktor-faktor yang dianalisa diantaranya dampak risiko, sifat dan tingkat kerugian, kompleksitas dan keterkaitan antar risiko, efektivitas sistem pengendalian risiko, faktor waktu dan kompleksitas, serta sensitivitas dan tingkat keyakinan dalam penyelesaian risiko. Teknik analisis risiko dapat menggunakan berbagai metode baik pendekatan kuantitatif, pendekatan kualitatif maupun kombinasi kuantitatif dan kualitatif (mix method). Proses analisis risiko akan dipengaruhi oleh berbagai faktor diantaranya, perbedaan persepsi dan opini serta penilaian dari berbagai pihak. Kualitas informasi, keterbatasan metode pengelolaan risiko, serta keterbatasan sumber daya perusahaan juga merupakan faktor yang mempengaruhi analisis risiko. Hasil analisis risiko merupakan bahan atau input dalam proses evaluasi.
-	3. **Evaluasi Risiko** 
-		Evaluasi risiko merupakan proses perbandingan hasil analisis risiko dengan kriteria risiko yang di tetapkan perusahaan. Hasil analisis menjadi dasar pengambilan kebijakan penganganan risiko. Proses evaluasi risiko menghasilkan alternatif pilihan berbagai kebijakan baik keputusan melanjutkan aktivitas bisnis ataupun memberhentikan aktivitas agar risiko tidak terjadi. Keputusan pengendalian risiko sebaiknya memperhatikan konteks dan dampak yang lebih luas terhadap perusahaan. Pengendalian dapat mempertimbangkan masukan dan saran sesuai persepsi pemangku kepentingan (stakeholder). Hasil evaluasi didokumentasikan dam dikomunikasikan serta di validasi pada level organisasi. Risiko dengan dampak (eksposure) tinggi harus memperoleh skala prioritas dalam penanggulangannya. 		
-	
-	Output pelaksanaan asesmen risiko adalah laporan hasil penilaian berupa risk register risiko baik risiko yang dari awal sudah ada pengendalian (inherent risk) ataupun risiko yang terjadi saat ini (current risk). Pemanfaatan kertas kerja dalam proses asesmen risiko merupakan langkah tepat agar hasil identifikasi analisis dan evaluasi risiko dirumuskan dengan jelas sehingga memudahkan dalam proses pengelolaan risikonya. Setelah evaluasi risiko dilaksanakan maka diperlukan tanggapan atas risiko tersebut apakah hanya dalam pemantauan saja atau dilakukan penanganan lebih lanjut.
-3. **Perlakuan Risiko (Risk Treatment)**
+
+### Tahap 1: Komunikasi dan Konsultasi
+
+🗣️ **Tujuan:**  
+Memastikan semua pihak yang terkait memahami konteks, risiko, dan langkah mitigasi yang diambil.
+
+🔹 Melibatkan stakeholder sejak awal.  
+🔹 Bertukar informasi tentang risiko, asumsi, dan persepsi.  
+🔹 Menghasilkan pemahaman bersama agar keputusan yang diambil dapat diterima.
+
+**Contoh:**  
+Dalam proyek pengembangan sistem informasi, tim IT berkomunikasi dengan user dan manajer proyek tentang potensi risiko keterlambatan implementasi.
 
 ---
 
-### 3.4.3 Model Siklus Proses (Risk Management Cycle)
+### Tahap 2: Penetapan Konteks (Establishing the Context)
 
-**Gambaran siklus:**
+📋 **Tujuan:**  
+Menentukan ruang lingkup dan batasan kegiatan manajemen risiko.
 
-➡️ Identifikasi → Analisis → Evaluasi → Perlakuan → Monitoring → Review → kembali ke Identifikasi
+🔹 **Konteks eksternal:** faktor politik, ekonomi, sosial, teknologi, hukum, lingkungan.  
+🔹 **Konteks internal:** struktur organisasi, kebijakan, strategi, budaya kerja.  
+🔹 **Konteks risiko:** tujuan spesifik, kriteria risiko, dan asumsi.
+
+**Contoh:**  
+Menetapkan bahwa analisis risiko dilakukan untuk sistem pembayaran digital perusahaan selama masa implementasi.
 
 ---
 
-## 3.5 Contoh Aplikasi Proses Manajemen Risiko
+### Tahap 3: Identifikasi Risiko (Risk Identification)
 
-1. **Industri Manufaktur**
+🔍 **Tujuan:**  
+Menemukan sumber, kejadian, penyebab, dan potensi konsekuensi dari risiko.
+
+🔹 Metode: brainstorming, wawancara, checklist, analisis SWOT, atau analisis skenario.  
+🔹 Hasil: daftar risiko (_risk register_).
+
+**Contoh:**
+
+- Risiko kehilangan data akibat serangan siber.
     
-    - Hazard: Mesin pres tanpa pelindung.        
-    - Risiko: Cedera tangan pekerja.        
-    - Analisis: Likelihood tinggi, konsekuensi berat.        
-    - Treatment: Pasang guard machine + pelatihan operator.
+- Risiko keterlambatan pengiriman proyek karena kekurangan SDM.
+    
+
+---
+
+### Tahap 4: Analisis Risiko (Risk Analysis)
+
+⚖️ **Tujuan:**  
+Memahami sifat risiko dan menilai tingkat risikonya (probabilitas & dampak).
+
+🔹 Tahapan:
+
+- Menilai kemungkinan (_likelihood_) terjadinya risiko.
+    
+- Menilai dampak (_impact_) jika risiko terjadi.
+    
+- Menghitung tingkat risiko = _Likelihood × Impact_.
+    
+- Menggunakan **Matriks Risiko** untuk visualisasi.
+    
+
+**Contoh Matriks Risiko:**
+
+|Dampak ↓ / Kemungkinan →|Rendah|Sedang|Tinggi|
+|---|---|---|---|
+|**Tinggi**|Sedang|Tinggi|Ekstrem|
+|**Sedang**|Rendah|Sedang|Tinggi|
+|**Rendah**|Rendah|Rendah|Sedang|
+
+---
+
+### Tahap 5: Evaluasi Risiko (Risk Evaluation)
+
+📊 **Tujuan:**  
+Menentukan risiko mana yang perlu ditangani berdasarkan kriteria organisasi.
+
+🔹 Bandingkan tingkat risiko terhadap **risk appetite** organisasi.  
+🔹 Prioritaskan risiko berdasarkan signifikansi.  
+🔹 Tentukan mana yang dapat diterima (_accept_) dan mana yang perlu ditindaklanjuti (_treat_).
+
+**Contoh:**  
+Risiko kecil seperti “keterlambatan minor laporan mingguan” dapat diterima tanpa tindakan lebih lanjut.
+
+---
+
+### Tahap 6: Perlakuan Risiko (Risk Treatment)
+
+🛠️ **Tujuan:**  
+Menentukan dan menerapkan strategi untuk mengurangi atau mengendalikan risiko.
+
+🔹 Strategi utama:
+
+1. **Menghindari (Avoid)** – menghindari aktivitas penyebab risiko.
+    
+2. **Mengurangi (Reduce)** – menurunkan kemungkinan atau dampak.
+    
+3. **Mentransfer (Transfer)** – memindahkan sebagian risiko (mis. asuransi).
+    
+4. **Menerima (Accept)** – menyadari dan menerima risiko residual.
+    
+
+**Contoh:**  
+Mengurangi risiko kehilangan data dengan penerapan _backup system_ harian dan firewall berlapis.
+
+---
+
+### Tahap 7: Pemantauan dan Review (Monitoring and Review)
+
+🔁 **Tujuan:**  
+Menilai efektivitas langkah pengendalian risiko secara berkelanjutan.
+
+🔹 Melacak perubahan lingkungan internal dan eksternal.  
+🔹 Menyesuaikan strategi jika diperlukan.  
+🔹 Melakukan audit risiko secara periodik.
+
+**Contoh:**  
+Evaluasi rutin bulanan terhadap efektivitas kontrol keamanan siber.
+
+---
+
+### Tahap 8: Pencatatan dan Pelaporan (Recording and Reporting)
+
+🗂️ **Tujuan:**  
+Menjamin transparansi dan akuntabilitas seluruh proses manajemen risiko.
+
+🔹 Semua kegiatan dan keputusan risiko didokumentasikan.  
+🔹 Laporan risiko dikomunikasikan kepada manajemen dan stakeholder.
+
+**Contoh:**  
+Pembuatan _Risk Register_ dan _Risk Dashboard_ dalam sistem manajemen TI.
+
+---
+
+## 5. Contoh Aplikasi Proses Manajemen Risiko
+
+### 5.1. Contoh: Software House
+
+Misalkan sebuah **perusahaan software house** yang mengembangkan aplikasi e-commerce menerapkan ISO 31000:
+
+- **Konteks:** Proyek aplikasi untuk transaksi online.
+    
+- **Risiko utama:** Kebocoran data pelanggan, server overload saat promo besar, kesalahan integrasi payment gateway.
+    
+- **Analisis:**
+    
+    - Risiko keamanan data: dampak tinggi, probabilitas sedang.
         
-2. **Sektor Keuangan**
-    
-    - Hazard: Kegagalan sistem IT.        
-    - Risiko: Gangguan transaksi, kerugian nasabah.        
-    - Treatment: Backup server, disaster recovery plan.
+    - Risiko overload server: dampak sedang, probabilitas tinggi.
         
-3. **Kesehatan**
+- **Mitigasi:**
     
-    - Hazard: Infeksi silang di rumah sakit.        
-    - Risiko: Penularan penyakit ke pasien & staf medis.        
-    - Treatment: SOP sanitasi, APD, audit kebersihan.
+    - Gunakan enkripsi SSL/TLS, _penetration testing_, _load balancing_, dan monitoring server 24/7.
         
-
----
-
-## 3.6 Ringkasan
-
-- Prinsip manajemen risiko meliputi integrasi, struktur, berbasis data, inklusif, dinamis, mempertimbangkan faktor manusia, dan perbaikan berkelanjutan.    
-- Proses manajemen risiko terdiri dari: **identifikasi, analisis, evaluasi, perlakuan, monitoring, komunikasi**.    
-- Siklus manajemen risiko bersifat **berulang (iteratif)**.    
-- Penerapan nyata dapat berbeda tergantung sektor (manufaktur, IT, kesehatan, keuangan, dll.).
+- **Pemantauan:**
     
-
----
-
-📌 **Tugas untuk Mahasiswa (Bab 3):**
-
-1. Buatlah **peta risiko (risk matrix)** untuk minimal 3 risiko di kampus/organisasi.    
-2. Pilih salah satu risiko tersebut, lakukan analisis **probabilitas & dampak**, lalu tentukan strategi pengendalian yang paling tepat.
-    
+    - Evaluasi performa server dan keamanan aplikasi tiap bulan.
+        
+    - Revisi daftar risiko tiap kali ada update sistem besar.
