@@ -1,4 +1,4 @@
-# **BAB 5 – METODE ANALISIS RISIKO KUALITATIF**
+# METODE ANALISIS RISIKO KUALITATIF
 
 ## 5.1 Pendahuluan
 
@@ -44,36 +44,104 @@ Pada bab ini dibahas pendekatan **kualitatif** karena paling sering digunakan di
 
 ---
 
-## 5.4 Risk Matrix (Matriks Risiko)
+## 4. Risk Matrix (Matriks Risiko)
 
 Matriks risiko adalah alat visual untuk mengkombinasikan **probabilitas** dan **dampak**, lalu menentukan tingkat risiko:
+### 4.1. Langkah-langkah Membuat Matrik Risiko
 
-| Dampak ↓ / Probabilitas → | 1 (S. Jarang) | 2 (Jarang) | 3 (Mungkin) | 4 (Sering) | 5 (S. Sering) |
-| ------------------------- | ------------- | ---------- | ----------- | ---------- | ------------- |
-| **5 Katastropik**         | Medium        | Medium     | High        | Extreme    | Extreme       |
-| **4 Major**               | Low           | Medium     | High        | High       | Extreme       |
-| **3 Moderat**             | Low           | Medium     | Medium      | High       | High          |
-| **2 Minor**               | Low           | Low        | Medium      | Medium     | High          |
-| **1 Tidak signifikan**    | Low           | Low        | Low         | Medium     | Medium        |
-
-**Kategori Risiko:**
-- **Low** → dapat diterima, hanya perlu monitoring.    
-- **Medium** → butuh pengendalian tambahan.    
-- **High** → perlu tindakan segera.    
-- **Extreme** → tidak dapat diterima, harus dieliminasi atau dikendalikan maksimal.    
+1. **Tentukan tujuan** — untuk proyek, unit, atau organisasi? (mis. proyek IT, operasional pabrik).
+    
+2. **Pilih ukuran matriks** — umum: **3×3**, **4×4**, atau **5×5**. (5×5 memberi detail paling baik).
+    
+3. **Definisikan skala untuk Likelihood & Impact**  
+    Contoh 5-level:
+    
+    - 1 = Sangat kecil / sangat tidak mungkin
+        
+    - 2 = Kecil / jarang
+        
+    - 3 = Sedang / mungkin
+        
+    - 4 = Besar / sering
+        
+    - 5 = Sangat besar / hampir pasti  
+        Beri definisi konkret tiap level (frekuensi, contoh).
+        
+4. **Beri skor**: risiko diberi dua skor: `L` (likelihood) dan `I` (impact).
+    
+5. **Hitung skor risiko**: biasanya `Skor = L × I` (atau gunakan matriks warna langsung).
+    
+6. **Buat threshold / zona warna**: tentukan rentang skor untuk Hijau / Kuning / Oranye / Merah.
+    
+7. **Tentukan tindakan** berdasarkan zona (terima, monitor, mitigasi, hindari).
+    
+8. **Catat mitigasi, pemilik, dan tenggat** dalam risk register.
+    
+9. **Tinjau berkala** dan update setelah mitigasi atau perubahan konteks.
+    
 
 ---
 
-## 5.5 Metode Analisis Kualitatif
+### 4.2. Contoh matriks 5×5 (skor = L × I)
 
-### 5.5.1 Risk Ranking / Prioritization
+|Impact \ Likelihood|1 (Sangat kecil)|2 (Kecil)|3 (Sedang)|4 (Besar)|5 (Hampir pasti)|
+|---|--:|--:|--:|--:|--:|
+|**5 (Sangat tinggi)**|5|10|15|20|25|
+|**4 (Tinggi)**|4|8|12|16|20|
+|**3 (Sedang)**|3|6|9|12|15|
+|**2 (Rendah)**|2|4|6|8|10|
+|**1 (Sangat rendah)**|1|2|3|4|5|
+
+Contoh pewarnaan (sesuaikan):
+
+- 1–4 = Hijau (Diterima / Monitor ringan)
+    
+- 5–9 = Kuning (Perlu pengawasan)
+    
+- 10–15 = Oranye (Mitigasi diperlukan)
+    
+- 16–25 = Merah (Aksi prioritas / Hindari)
+    
+
+---
+
+### 4.3. Contoh pengisian (risk register sederhana)
+
+|Risiko|L|I|Skor (L×I)|Zona|Tindakan Mitigasi|Pemilik|Tenggat|
+|---|--:|--:|--:|---|---|---|---|
+|Gangguan server produksi|4|5|20|Merah|Redundansi server + backup harian|IT Ops|2 minggu|
+|Keterlambatan vendor|3|3|9|Kuning|Alternatif vendor, SLA tegas|PM|1 bulan|
+|Kesalahan input data|2|2|4|Hijau|Validasi otomatis|QA|ongoing|
+
+---
+
+### 4.4. Tips praktis & best practices
+
+- **Definisikan kriteria impact** (keuangan, reputasi, keselamatan) secara terukur (mis. kerugian Rp, downtime jam, jumlah pelanggan terdampak).
+    
+- **Gunakan kombinasi kuantitatif & kualitatif** bila data detail tidak tersedia.
+    
+- **Tetapkan pemilik risiko** untuk tiap risiko dan langkah mitigasi.
+    
+- **Sertakan indikator (KRI)** untuk memantau perubahan likelihood.
+    
+- **Sederhana lebih baik** pada awalnya — mulai 3×3 kalau tim belum familiar, lalu tingkatkan ke 5×5.
+    
+- **Dokumentasikan asumsi** (mengapa L=4, I=5) supaya penilaian bisa ditinjau ulang.
+    
+
+---
+
+## 5. Metode Analisis Kualitatif
+
+### 5.1 Risk Ranking / Prioritization
 
 - Mengurutkan risiko berdasarkan level dari rendah ke tinggi.
     
 - Digunakan untuk alokasi sumber daya agar fokus pada risiko kritis.
     
 
-### 5.5.2 Risk Scoring
+### 5.2. Risk Scoring
 
 - Memberikan skor dengan formula sederhana:  
     **Risk Score = Probabilitas × Dampak**
@@ -81,7 +149,7 @@ Matriks risiko adalah alat visual untuk mengkombinasikan **probabilitas** dan **
 - Contoh: Risiko A (P=4, D=5) → Skor = 20 → kategori Extreme.
     
 
-### 5.5.3 Heat Map
+### 5.3. Heat Map
 
 - Visualisasi risiko dalam bentuk **warna** pada matriks (hijau, kuning, oranye, merah).
     
@@ -90,7 +158,7 @@ Matriks risiko adalah alat visual untuk mengkombinasikan **probabilitas** dan **
 
 ---
 
-## 5.6 Contoh Kasus Analisis Kualitatif
+## 6. Contoh Kasus Analisis Kualitatif
 
 **Kasus: Laboratorium Kampus**
 
@@ -107,7 +175,7 @@ Matriks risiko adalah alat visual untuk mengkombinasikan **probabilitas** dan **
 
 ---
 
-## 5.7 Ringkasan
+## 5.7. Ringkasan
 
 - Analisis risiko kualitatif menilai **probabilitas dan dampak** tanpa data numerik kompleks.
     
