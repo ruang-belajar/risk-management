@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/04-metode-identifikasi.md",
+                "file": "docs/03-iso-31000.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04-metode-identifikasi"
+              "title": "03-iso-31000"
             }
           },
           {
@@ -197,13 +197,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/04-metode-identifikasi.md",
+                "file": "docs/03-iso-31000.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 04-metode-identifikasi"
+              "title": "Outline of 03-iso-31000"
             }
           }
         ],
@@ -226,13 +226,13 @@
   },
   "active": "cb95d608839ddcca",
   "lastOpenFiles": [
+    "docs/artikel/contoh-aplikasi-software-development.md",
     "docs/03-iso-31000.md",
     "docs/03-iso-27000.md",
+    "docs/04-metode-identifikasi.md",
     "docs/README.md",
     "docs/artikel/contoh-aplikasi-cyber-security.md",
     "docs/artikel/risk-register.md",
-    "docs/04-metode-identifikasi.md",
-    "docs/artikel/contoh-aplikasi-software-development.md",
     "docs/02-framework.md",
     "docs/artikel/matrix-risiko.md",
     "docs/artikel",
