@@ -1,6 +1,6 @@
-# **BAB 4 – METODE IDENTIFIKASI RISIKO**
+# METODE IDENTIFIKASI RISIKO**
 
-## 4.1 Pendahuluan
+## 1 Pendahuluan
 Identifikasi risiko adalah **langkah awal** dalam proses manajemen risiko. Tanpa identifikasi yang tepat, risiko yang signifikan bisa terlewat dan menyebabkan kegagalan sistem pengendalian.  
 Tujuan utama identifikasi risiko adalah untuk:
 
@@ -11,7 +11,7 @@ Tujuan utama identifikasi risiko adalah untuk:
 - Menyusun **daftar risiko (risk register)** yang akan dianalisis lebih lanjut.    
 
 ---
-## 4.2 Prinsip Identifikasi Risiko
+## 2 Prinsip Identifikasi Risiko
 
 1. **Menyeluruh** → mencakup semua aspek organisasi (manusia, teknologi, proses, lingkungan).   
 
@@ -22,7 +22,7 @@ Tujuan utama identifikasi risiko adalah untuk:
 4. **Kontekstual** → mempertimbangkan lingkungan internal & eksternal organisasi.    
 
 ---
-## 4.3 Sumber Risiko
+## 3 Sumber Risiko
 
 - **Internal**: kelemahan sistem, SDM, infrastruktur, keuangan.    
 - **Eksternal**: regulasi pemerintah, kondisi ekonomi, bencana alam, persaingan pasar.    
@@ -30,49 +30,74 @@ Tujuan utama identifikasi risiko adalah untuk:
 - **Lingkungan & Sosial**: pencemaran, konflik sosial, isu reputasi.
 
 ---
-## 4.4 Metode Identifikasi Risiko
-### 4.4.1 **Checklist**
+## 4 Metode Identifikasi Risiko
+### 4.1 Checklist
 - Menggunakan daftar risiko yang sudah dikenal dari pengalaman atau standar.   
 - Kelebihan: cepat, mudah, praktis.    
 - Kelemahan: mungkin melewatkan risiko baru yang belum masuk daftar.    
-### 4.4.2 **Brainstorming**
+### 4.2 Brainstorming
 - Diskusi kelompok lintas fungsi untuk menemukan potensi risiko.    
 - Kelebihan: kreatif, melibatkan banyak perspektif.    
 - Kelemahan: hasil tergantung pada partisipasi dan fasilitasi.   
 
-### 4.4.3 **HAZOP (Hazard and Operability Study)**
+### 4.3 HAZOP (Hazard and Operability Study)
 - Analisis sistematis pada proses (terutama industri kimia/manufaktur).    
 - Menggunakan _guide words_ seperti “lebih”, “kurang”, “tidak ada” untuk mengidentifikasi penyimpangan.    
 - Contoh: aliran bahan baku “lebih” → risiko tumpahan, ledakan.   
 
-### 4.4.4 **FMEA (Failure Mode and Effect Analysis)**
+### 4.4 FMEA (Failure Mode and Effect Analysis)
 - Menganalisis kemungkinan kegagalan komponen/proses dan dampaknya.    
 - Setiap mode kegagalan diberi nilai **Severity, Occurrence, Detection**, kemudian dihitung **Risk Priority Number (RPN)**.    
 - Cocok untuk industri manufaktur & otomotif.    
 
-### 4.4.5 **What-if Analysis**
+### 4.5 What-if Analysis
 - Menggunakan pertanyaan hipotetis: _“Bagaimana jika sistem pendingin gagal?”_    
 - Kelebihan: sederhana, fleksibel.    
 - Kelemahan: bisa melewatkan skenario risiko yang tidak terpikirkan.    
 
-### 4.4.6 **Fault Tree Analysis (FTA)**
+### 4.6 Fault Tree Analysis (FTA)
 - Analisis penyebab suatu peristiwa (top event) menggunakan diagram logika.    
 - Contoh: Top event = kebakaran pabrik → penyebab: korsleting listrik, kebocoran gas, human error.    
 
-### 4.4.7 **Event Tree Analysis (ETA)**
+### 4.7 Event Tree Analysis (ETA)
 - Analisis dampak dari suatu kejadian awal dengan berbagai jalur konsekuensi.    
 - Contoh: kejadian awal = kebocoran gas → bisa berujung aman, kebakaran kecil, atau ledakan besar.    
 
 ---
 
-## 4.5 Alat Bantu Identifikasi Risiko
-- **Risk Register** → daftar risiko yang mencatat deskripsi risiko, penyebab, dampak, dan penanggung jawab.    
-- **Risk Map / Risk Matrix** → peta risiko berdasarkan probabilitas dan dampak.    
+### 5. Threat Modeling
+
+**Threat modeling** dalam konteks _metode identifikasi risiko_ adalah suatu pendekatan sistematis untuk **mengidentifikasi, memahami, dan memetakan potensi ancaman (threats)** terhadap sistem — terutama dalam bidang **teknologi informasi dan keamanan siber**.
+
+Tujuannya adalah untuk mengetahui **bagaimana, dari mana, dan oleh siapa sistem bisa diserang atau terganggu**, sehingga organisasi dapat merancang **kontrol atau mitigasi** yang tepat sebelum ancaman tersebut terjadi.
+
+Secara sederhana, **threat modeling** membantu menjawab tiga pertanyaan utama:
+
+1. **Apa yang kita lindungi?** – Menentukan aset penting (data, sistem, layanan).
+    
+2. **Dari siapa kita melindunginya?** – Mengidentifikasi pelaku ancaman (hacker, insider, malware, dll).
+    
+3. **Bagaimana ancaman bisa terjadi?** – Menganalisis potensi vektor serangan atau kelemahan sistem.
+    
+
+Beberapa **metode atau kerangka kerja threat modeling** yang sering digunakan:
+
+- **STRIDE** (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege) 🤔  – dikembangkan oleh Microsoft.
+    
+- **PASTA** (Process for Attack Simulation and Threat Analysis) 🤔 – fokus pada simulasi serangan dan dampaknya terhadap bisnis.
+    
+- **OCTAVE** (Operationally Critical Threat, Asset, and Vulnerability Evaluation) 🤔  – menekankan keterkaitan antara risiko teknologi dan proses bisnis.
+    
+
+---
+## 5. Alat Bantu Identifikasi Risiko
+- [Risk Register](risk-register.md) → daftar risiko yang mencatat deskripsi risiko, penyebab, dampak, dan penanggung jawab.    
+- [**Risk Map / Risk Matrix**](matrix-risiko.md) → peta risiko berdasarkan probabilitas dan dampak.    
 - **Software Tools** → BowTieXP, Palisade @RISK, Microsoft Excel.    
 
 ---
 
-## 4.6 Contoh Penerapan
+## 6. Contoh Penerapan
 **Kasus: Laboratorium Kimia Universitas**
 - Hazard: Bahan kimia mudah terbakar.    
 - Risiko: Kebakaran laboratorium.    
@@ -88,7 +113,7 @@ Tujuan utama identifikasi risiko adalah untuk:
 
 ---
 
-## 4.7 Ringkasan
+## 7. Ringkasan
 - Identifikasi risiko adalah tahap awal yang krusial dalam manajemen risiko.    
 - Prinsipnya harus menyeluruh, sistematis, berkelanjutan, dan sesuai konteks.    
 - Metode umum: **Checklist, Brainstorming, HAZOP, FMEA, What-if, FTA, ETA**.    
@@ -96,7 +121,7 @@ Tujuan utama identifikasi risiko adalah untuk:
 
 ---
 
-📌 **Tugas untuk Mahasiswa (Bab 4):**
+## 💼 Diskusi & Tugas:
 
 1. Pilih satu aktivitas di kampus (contoh: kegiatan praktikum, penggunaan laboratorium, kegiatan olahraga).    
     - Identifikasi minimal 5 risiko dengan metode **Checklist & What-if Analysis**.        
