@@ -1,6 +1,6 @@
 # METODE IDENTIFIKASI RISIKO
 
-## 1 Pendahuluan
+## 1. Pendahuluan
 
 Identifikasi risiko adalah **langkah awal** dalam proses manajemen risiko. Tanpa identifikasi yang tepat, risiko yang signifikan bisa terlewat dan menyebabkan kegagalan sistem pengendalian.  
 
@@ -13,7 +13,7 @@ Tujuan utama identifikasi risiko adalah untuk:
 - Menyusun **daftar risiko (risk register)** yang akan dianalisis lebih lanjut.    
 
 ---
-## 2 Prinsip Identifikasi Risiko
+## 2. Prinsip Identifikasi Risiko
 
 1. **Menyeluruh** → mencakup semua aspek organisasi (manusia, teknologi, proses, lingkungan).   
 
@@ -24,7 +24,7 @@ Tujuan utama identifikasi risiko adalah untuk:
 4. **Kontekstual** → mempertimbangkan lingkungan internal & eksternal organisasi.    
 
 ---
-## 3 Sumber Risiko
+## 3. Sumber Risiko
 
 - **Internal**: kelemahan sistem, SDM, infrastruktur, keuangan.    
 - **Eksternal**: regulasi pemerintah, kondisi ekonomi, bencana alam, persaingan pasar.    
@@ -32,7 +32,7 @@ Tujuan utama identifikasi risiko adalah untuk:
 - **Lingkungan & Sosial**: pencemaran, konflik sosial, isu reputasi.
 
 ---
-## 4 Metode Identifikasi Risiko
+## 4. Metode Identifikasi Risiko
 ### 4.1 Checklist
 - Menggunakan daftar risiko yang sudah dikenal dari pengalaman atau standar.   
 - Kelebihan: cepat, mudah, praktis.    

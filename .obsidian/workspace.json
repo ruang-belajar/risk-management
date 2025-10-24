@@ -36,20 +36,6 @@
             }
           },
           {
-            "id": "0923e58bdd4af1e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/artikel/stride.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "stride"
-            }
-          },
-          {
             "id": "ae80bcdf721c59bc",
             "type": "leaf",
             "state": {
@@ -214,12 +200,19 @@
   },
   "active": "f2b50b921f552768",
   "lastOpenFiles": [
-    "docs/artikel/fmea.md",
+    "docs/artikel/risk-register.md",
+    "case/Risk-Management-and-Organizational-Governance_The-Case-of-Enron.pdf",
+    "ebook/Buku - Manajemen Risiko - Tatan_Sukwika.pdf",
+    "case/_Manajemen+Risiko+pada+Teknologi+Informasi_+Studi+Kasus+pada++Perusahaan+Jasa.pdf",
+    "case/Unconfirmed 561291.crdownload",
+    "case/Buku-Kumpulan-Studi-Kasus-Manajemen-Risiko-di-Indonesia.pdf",
+    "case/Unconfirmed 124159.crdownload",
     "docs/04-metode-identifikasi.md",
     "docs/artikel/octave.md",
     "docs/artikel/pasta.md",
-    "docs/03-iso-27000.md",
     "docs/artikel/stride.md",
+    "docs/artikel/fmea.md",
+    "docs/03-iso-27000.md",
     "docs/README.md",
     "docs/artikel/03-iso-27005.md",
     "docs/artikel/eta.md",
@@ -239,21 +232,13 @@
     "README.md",
     "case/README.md",
     "docs/07-evaluasi.md",
-    "docs/artikel/risk-register.md",
     "docs/13-tools.md",
     "docs/09-implementasi.md",
     "docs/11-reporting.md",
     "docs/06-analisis-kuantitatif.md",
-    "docs/artikel/matrix-risiko.md",
     "docs/img/Pasted image 20251003162239.png",
     "ebook/MANAJEMEN-RISIKO-BUKU-AJAR.pdf",
     "docs/artikel",
-    "case/Risk-Management-and-Organizational-Governance_The-Case-of-Enron.pdf",
-    "case/Risk-Management-and-Organizational-Governance_The-Case-of-Enron.pdf.crdownload",
-    "ebook/buku-tata-kelola-teknologi-informasi-2023.pdf",
-    "ebook/buku-tata-kelola-teknologi-informasi-2019.pdf",
-    "ebook/analisis-risiko-operasional-(studi-kasus-pada-pt-pln-ulp-kolaka).pdf",
-    "ebook/Case-Unilever.pdf",
-    "ebook/Buku-Kumpulan-Studi-Kasus-Manajemen-Risiko-di-Indonesia.pdf"
+    "case/Risk-Management-and-Organizational-Governance_The-Case-of-Enron.pdf.crdownload"
   ]
 }

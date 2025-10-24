@@ -83,7 +83,3 @@ PASTA digunakan untuk:
     
 - NIST SP 800-30 Rev.1: _Guide for Conducting Risk Assessments_.
     
-
----
-
-Apakah Anda ingin saya buatkan **contoh diagram PASTA** (misalnya alur 7 tahap dalam konteks sistem informasi)? Itu bisa membantu memvisualkan prosesnya.
