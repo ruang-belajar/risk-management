@@ -12,13 +12,13 @@ Sebuah perusahaan fintech ingin melindungi data nasabah dan menjaga keandalan si
 
 Beberapa risiko yang diidentifikasi:
 
-|No|Risiko|Penyebab|Aset Terdampak|
-|---|---|---|---|
-|1|Serangan ransomware|Email phishing, patch tidak terpasang|Server database nasabah|
-|2|Pencurian data nasabah|Kebocoran kredensial, insider threat|Data pelanggan|
-|3|Serangan DDoS|Botnet, trafik berlebihan|Website & API|
-|4|Malware di perangkat karyawan|USB tidak aman, antivirus usang|Jaringan internal|
-|5|Kesalahan konfigurasi cloud|Human error|Infrastruktur cloud|
+| No  | Risiko                        | Penyebab                              | Aset Terdampak          |
+| --- | ----------------------------- | ------------------------------------- | ----------------------- |
+| 1   | Serangan ransomware           | Email phishing, patch tidak terpasang | Server database nasabah |
+| 2   | Pencurian data nasabah        | Kebocoran kredensial, insider threat  | Data pelanggan          |
+| 3   | Serangan DDoS                 | Botnet, trafik berlebihan             | Website & API           |
+| 4   | Malware di perangkat karyawan | USB tidak aman, antivirus usang       | Jaringan internal       |
+| 5   | Kesalahan konfigurasi cloud   | Human error                           | Infrastruktur cloud     |
 
 ---
 

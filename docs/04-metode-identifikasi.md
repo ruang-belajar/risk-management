@@ -1,7 +1,9 @@
-# METODE IDENTIFIKASI RISIKO**
+# METODE IDENTIFIKASI RISIKO
 
 ## 1 Pendahuluan
+
 Identifikasi risiko adalah **langkah awal** dalam proses manajemen risiko. Tanpa identifikasi yang tepat, risiko yang signifikan bisa terlewat dan menyebabkan kegagalan sistem pengendalian.  
+
 Tujuan utama identifikasi risiko adalah untuk:
 
 - Menemukan potensi **bahaya (hazard)** yang ada dalam aktivitas, proses, atau sistem.  
@@ -43,29 +45,34 @@ Tujuan utama identifikasi risiko adalah untuk:
 ### 4.3 HAZOP (Hazard and Operability Study)
 - Analisis sistematis pada proses (terutama industri kimia/manufaktur).    
 - Menggunakan _guide words_ seperti “lebih”, “kurang”, “tidak ada” untuk mengidentifikasi penyimpangan.    
-- Contoh: aliran bahan baku “lebih” → risiko tumpahan, ledakan.   
+- Contoh: aliran bahan baku “lebih” → risiko tumpahan, ledakan.
+- 📚 Untuk penjelasan lebih lanjut, check [HAZOP](hazop.md) 🤔
 
 ### 4.4 FMEA (Failure Mode and Effect Analysis)
 - Menganalisis kemungkinan kegagalan komponen/proses dan dampaknya.    
 - Setiap mode kegagalan diberi nilai **Severity, Occurrence, Detection**, kemudian dihitung **Risk Priority Number (RPN)**.    
 - Cocok untuk industri manufaktur & otomotif.    
+- 📚 Untuk penjelasan lebih lanjut, check [FMEA (Failure Mode and Effect Analysis) ](fmea.md) 🤔
 
 ### 4.5 What-if Analysis
 - Menggunakan pertanyaan hipotetis: _“Bagaimana jika sistem pendingin gagal?”_    
 - Kelebihan: sederhana, fleksibel.    
-- Kelemahan: bisa melewatkan skenario risiko yang tidak terpikirkan.    
+- Kelemahan: bisa melewatkan skenario risiko yang tidak terpikirkan.
+- 📚 Check [Murphy's Law](murphys-law.md) sebagai cara berpikir yang bisa kita gunakan dalam melakukan _what-if analysis_
 
 ### 4.6 Fault Tree Analysis (FTA)
 - Analisis penyebab suatu peristiwa (top event) menggunakan diagram logika.    
 - Contoh: Top event = kebakaran pabrik → penyebab: korsleting listrik, kebocoran gas, human error.    
+- 📚 Penjelasan lebih lengkap, check [Fault Tree Analysis](fta.md) 🤔
 
 ### 4.7 Event Tree Analysis (ETA)
 - Analisis dampak dari suatu kejadian awal dengan berbagai jalur konsekuensi.    
 - Contoh: kejadian awal = kebocoran gas → bisa berujung aman, kebakaran kecil, atau ledakan besar.    
+- 📚 Penjelasan lebih lengkap, check [Event Tree Analysis (ETA)](eta.md) 🤔
 
 ---
 
-### 5. Threat Modeling
+## 5. Threat Modeling
 
 **Threat modeling** dalam konteks _metode identifikasi risiko_ adalah suatu pendekatan sistematis untuk **mengidentifikasi, memahami, dan memetakan potensi ancaman (threats)** terhadap sistem — terutama dalam bidang **teknologi informasi dan keamanan siber**.
 
@@ -82,22 +89,22 @@ Secara sederhana, **threat modeling** membantu menjawab tiga pertanyaan utama:
 
 Beberapa **metode atau kerangka kerja threat modeling** yang sering digunakan:
 
-- **STRIDE** (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege) 🤔  – dikembangkan oleh Microsoft.
+- [**STRIDE**](stride.md)  (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege)  🤔 – dikembangkan oleh Microsoft.
     
-- **PASTA** (Process for Attack Simulation and Threat Analysis) 🤔 – fokus pada simulasi serangan dan dampaknya terhadap bisnis.
+- [**PASTA**](pasta.md) (Process for Attack Simulation and Threat Analysis) 🤔 – fokus pada simulasi serangan dan dampaknya terhadap bisnis.
     
-- **OCTAVE** (Operationally Critical Threat, Asset, and Vulnerability Evaluation) 🤔  – menekankan keterkaitan antara risiko teknologi dan proses bisnis.
+- [**OCTAVE** ](octave.md) (Operationally Critical Threat, Asset, and Vulnerability Evaluation) 🤔  – menekankan keterkaitan antara risiko teknologi dan proses bisnis.
     
 
 ---
-## 5. Alat Bantu Identifikasi Risiko
+## 6. Alat Bantu Identifikasi Risiko
 - [Risk Register](risk-register.md) → daftar risiko yang mencatat deskripsi risiko, penyebab, dampak, dan penanggung jawab.    
 - [**Risk Map / Risk Matrix**](matrix-risiko.md) → peta risiko berdasarkan probabilitas dan dampak.    
 - **Software Tools** → BowTieXP, Palisade @RISK, Microsoft Excel.    
 
 ---
 
-## 6. Contoh Penerapan
+## 7. Contoh Penerapan
 **Kasus: Laboratorium Kimia Universitas**
 - Hazard: Bahan kimia mudah terbakar.    
 - Risiko: Kebakaran laboratorium.    
@@ -113,7 +120,7 @@ Beberapa **metode atau kerangka kerja threat modeling** yang sering digunakan:
 
 ---
 
-## 7. Ringkasan
+## 8. Ringkasan
 - Identifikasi risiko adalah tahap awal yang krusial dalam manajemen risiko.    
 - Prinsipnya harus menyeluruh, sistematis, berkelanjutan, dan sesuai konteks.    
 - Metode umum: **Checklist, Brainstorming, HAZOP, FMEA, What-if, FTA, ETA**.    
@@ -123,7 +130,5 @@ Beberapa **metode atau kerangka kerja threat modeling** yang sering digunakan:
 
 ## 💼 Diskusi & Tugas:
 
-1. Pilih satu aktivitas di kampus (contoh: kegiatan praktikum, penggunaan laboratorium, kegiatan olahraga).    
-    - Identifikasi minimal 5 risiko dengan metode **Checklist & What-if Analysis**.        
-    - Susun dalam bentuk **Risk Register sederhana**.        
+1. Pilih satu aktivitas di kampus (contoh: kegiatan praktikum, penggunaan laboratorium, kegiatan olahraga). Identifikasi minimal 5 risiko dengan metode **Checklist, What-if Analysis, FTA & ETA**.        
 2. Buat analisis singkat: metode identifikasi mana yang paling efektif untuk kasus tersebut, dan mengapa.    
