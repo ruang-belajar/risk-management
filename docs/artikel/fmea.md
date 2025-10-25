@@ -102,7 +102,3 @@ Tujuan utamanya adalah untuk:
     
 - Tidak selalu efektif untuk **risiko yang kompleks atau saling bergantung**.
     
-
----
-
-Apakah kamu ingin saya buatkan **contoh diagram FMEA visual** (misalnya untuk sistem informasi atau produksi)?

@@ -46,7 +46,7 @@ Hasil akhirnya berupa **pohon kejadian (event tree)** yang memperlihatkan semua 
 **Kejadian awal:** Server utama mengalami crash.  
 **Sistem pengaman:**
 
-![](Pasted%20image%2020251024225758.png)
+![](img/Pasted%20image%2020251024225758.png)
 
 ---
 

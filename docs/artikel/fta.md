@@ -35,7 +35,7 @@ FTA digambarkan sebagai **pohon logika terbalik**, di mana:
         
     - **OR Gate (∨)** → Top event terjadi **jika salah satu** penyebab di bawahnya terjadi.
         
-![](Pasted%20image%2020251024223934.png)
+![](img/Pasted%20image%2020251024223934.png)
 
 ---
 
@@ -63,7 +63,7 @@ FTA digambarkan sebagai **pohon logika terbalik**, di mana:
 
 ![](Pasted%20image%2020251024224912.png)
 
-![](Pasted%20image%2020251024225207.png)
+![](img/Pasted%20image%2020251024225207.png)
 
 ---
 

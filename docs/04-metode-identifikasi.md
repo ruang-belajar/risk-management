@@ -46,29 +46,29 @@ Tujuan utama identifikasi risiko adalah untuk:
 - Analisis sistematis pada proses (terutama industri kimia/manufaktur).    
 - Menggunakan _guide words_ seperti “lebih”, “kurang”, “tidak ada” untuk mengidentifikasi penyimpangan.    
 - Contoh: aliran bahan baku “lebih” → risiko tumpahan, ledakan.
-- 📚 Untuk penjelasan lebih lanjut, check [HAZOP](hazop.md) 🤔
+- 📚 Untuk penjelasan lebih lanjut, check [HAZOP](artikel/hazop.md) 🤔
 
 ### 4.4 FMEA (Failure Mode and Effect Analysis)
 - Menganalisis kemungkinan kegagalan komponen/proses dan dampaknya.    
 - Setiap mode kegagalan diberi nilai **Severity, Occurrence, Detection**, kemudian dihitung **Risk Priority Number (RPN)**.    
 - Cocok untuk industri manufaktur & otomotif.    
-- 📚 Untuk penjelasan lebih lanjut, check [FMEA (Failure Mode and Effect Analysis) ](fmea.md) 🤔
+- 📚 Untuk penjelasan lebih lanjut, check [FMEA (Failure Mode and Effect Analysis) ](artikel/fmea.md) 🤔
 
 ### 4.5 What-if Analysis
 - Menggunakan pertanyaan hipotetis: _“Bagaimana jika sistem pendingin gagal?”_    
 - Kelebihan: sederhana, fleksibel.    
 - Kelemahan: bisa melewatkan skenario risiko yang tidak terpikirkan.
-- 📚 Check [Murphy's Law](murphys-law.md) sebagai cara berpikir yang bisa kita gunakan dalam melakukan _what-if analysis_
+- 📚 Check [Murphy's Law](artikel/murphys-law.md) sebagai cara berpikir yang bisa kita gunakan dalam melakukan _what-if analysis_
 
 ### 4.6 Fault Tree Analysis (FTA)
 - Analisis penyebab suatu peristiwa (top event) menggunakan diagram logika.    
 - Contoh: Top event = kebakaran pabrik → penyebab: korsleting listrik, kebocoran gas, human error.    
-- 📚 Penjelasan lebih lengkap, check [Fault Tree Analysis](fta.md) 🤔
+- 📚 Penjelasan lebih lengkap, check [Fault Tree Analysis](artikel/fta.md) 🤔
 
 ### 4.7 Event Tree Analysis (ETA)
 - Analisis dampak dari suatu kejadian awal dengan berbagai jalur konsekuensi.    
 - Contoh: kejadian awal = kebocoran gas → bisa berujung aman, kebakaran kecil, atau ledakan besar.    
-- 📚 Penjelasan lebih lengkap, check [Event Tree Analysis (ETA)](eta.md) 🤔
+- 📚 Penjelasan lebih lengkap, check [Event Tree Analysis (ETA)](artikel/eta.md) 🤔
 
 ---
 
@@ -89,17 +89,17 @@ Secara sederhana, **threat modeling** membantu menjawab tiga pertanyaan utama:
 
 Beberapa **metode atau kerangka kerja threat modeling** yang sering digunakan:
 
-- [**STRIDE**](stride.md)  (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege)  🤔 – dikembangkan oleh Microsoft.
+- [**STRIDE**](artikel/stride.md)  (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege)  🤔 – dikembangkan oleh Microsoft.
     
-- [**PASTA**](pasta.md) (Process for Attack Simulation and Threat Analysis) 🤔 – fokus pada simulasi serangan dan dampaknya terhadap bisnis.
+- [**PASTA**](artikel/pasta.md) (Process for Attack Simulation and Threat Analysis) 🤔 – fokus pada simulasi serangan dan dampaknya terhadap bisnis.
     
-- [**OCTAVE** ](octave.md) (Operationally Critical Threat, Asset, and Vulnerability Evaluation) 🤔  – menekankan keterkaitan antara risiko teknologi dan proses bisnis.
+- [**OCTAVE** ](artikel/octave.md) (Operationally Critical Threat, Asset, and Vulnerability Evaluation) 🤔  – menekankan keterkaitan antara risiko teknologi dan proses bisnis.
     
 
 ---
 ## 6. Alat Bantu Identifikasi Risiko
-- [Risk Register](risk-register.md) → daftar risiko yang mencatat deskripsi risiko, penyebab, dampak, dan penanggung jawab.    
-- [**Risk Map / Risk Matrix**](matrix-risiko.md) → peta risiko berdasarkan probabilitas dan dampak.    
+- [Risk Register](artikel/risk-register.md) → daftar risiko yang mencatat deskripsi risiko, penyebab, dampak, dan penanggung jawab.    
+- [**Risk Map / Risk Matrix**](artikel/matrix-risiko.md) → peta risiko berdasarkan probabilitas dan dampak.    
 - **Software Tools** → BowTieXP, Palisade @RISK, Microsoft Excel.    
 
 ---
@@ -131,4 +131,3 @@ Beberapa **metode atau kerangka kerja threat modeling** yang sering digunakan:
 ## 💼 Diskusi & Tugas:
 
 1. Pilih satu aktivitas di kampus (contoh: kegiatan praktikum, penggunaan laboratorium, kegiatan olahraga). Identifikasi minimal 5 risiko dengan metode **Checklist, What-if Analysis, FTA & ETA**.        
-2. Buat analisis singkat: metode identifikasi mana yang paling efektif untuk kasus tersebut, dan mengapa.    
