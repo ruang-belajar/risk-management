@@ -61,7 +61,7 @@ FTA digambarkan sebagai **pohon logika terbalik**, di mana:
 
 ## 🔹 Contoh Diagram FTA
 
-![](Pasted%20image%2020251024224912.png)
+![](img/Pasted%20image%2020251024224912.png)
 
 ![](img/Pasted%20image%2020251024225207.png)
 
