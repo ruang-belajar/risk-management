@@ -7,3 +7,7 @@
 4. [Metode Identifikasi Risiko](04-metode-identifikasi.md)
 5. [Metode Analisis Risiko Kualitatif](05-analisis-kualitatif.md)
 6. [Metode Analisis Risiko Kuantitatif](06-analisis-kuantitatif.md)
+7. [Evaluasi Risiko](07-evaluasi.md)
+8. [Pengendalian dan Penanganan Risiko](08-control.md)
+
+---

@@ -42,7 +42,7 @@ Metode ini biasanya digunakan pada proyek besar, industri keuangan, kesehatan, e
 Expected Monetary Value adalah **nilai rata-rata tertimbang** dari semua kemungkinan hasil (baik positif maupun negatif), dengan masing-masing hasil dikalikan oleh **probabilitas terjadinya**.
 
 Secara matematis:  
-$\text{EMV} = \sum (P_i \times V_i)$
+$$\text{EMV} = \sum (P_i \times V_i)$$
 
 di mana:
 
@@ -79,9 +79,7 @@ Misalkan dalam proyek pengembangan sistem:
 
 Maka:
 
-[  
-EMV = (0.3 \times -100.000.000) + (0.7 \times 0) = -30.000.000  
-]
+$EMV = (0.3 \times -100.000.000) + (0.7 \times 0) = -30.000.000$
 
 👉 **Interpretasi:**  
 Nilai EMV sebesar **–Rp 30 juta** menunjukkan bahwa secara rata-rata, risiko keterlambatan ini akan menyebabkan **kerugian ekspektasi Rp 30 juta** terhadap proyek.
@@ -183,7 +181,7 @@ Terdapat tiga pendekatan utama:
 
 ---
 
-#### 🧮 Contoh Perhitungan Sederhana
+#### Contoh Perhitungan Sederhana
 
 Misalkan portofolio investasi memiliki:
 
@@ -203,7 +201,7 @@ Artinya, ada 95% keyakinan bahwa kerugian **tidak akan melebihi Rp 247,5 juta da
 
 ---
 
-#### 📉 Kelebihan dan Keterbatasan
+#### Kelebihan dan Keterbatasan
 
 **Kelebihan:**
 
@@ -227,29 +225,222 @@ Artinya, ada 95% keyakinan bahwa kerugian **tidak akan melebihi Rp 247,5 juta da
 
 ### 4.3. Analisis Sensitivitas
 
-- Mengukur seberapa sensitif suatu hasil terhadap perubahan variabel risiko.
+**Analisis Sensitivitas** dalam konteks **metode analisis kuantitatif** adalah teknik yang digunakan untuk **menilai seberapa sensitif hasil suatu model atau keputusan terhadap perubahan variabel input**. Dengan kata lain, analisis ini membantu kita memahami **dampak perubahan kecil pada asumsi atau parameter** terhadap hasil akhir suatu perhitungan atau model risiko.
+
+---
+
+#### Tujuan Analisis Sensitivitas
+
+1. **Mengidentifikasi variabel kunci** yang paling berpengaruh terhadap hasil.
     
-- **Contoh**: Jika harga bahan baku naik 10%, maka biaya produksi naik 15%.
+2. **Mengukur tingkat ketidakpastian** dalam hasil keputusan atau estimasi.
     
+3. **Meningkatkan keandalan keputusan**, dengan mengetahui sejauh mana hasil akan berubah jika asumsi berubah.
+    
+4. **Mendukung manajemen risiko**, dengan menunjukkan area yang paling rentan terhadap fluktuasi input.
+    
+
+---
+
+#### Langkah-langkah Umum Analisis Sensitivitas
+
+1. **Menentukan model atau fungsi matematis** yang digunakan (misal: model biaya, model risiko, model investasi).
+    
+2. **Mengidentifikasi variabel input utama** (misal: suku bunga, harga bahan baku, permintaan pasar).
+    
+3. **Menentukan rentang perubahan** untuk setiap variabel (misal: ±10%, ±20%).
+    
+4. **Menghitung hasil (output)** model untuk setiap perubahan input.
+    
+5. **Menganalisis perubahan output** dan menentukan seberapa besar sensitivitas hasil terhadap tiap variabel.
+    
+
+---
+
+#### Contoh Analisis Sensitivitas
+$$NPV = \sum \frac{CF_t}{(1+r)^t} - I$$
+- $CF_t​$: arus kas pada tahun ke-t    
+- $r$: tingkat diskonto    
+- $I$: investasi awal    
+
+Jika tingkat diskonto naik dari **10% menjadi 12%**, maka NPV bisa berubah dari **Rp200 juta menjadi Rp150 juta**.  
+Artinya, hasil (NPV) **sangat sensitif terhadap perubahan tingkat diskonto**, dan manajer proyek perlu mewaspadai risiko perubahan suku bunga.
+
+Hasil Analisis Sensitivitas biasanya divisualisasikan dalam bentuk:
+- **Tornado chart** → menunjukkan variabel mana yang paling berpengaruh.    
+- **Spider chart** → menunjukkan hubungan antara perubahan input dan output.    
+
+![](contoh-tornado-chart-1.png)
 
 ---
 
 ### 4.4. Analisis Skenario (Scenario Analysis)
 
-- Menilai risiko dengan membandingkan skenario: **optimis, moderat, pesimis**.
+#### Pengertian Analisis Skenario
+
+**Analisis Skenario** adalah **metode analisis kuantitatif** yang digunakan untuk mengevaluasi bagaimana hasil suatu proyek, investasi, atau keputusan akan berubah **jika kondisi atau asumsi utama berubah secara signifikan**.
+
+Dengan kata lain, metode ini **menguji dampak dari berbagai skenario kemungkinan masa depan** (misalnya “terbaik”, “terburuk”, dan “paling mungkin”) terhadap hasil numerik seperti **keuntungan, biaya, NPV (Net Present Value), atau tingkat risiko**.
+
+ **Analisis Skenario** adalah alat penting dalam analisis kuantitatif untuk memahami **bagaimana hasil keputusan berubah di bawah kondisi masa depan yang berbeda**.  
+Dengan metode ini, organisasi dapat menilai **ketahanan strategi**, **mengantisipasi risiko ekstrem**, dan **membuat keputusan yang lebih adaptif** terhadap ketidakpastian.
+
+**Monte Carlo Simulation** membantu manajer risiko memahami **variasi kemungkinan hasil dan probabilitasnya**, sehingga dapat mengambil keputusan yang lebih informasional dan mengantisipasi potensi kerugian atau keterlambatan sejak dini.
+
+---
+
+#### Tujuan Analisis Skenario
+
+1. **Menilai ketahanan (robustness)** keputusan terhadap perubahan variabel eksternal.
     
-- Membantu manajemen melihat potensi dampak dalam kondisi berbeda.
+2. **Mengidentifikasi risiko dan peluang** yang mungkin terjadi di bawah kondisi berbeda.
+    
+3. **Mendukung pengambilan keputusan** berbasis data dan bukan asumsi tunggal.
+    
+4. **Meningkatkan kesiapan manajemen risiko** dengan memahami hasil ekstrem (worst case / best case).
+    
+
+---
+
+#### Langkah-Langkah Analisis Skenario (Kuantitatif)
+
+1. **Tentukan variabel kunci**  
+    Misalnya: biaya bahan baku, tingkat inflasi, suku bunga, durasi proyek, permintaan pasar.
+    
+2. **Tentukan skenario**  
+    Biasanya dibagi menjadi:
+    
+    - **Skenario optimis (best case)**
+        
+    - **Skenario pesimis (worst case)**
+        
+    - **Skenario realistis (most likely)**
+        
+3. **Tentukan nilai numerik untuk tiap variabel di setiap skenario**  
+    Contoh:
+    
+    - Inflasi best case = 2%,
+        
+    - Most likely = 5%,
+        
+    - Worst case = 10%.
+        
+4. **Hitung hasil akhir** untuk masing-masing skenario menggunakan model perhitungan (misalnya model keuangan proyek atau EMV).
+    
+5. **Bandingkan hasil** antar skenario untuk menilai sensitivitas hasil terhadap perubahan variabel.
+    
+
+---
+
+#### Contoh Tabel Analisis Skenario
+
+|Skenario|Inflasi (%)|Biaya Bahan (Rp juta)|Permintaan (unit)|NPV (Rp juta)|Keterangan|
+|---|---|---|---|---|---|
+|Optimis (Best)|2|400|1200|800|Hasil terbaik|
+|Realistis|5|450|1000|500|Hasil normal|
+|Pesimis (Worst)|10|500|700|200|Hasil terendah|
+
+Dari tabel di atas, kita bisa melihat bahwa jika inflasi dan biaya meningkat (skenario pesimis), NPV proyek turun drastis dari Rp 800 juta menjadi Rp 200 juta.
+
+---
+
+#### Perbedaan dengan Analisis Sensitivitas
+
+|Aspek|Analisis Sensitivitas|Analisis Skenario|
+|---|---|---|
+|Fokus|Mengubah **satu variabel** saja|Mengubah **beberapa variabel sekaligus**|
+|Tujuan|Melihat seberapa sensitif hasil terhadap satu faktor|Melihat dampak kombinasi perubahan kondisi|
+|Output|Tornado chart / garis hubungan|Tabel atau grafik perbandingan hasil skenario|
+
+
+Apakah Anda ingin saya bantu **buatkan contoh grafik (bar chart)** dari tabel skenario di atas agar bisa langsung digunakan untuk presentasi atau laporan manajemen risiko proyek?
     
 
 ---
 
 ### 4.5. Monte Carlo Simulation
 
-- Menggunakan **komputer dan model probabilistik** untuk menghasilkan ribuan simulasi hasil.
+**Monte Carlo Simulation (Simulasi Monte Carlo)** adalah salah satu **metode analisis kuantitatif** yang digunakan dalam **manajemen risiko** untuk memperkirakan kemungkinan hasil dari suatu proyek, investasi, atau keputusan yang mengandung ketidakpastian.
+
+Metode ini **menggunakan pendekatan statistik dan komputasi** dengan **melakukan ribuan hingga jutaan percobaan acak (random sampling)** untuk mensimulasikan berbagai kemungkinan hasil dari variabel-variabel risiko.
+
+---
+
+#### Konsep Dasar Monte Carlo Simulation
+
+Monte Carlo bekerja dengan prinsip **“pengulangan acak terhadap variabel input yang tidak pasti”** untuk melihat bagaimana ketidakpastian tersebut memengaruhi hasil akhir.
+
+Langkah-langkah umumnya:
+
+1. **Identifikasi variabel input yang tidak pasti**  
+    Misalnya: biaya proyek, durasi kegiatan, harga bahan baku, atau nilai tukar.
     
-- Menunjukkan distribusi kemungkinan kerugian/keuntungan.
+2. **Tentukan distribusi probabilitas** untuk setiap variabel  
+    Contoh:
     
-- Banyak digunakan dalam **proyek besar, energi, investasi, asuransi**.
+    - Biaya bahan baku ~ Distribusi Normal (mean = 100, sd = 10)
+        
+    - Durasi proyek ~ Distribusi Triangular (min = 5, most likely = 7, max = 10)
+        
+3. **Lakukan simulasi acak (random sampling)** terhadap tiap variabel input ribuan kali.
+    
+4. **Hitung hasil output** (misalnya total biaya atau waktu proyek) untuk setiap percobaan.
+    
+5. **Analisis hasil simulasi** dalam bentuk distribusi output — seperti nilai rata-rata, standar deviasi, dan probabilitas terjadinya skenario tertentu.
+    
+
+---
+
+#### Contoh dalam Konteks Manajemen Risiko Proyek
+
+Misalnya, manajer risiko ingin mengetahui **kemungkinan proyek terlambat atau melebihi anggaran**.
+
+|Variabel Risiko|Distribusi|Minimum|Most Likely|Maksimum|
+|---|---|---|---|---|
+|Durasi Aktivitas A (hari)|Triangular|5|7|10|
+|Biaya Material (juta Rp)|Normal|90|100|110|
+|Produktivitas Tim (%)|Uniform|80|-|100|
+
+Setelah dilakukan 10.000 kali simulasi:
+
+- Rata-rata total biaya proyek: **Rp 1,2 miliar**
+    
+- Probabilitas proyek melebihi Rp 1,3 miliar: **25%**
+    
+- Probabilitas proyek selesai lebih dari 40 hari: **18%**
+    
+
+---
+
+#### Output yang Umum Dihasilkan
+
+- **Histogram distribusi hasil** (misal total biaya atau durasi)
+    
+- **Cumulative Probability Chart (S-curve)** untuk melihat peluang suatu hasil tercapai
+    
+- **Sensitivity Chart (Tornado Chart)** untuk mengidentifikasi variabel paling berpengaruh terhadap hasil
+    
+
+---
+
+#### Kelebihan Monte Carlo Simulation
+
+✅ Menggambarkan **ketidakpastian secara realistis**  
+✅ Memberikan **beragam kemungkinan hasil**, bukan satu estimasi saja  
+✅ Dapat **mengukur probabilitas risiko** secara kuantitatif  
+✅ Memudahkan **pengambilan keputusan berbasis data**
+
+---
+
+#### Keterbatasan
+
+❌ Membutuhkan **data yang cukup akurat** untuk menentukan distribusi probabilitas  
+❌ Memerlukan **alat bantu perangkat lunak** (misalnya @RISK, Crystal Ball, Python, atau Excel Add-in)  
+❌ Interpretasi hasil harus hati-hati agar tidak menyesatkan
+
+---
+
+Apakah Anda ingin saya buatkan **contoh grafik hasil Monte Carlo Simulation** (misalnya histogram probabilitas total biaya proyek) agar bisa langsung digunakan dalam laporan atau presentasi manajemen risiko?
     
 
 ---
@@ -279,26 +470,13 @@ Artinya, ada 95% keyakinan bahwa kerugian **tidak akan melebihi Rp 247,5 juta da
 
 📌 **Total Eksposur Risiko (EMV Total) = Rp 175 juta**
 
-Manajemen bisa menggunakan nilai ini untuk **menyediakan cadangan biaya risiko (contingency fund)**.
-
----
-
-## 7. Ringkasan
-
-- Analisis kuantitatif memberikan gambaran **finansial dan probabilistik** risiko.
-    
-- Metode populer: **EMV, VaR, Analisis Sensitivitas, Analisis Skenario, Monte Carlo**.
-    
-- Membutuhkan **data valid** agar hasil akurat.
-    
-- Biasanya digunakan bersama analisis kualitatif untuk keputusan strategis.
-    
+Manajemen bisa menggunakan nilai ini untuk **menyediakan cadangan biaya risiko (contingency fund)**. 
 
 ---
 
 ## 💼 Diskusi & Tugas
 
-1. Ambil 3 risiko dari Risk Register (Bab 4).
+1. Ambil 3 risiko dari Risk Register
     
 2. Berikan nilai probabilitas (%) dan dampak finansial (Rp).
     

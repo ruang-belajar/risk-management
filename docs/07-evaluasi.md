@@ -1,8 +1,4 @@
-Baik, saya susun materi khusus mengenai **Evaluasi Risiko (Risk Evaluation)** sebagai salah satu tahapan penting dalam manajemen risiko (sesudah identifikasi & analisis, sebelum penanganan).
-
----
-
-# **EVALUASI RISIKO (RISK EVALUATION)**
+# EVALUASI RISIKO (RISK EVALUATION)
 
 ## 1. Pendahuluan
 
@@ -88,7 +84,7 @@ Evaluasi risiko dilakukan setelah tahap analisis risiko. Prosesnya meliputi:
 
 ## 5. Contoh Matriks Evaluasi Risiko (3x3)
 
-||**Dampak Rendah**|**Dampak Sedang**|**Dampak Tinggi**|
+| |**Dampak Rendah**|**Dampak Sedang**|**Dampak Tinggi**|
 |---|---|---|---|
 |**Probabilitas Tinggi**|Sedang|Tinggi|Sangat Tinggi|
 |**Probabilitas Sedang**|Rendah|Sedang|Tinggi|
@@ -133,7 +129,7 @@ Evaluasi risiko dilakukan setelah tahap analisis risiko. Prosesnya meliputi:
 
 1. Buatlah matriks risiko (3x3 atau 5x5).
     
-2. Ambil 5 risiko dari **Risk Register (Bab 4)**.
+2. Ambil 5 risiko dari *Risk Register*
     
 3. Lakukan evaluasi risiko: tentukan levelnya (rendah, sedang, tinggi).
     
