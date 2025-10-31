@@ -163,14 +163,11 @@ Terdapat tiga pendekatan utama:
     - Mengasumsikan bahwa return mengikuti **distribusi normal**.
         
     - Menghitung VaR dengan formula:  
-        $VaR = Z \times \sigma \times \sqrt{t}$  
-        di mana:
-        
-        - $Z$: nilai dari distribusi normal sesuai tingkat kepercayaan (mis. 1.65 untuk 95%)
-            
-        - $\sigma$: standar deviasi return
-            
-        - $t$: periode waktu (hari)
+        $$VaR = Z \times \sigma \times {V}$$
+        di mana:        
+        - $Z$: nilai dari distribusi normal sesuai tingkat kepercayaan (mis. 1.65 untuk 95%). Di Excel, $Z$ diperoleh menggunakan fungsi `=NORM.S.INV(Conficence level)`
+        - $\sigma$: standar deviasi return            
+        - $V$: nilai asset
             
 3. **Monte Carlo Simulation**
     
@@ -476,11 +473,46 @@ Manajemen bisa menggunakan nilai ini untuk **menyediakan cadangan biaya risiko (
 
 ## 💼 Diskusi & Tugas
 
-1. Ambil 3 risiko dari Risk Register
+### Menghitung EMV
+
+#### Soal 1 — Risiko Proyek Teknologi Informasi
+
+Sebuah perusahaan sedang mengembangkan aplikasi e-commerce baru.  
+Terdapat dua risiko utama yang diidentifikasi:
+
+|Risiko|Probabilitas|Dampak Finansial|
+|---|---|---|
+|Keterlambatan pengembangan|0,25|–Rp 80.000.000|
+|Kegagalan uji coba sistem|0,10|–Rp 120.000.000|
+|Tidak terjadi risiko apa pun|?|Rp 0|
+
+**Pertanyaan:**
+
+1. Hitunglah probabilitas untuk kondisi “tidak terjadi risiko apa pun”!
     
-2. Berikan nilai probabilitas (%) dan dampak finansial (Rp).
+2. Hitung **Expected Monetary Value (EMV)** dari keseluruhan proyek!
     
-3. Hitung **EMV (Expected Monetary Value)** masing-masing risiko.
+3. Apa interpretasi dari nilai EMV yang diperoleh?
     
-4. Tentukan total cadangan biaya risiko (Contingency Reserve).
-    
+
+---
+
+#### Soal 2 — Analisis Alternatif Investasi Sistem Informasi
+
+Sebuah perusahaan sedang mempertimbangkan dua alternatif sistem baru:
+
+|Alternatif|Kondisi|Probabilitas|Nilai Finansial (Rp)|
+|---|---|---|---|
+|Sistem A|Berhasil|0,7|+250.000.000|
+|Sistem A|Gagal|0,3|–100.000.000|
+|Sistem B|Berhasil|0,6|+300.000.000|
+|Sistem B|Gagal|0,4|–150.000.000|
+
+**Pertanyaan:**
+1. Hitunglah EMV untuk masing-masing sistem (A dan B)!    
+2. Berdasarkan hasil EMV, sistem mana yang sebaiknya dipilih?
+3. Jelaskan alasan pemilihan berdasarkan konsep EMV.  
+
+---
+
+

@@ -118,9 +118,71 @@ Matriks risiko adalah alat visual untuk mengkombinasikan **probabilitas** dan **
 
 ## 💼 Diskusi & Tugas
 
-1. Buat matrix risiko 4x4
-2. Buat _risk register_ untuk kegiatan berikut:
-	1. Pengembangan sistem informasi baru
-	2. Implementasi jaringan komputer
-	3. Peluncuran aplikasi mobile
-	4. Proyek infrastruktur TI di kampus
+Kerjakan soal-soal berikut, gunakan matriks 4x4 untuk skala penilaian risiko
+### Soal 1 — Proyek Pengembangan Aplikasi Mobile Kampus
+
+Sebuah tim IT kampus sedang mengembangkan **aplikasi mobile untuk sistem informasi akademik**, yang memungkinkan mahasiswa mengakses KRS, nilai, dan jadwal kuliah.  
+Namun, proyek sering tertunda karena koordinasi antar divisi tidak berjalan baik dan server uji sering bermasalah.
+
+**Tugas:**  
+Buat _risk register_ minimal 8 risiko yang mungkin muncul selama proyek berlangsung, termasuk risiko teknis, manajerial, dan operasional. Tentukan tingkat risiko dan strategi mitigasinya.
+
+---
+
+#### Soal 2 — Proyek Implementasi ERP (Enterprise Resource Planning) di Perusahaan Manufaktur
+
+Perusahaan “PT Mekatronik Jaya” memutuskan untuk menerapkan sistem ERP untuk mengintegrasikan data produksi, keuangan, dan logistik.  
+Namun, beberapa karyawan menolak perubahan sistem dan pelatihan berjalan lambat. Vendor ERP juga mengalami keterlambatan dalam pengiriman modul.
+
+**Tugas:**  
+Susun _risk register_ untuk proyek ERP ini dengan memperhatikan risiko:
+
+- Perubahan budaya kerja,
+    
+- Kesiapan sumber daya manusia,
+    
+- Keterlambatan vendor,
+    
+- Risiko integrasi sistem lama dan baru.
+    
+
+---
+
+#### Soal 3 — Proyek Migrasi Data ke Cloud
+
+Sebuah organisasi pemerintahan sedang memigrasikan seluruh data dari server lokal ke **cloud server** agar lebih efisien.  
+Selama proses, muncul kekhawatiran tentang keamanan data, downtime saat pemindahan, dan keterbatasan bandwidth internet di kantor daerah.
+
+**Tugas:**  
+Buat _risk register_ proyek migrasi ini dengan mengidentifikasi risiko teknis, keamanan, dan operasional. Tentukan kemungkinan, dampak, dan rencana mitigasi yang realistis.
+
+---
+
+#### Soal 4 — Proyek Pembangunan Data Center Baru
+
+Sebuah perusahaan e-commerce membangun **data center baru** untuk mendukung lonjakan transaksi online.  
+Proyek melibatkan banyak kontraktor eksternal dan bergantung pada pengiriman perangkat keras dari luar negeri. Pandemi dan perubahan kebijakan impor memperlambat jadwal proyek.
+
+**Tugas:**  
+Susun _risk register_ dengan mempertimbangkan risiko-risiko seperti:
+
+- Gangguan rantai pasok,
+    
+- Keterlambatan konstruksi,
+    
+- Kegagalan sistem pendingin,
+    
+- Kelebihan anggaran,
+    
+- Risiko keselamatan kerja.
+    
+
+---
+
+#### Soal 5 — Proyek Implementasi Sistem Keamanan Informasi (ISO 27001)
+
+PT DigitalMart ingin memperoleh sertifikasi **ISO 27001** untuk meningkatkan kepercayaan pelanggan terhadap keamanan datanya.  
+Namun, ditemukan masalah berupa ketidaklengkapan dokumen kebijakan keamanan, kurangnya kesadaran karyawan, dan ketidaksesuaian beberapa sistem lama terhadap standar ISO.
+
+**Tugas:**  
+Buat _risk register_ untuk proyek implementasi ISO 27001 ini dengan mengidentifikasi risiko terkait kepatuhan, SDM, teknologi, dan manajemen. Tentukan nilai risiko dan strategi mitigasinya.
