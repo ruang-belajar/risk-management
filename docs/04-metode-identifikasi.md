@@ -8,7 +8,7 @@ Tujuan utama identifikasi risiko adalah untuk:
 
 - Menemukan potensi **bahaya (hazard)** yang ada dalam aktivitas, proses, atau sistem.  
 
-- Mengidentifikasi peristiwa yang dapat menghambat pencapaian tujuan organisasi.    
+- Mengid[04-metode-identifikasi](04-metode-identifikasi.md)entifikasi peristiwa yang dapat menghambat pencapaian tujuan organisasi.    
 
 - Menyusun **daftar risiko (risk register)** yang akan dianalisis lebih lanjut.    
 

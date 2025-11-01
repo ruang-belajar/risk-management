@@ -92,6 +92,11 @@ Matriks risiko adalah alat visual untuk mengkombinasikan **probabilitas** dan **
 
 ![](img/matriks-risiko-2.png)
 
+1 - 4 : Prioritas rendah
+5 - 8 : Moderat
+9 - 16 : Prioritas Tinggi
+20 - 25 : Darurat
+
 ---
 
 ### 4.3. Contoh pengisian risk register
