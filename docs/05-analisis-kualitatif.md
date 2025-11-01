@@ -90,7 +90,7 @@ Matriks risiko adalah alat visual untuk mengkombinasikan **probabilitas** dan **
 
 ### 4.2. Contoh matriks 5×5 (skor = L × I)
 
-![](img/matriks-risiko.png)
+![](img/matriks-risiko-2.png)
 
 ---
 

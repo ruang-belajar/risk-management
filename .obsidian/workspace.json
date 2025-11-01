@@ -184,8 +184,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8a6268fd138db454",
+  "active": "4e7a5d0c30b775d8",
   "lastOpenFiles": [
+    "docs/img/matriks-risiko-2.png",
     "docs/06-analisis-kuantitatif.md",
     "docs/05-analisis-kualitatif.md",
     "docs/README.md",
@@ -229,7 +230,6 @@
     "README.md",
     "case/README.md",
     "docs/13-tools.md",
-    "docs/09-implementasi.md",
     "ebook/MANAJEMEN-RISIKO-BUKU-AJAR.pdf",
     "docs/artikel"
   ]
