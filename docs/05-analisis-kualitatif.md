@@ -90,18 +90,24 @@ Matriks risiko adalah alat visual untuk mengkombinasikan **probabilitas** dan **
 
 ### 4.2. Contoh matriks 5×5 (skor = L × I)
 
-![](img/matriks-risiko-2.png)
+![](matriks-risiko-4.png)
 
-1 - 4 : Prioritas rendah
-5 - 8 : Moderat
-9 - 16 : Prioritas Tinggi
-20 - 25 : Darurat
+| range   | indikator           |
+| ------- | ------------------- |
+| 1 - 4   | 🔵 Prioritas rendah |
+| 5 - 8   | 🟡 Prioritas sedang |
+| 9 - 16  | 🟠 Prioritas Tinggi |
+| 20 - 25 | 🔴 Kritis           |
+
+[🔗 source](https://docs.google.com/spreadsheets/d/1u3VsuAn9e7nHdj1DmC_8OVCZnQJzaphFahNaya_77G8/edit)
 
 ---
 
 ### 4.3. Contoh pengisian risk register
 
-![](img/risk-register-1.png)
+![](risk-register-2.png)
+
+[🔗 source](https://docs.google.com/spreadsheets/d/1u3VsuAn9e7nHdj1DmC_8OVCZnQJzaphFahNaya_77G8/edit)
 
 ---
 
