@@ -117,6 +117,13 @@ Nilai EMV sebesar **–Rp 30 juta** menunjukkan bahwa secara rata-rata, risiko k
 - Tidak mempertimbangkan **faktor non-finansial** (seperti reputasi, moral tim, dll).
     
 - Tidak menggambarkan **variabilitas risiko ekstrem (outlier)**.
+
+#### Contoh Kasus
+
+1. [Kasus Risiko Kelebihan Biaya Proyek (Ancaman/Threat)](artikel/contoh-emv-1.md)
+2. [Kasus Peluang Mendapatkan Kontrak Baru (Peluang/Opportunity)](artikel/contoh-emv-2.md)
+3. [Kasus Perbandingan Opsi Investasi (Pohon Keputusan)](artikel/contoh-emv-3.md)
+4. [Kasus Proyek Konstruksi: Risiko Penundaan Izin](artikel/contoh-emv-4.md)
     
 ---
 ### 4.2. Value at Risk (VaR)
@@ -217,6 +224,12 @@ Artinya, ada 95% keyakinan bahwa kerugian **tidak akan melebihi Rp 247,5 juta da
     
 - Kurang akurat dalam kondisi pasar ekstrem atau krisis.
     
+#### Contoh Kasus
+1. [VaR Portofolio Saham (Metode Variansi-Kovariansi / Parametrik)](artike/contoh-var-1.md)
+2. [VaR Aset Tunggal (Metode Simulasi Historis)](artike/contoh-var-2.md)
+3. [VaR untuk Risiko Operasional (Contoh Sederhana Pendekatan Parametrik)](artike/contoh-var-3.md)
+4. [Contoh Kasus VaR Metode Monte Carlo](artike/contoh-var-4.md)
+
 
 ---
 
