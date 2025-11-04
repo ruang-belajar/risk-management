@@ -1,4 +1,4 @@
-# METODE ANALISIS RISIKO KUANTITATIF
+# Metode Analisis Risiko Kuantitatif
 
 ## 1. Pendahuluan
 
