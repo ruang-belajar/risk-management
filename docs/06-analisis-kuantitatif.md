@@ -79,25 +79,10 @@ Misalkan dalam proyek pengembangan sistem:
 
 Maka:
 
-$EMV = (0.3 \times -100.000.000) + (0.7 \times 0) = -30.000.000$
+$$EMV = (0.3 \times -100.000.000) + (0.7 \times 0) = -30.000.000$$
 
 👉 **Interpretasi:**  
 Nilai EMV sebesar **–Rp 30 juta** menunjukkan bahwa secara rata-rata, risiko keterlambatan ini akan menyebabkan **kerugian ekspektasi Rp 30 juta** terhadap proyek.
-
----
-
-#### Contoh Penggunaan dalam Decision Tree
-
-|Alternatif Keputusan|Skenario|Probabilitas|Nilai (Rp)|EMV (Rp)|
-|---|---|---|---|---|
-|Menggunakan Vendor A|Sukses|0.8|+200.000.000|160.000.000|
-||Gagal|0.2|–100.000.000|–20.000.000|
-|**Total EMV Vendor A**||||**140.000.000**|
-|Menggunakan Vendor B|Sukses|0.6|+250.000.000|150.000.000|
-||Gagal|0.4|–150.000.000|–60.000.000|
-|**Total EMV Vendor B**||||**90.000.000**|
-
-➡️ **Kesimpulan:** Pilih **Vendor A** karena memiliki **EMV lebih tinggi (Rp 140 juta)**.
 
 ---
 
@@ -124,7 +109,104 @@ Nilai EMV sebesar **–Rp 30 juta** menunjukkan bahwa secara rata-rata, risiko k
 2. [Kasus Peluang Mendapatkan Kontrak Baru (Peluang/Opportunity)](artikel/contoh-emv-2.md)
 3. [Kasus Perbandingan Opsi Investasi (Pohon Keputusan)](artikel/contoh-emv-3.md)
 4. [Kasus Proyek Konstruksi: Risiko Penundaan Izin](artikel/contoh-emv-4.md)
+
+---
+
+#### Decision Tree Analysis
+
+**Decision Tree Analysis** adalah alat bantu visual dan analitis untuk mengevaluasi berbagai pilihan keputusan berdasarkan kemungkinan hasil dan nilai yang diharapkan (**Expected Monetary Value / EMV**).  
+Dengan kata lain, ini adalah cara sistematis untuk membandingkan alternatif keputusan berdasarkan **biaya, manfaat, dan probabilitas** dari masing-masing kemungkinan hasil.
+
+Metode ini menampilkan keputusan dan hasil yang mungkin dalam **bentuk diagram bercabang seperti pohon**, yang memperlihatkan:
+
+- Titik keputusan (decision node),
     
+- Peristiwa acak/risko (chance node),
+    
+- dan hasil akhir (outcome node).
+    
+##### Simbol
+Berikut simbol yang umumnya digunakan dalam pembuatan Decesion Tree Analysis
+
+| Simbol                        | Jenis Node                    | Keterangan                                                                                     |
+| ----------------------------- | ----------------------------- | ---------------------------------------------------------------------------------------------- |
+| 🟦 **Kotak (Square Node)**    | **Decision Node**             | Titik di mana pengambil keputusan harus memilih satu dari beberapa alternatif tindakan.        |
+| ⚪ **Lingkaran (Chance Node)** | **Chance / Uncertainty Node** | Titik di mana hasil bergantung pada probabilitas suatu peristiwa (misalnya sukses atau gagal). |
+| 🔺 **Segitiga / garis akhir** | **Terminal Node**             | Titik akhir yang menunjukkan nilai hasil akhir (misalnya keuntungan atau kerugian).            |
+
+##### Contoh Sederhana
+
+Seorang manajer proyek memiliki dua pilihan:
+
+- **A: Membangun sistem sendiri**
+    
+    - Sukses (70%) → keuntungan Rp 300 juta
+        
+    - Gagal (30%) → rugi Rp 100 juta
+        
+- **B: Membeli dari vendor**
+    
+    - Sukses (85%) → keuntungan Rp 150 juta
+        
+    - Gagal (15%) → rugi Rp 250 juta
+        
+
+**Hitung EMV:**
+
+| Alternatif     | Skenario | Prob | Nilai (Rp)   | EMV (Rp)        |
+| -------------- | -------- | ---- | ------------ | --------------- |
+| Build          | Sukses   | 0,7  | +300.000.000 | +210.000.000    |
+| Build          | Gagal    | 0,3  | –100.000.000 | –30.000.000     |
+| **EMV(Build)** |          |      |              | **180.000.000** |
+| Buy            | Sukses   | 0,85 | +150.000.000 | +127.500.000    |
+| Buy            | Gagal    | 0,15 | –250.000.000 | –37.500.000     |
+| **EMV(Buy)**   |          |      |              | **90.000.000**  |
+
+```mermaid
+flowchart LR
+A("Membuat sistem")
+B(("Membuat
+sistem
+sendiri"))
+C(("Beli dari 
+vendor"))
+D{{"Untung
+300jt"}}
+E{{"Rugi
+100jt"}}
+F{{"Untung
+150jt"}}
+G{{"Rugi
+250jt"}}
+
+A --> B
+A --> C
+B -->|70%|D
+B -->|30%|E
+C -->|85%|F
+C -->|15%|G
+```
+
+➡️ **Keputusan:** Pilih **Build**, karena EMV lebih tinggi.
+
+##### Beberapa Contoh Decision Tree Analysis
+
+![](img/dtree-1.png)
+[sumber](http://www.projectrisk.com/decision_trees_for_important_project_decisions.html)
+![](img/dtree-2.png)
+[sumber](https://anti-nic.com/2020/04/06/risk-management-tools-emv-decision-tree/)
+
+![](img/dtree-3.png)
+[sumber](https://www.pmi.org/learning/library/decision-tree-analysis-expected-utility-8214)
+
+
+![](img/dtree-4.png)
+[sumber](https://www.statisticshowto.com/expected-monetary-value-emv/)
+
+![](img/dtree-5.png)
+ 
+[sumber](https://www.project-risk-manager.com/blog/expected-monetary-value/)
+
 ---
 ### 4.2. Value at Risk (VaR)
 
@@ -448,13 +530,9 @@ Setelah dilakukan 10.000 kali simulasi:
 ❌ Memerlukan **alat bantu perangkat lunak** (misalnya @RISK, Crystal Ball, Python, atau Excel Add-in)  
 ❌ Interpretasi hasil harus hati-hati agar tidak menyesatkan
 
----
-
-Apakah Anda ingin saya buatkan **contoh grafik hasil Monte Carlo Simulation** (misalnya histogram probabilitas total biaya proyek) agar bisa langsung digunakan dalam laporan atau presentasi manajemen risiko?
     
 
 ---
-
 ## 5. Perbandingan Analisis Kualitatif vs Kuantitatif
 
 | Aspek          | Kualitatif               | Kuantitatif                              |
@@ -484,28 +562,29 @@ Manajemen bisa menggunakan nilai ini untuk **menyediakan cadangan biaya risiko (
 
 ---
 
+---
+
 ## 💼 Diskusi & Tugas
 
 ### Menghitung EMV
-
 #### Soal 1 — Risiko Proyek Teknologi Informasi
 
 Sebuah perusahaan sedang mengembangkan aplikasi e-commerce baru.  
 Terdapat dua risiko utama yang diidentifikasi:
 
-|Risiko|Probabilitas|Dampak Finansial|
-|---|---|---|
-|Keterlambatan pengembangan|0,25|–Rp 80.000.000|
-|Kegagalan uji coba sistem|0,10|–Rp 120.000.000|
-|Tidak terjadi risiko apa pun|?|Rp 0|
+| Risiko                       | Probabilitas | Dampak Finansial |
+| ---------------------------- | ------------ | ---------------- |
+| Keterlambatan pengembangan   | 25%          | –Rp 80.000.000   |
+| Kegagalan uji coba sistem    | 10%          | –Rp 120.000.000  |
+| Tidak terjadi risiko apa pun | ?            | Rp 0             |
 
 **Pertanyaan:**
 
-1. Hitunglah probabilitas untuk kondisi “tidak terjadi risiko apa pun”!
+1. 🙋‍♂️ Hitunglah probabilitas untuk kondisi “tidak terjadi risiko apa pun”!
     
-2. Hitung **Expected Monetary Value (EMV)** dari keseluruhan proyek!
+2. 🙋‍♂️ Hitung **Expected Monetary Value (EMV)** dari keseluruhan proyek!
     
-3. Apa interpretasi dari nilai EMV yang diperoleh?
+3. 🙋‍♂️ Apa interpretasi dari nilai EMV yang diperoleh?
     
 
 ---
@@ -522,10 +601,59 @@ Sebuah perusahaan sedang mempertimbangkan dua alternatif sistem baru:
 |Sistem B|Gagal|0,4|–150.000.000|
 
 **Pertanyaan:**
-1. Hitunglah EMV untuk masing-masing sistem (A dan B)!    
-2. Berdasarkan hasil EMV, sistem mana yang sebaiknya dipilih?
-3. Jelaskan alasan pemilihan berdasarkan konsep EMV.  
+1. 🙋‍♂️ Hitunglah EMV untuk masing-masing sistem (A dan B)!    
+2. 🙋‍♂️ Berdasarkan hasil EMV, sistem mana yang sebaiknya dipilih?
+3. 🙋‍♂️ Jelaskan alasan pemilihan berdasarkan konsep EMV.  
 
 ---
 
+#### Soal 3 — # Peluncuran Fitur Baru (Proyek IT)
 
+Perusahaan perangkat lunak sedang mempertimbangkan **meluncurkan fitur baru**. Ada tiga opsi:
+
+- **Opsi A — Full Development**: Kembangkan fitur lengkap sekarang. Biaya pengembangan tinggi, potensi pendapatan besar.
+    
+- **Opsi B — MVP (Minimum Viable Product)**: Kembangkan versi sederhana dulu, tes pasar, lalu putuskan lanjut/tidak.
+    
+- **Opsi C — Tidak Melanjutkan**: Batal — tidak ada biaya lanjutan dan tidak ada pendapatan dari fitur.
+    
+
+#### Data kasus
+
+**Opsi A — Full Development**
+- Biaya pengembangan = **Rp 150.000.000** (sudah termasuk) — kita gunakan payoff neto di tiap outcome.
+	Kemungkinan outcome setelah pengembangan:
+	1. **Sukses besar** (30%): payoff neto = **Rp 550.000.000**    
+	2. **Sukses sedang** (50%): payoff neto = **Rp 200.000.000**    
+	3. **Gagal** (20%): payoff neto = **Rp -100.000.000** (kerugian bersih)
+	    
+
+**Opsi B — MVP**
+- Biaya pengembangan MVP = **Rp 60.000.000** (sudah termasuk) 
+    Kemungkinan outcome dari MVP:
+	1. **Respons pasar sangat positif → lanjut full** (40%): pada tahap keputusan lanjut, kita asumsi jika lanjut full maka payoff harapan dari keputusan “Full” dikurangi biaya yang sudah dikeluarkan untuk MVP. Untuk menyederhanakan, kita gunakan payoff _efektif_ berikut (net setelah memperhitungkan kemungkinan lanjutan):	    
+	    - Jika lanjut full, payoff rata-rata diperkirakan = **Rp 400.000.000** (ini sudah memperhitungkan biaya lanjutan diharapkan).	        
+	2. **Respons pasar moderat → perbaikan minor, hasil sedang** (40%): payoff neto = **Rp 120.000.000**	    
+	3. **Respons pasar negatif → berhenti** (20%): payoff neto = **Rp -60.000.000** (biaya MVP hangus)
+    
+**Opsi C — Tidak Melanjutkan**
+- Payoff = **Rp 0** (tidak ada biaya tambahan, tidak ada pendapatan)
+    
+
+🙋‍♂️ Hitung **Expected Monetary Value (EMV)** untuk setiap opsi. Pilih opsi terbaik berdasarkan EMV (nilai tertinggi).
+
+🙋‍♂️ Buat **Decision Tree Analysis** dari proses perhitungan EMV
+
+---
+
+#### Soal 4 — Relay software
+
+Sebuah tim dev punya opsi: **release aplikasi sekarang** atau **delay 6 bulan**.
+
+Jika release sekarang: 25% sukses besar (Rp 800.000.000), 50% sukses kecil (Rp 150.000.000), 25% gagal (Rp -80.000.000). 
+
+Jika delay: biaya opportunity = Rp 40.000.000 (biaya delay); namun delay meningkatkan probabilitas sukses besar menjadi 35%, sukses kecil 45%, gagal 20%. 
+
+🙋‍♂️ Hitung EMV kedua opsi (ingat kurangi biaya delay dari payoff pada opsi delay) dan putuskan.
+
+🙋‍♂️ Buat **Decision Tree Analysis** dari proses perhitungan EMV
