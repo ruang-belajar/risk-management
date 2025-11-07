@@ -245,7 +245,8 @@ Terdapat tiga pendekatan utama:
         
     - Tidak mengasumsikan distribusi tertentu.
         
-    - Contoh: melihat kerugian yang benar-benar terjadi dalam 250 hari terakhir dan mengambil persentil ke-5.
+    - Contoh: 
+	    - [Contoh Soal – Metode Historical Simulation](contoh-var-historical-1.md)
         
 2. **Variance–Covariance (Parametric)**
     
@@ -257,6 +258,9 @@ Terdapat tiga pendekatan utama:
         - $Z$: nilai dari distribusi normal sesuai tingkat kepercayaan (mis. 1.65 untuk 95%). Di Excel, $Z$ diperoleh menggunakan fungsi `=NORM.S.INV(Conficence level)`
         - $\sigma$: standar deviasi return            
         - $V$: nilai asset
+    
+	- Contoh:
+		- [Contoh Soal – Metode Parametric (Variance–Covariance)](contoh-var-variance-1.md)
             
 3. **Monte Carlo Simulation**
     
