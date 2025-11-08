@@ -99,15 +99,15 @@ Matriks risiko adalah alat visual untuk mengkombinasikan **probabilitas** dan **
 | 9 - 16  | 🟠 Prioritas Tinggi |
 | 20 - 25 | 🔴 Kritis           |
 
-[🔗 source](https://docs.google.com/spreadsheets/d/1u3VsuAn9e7nHdj1DmC_8OVCZnQJzaphFahNaya_77G8/edit)
+[⬆️ source](https://docs.google.com/spreadsheets/d/1u3VsuAn9e7nHdj1DmC_8OVCZnQJzaphFahNaya_77G8/edit)
 
 ---
 
 ### 4.3. Contoh pengisian risk register
 
-![](risk-register-2.png)
+![](img/risk-register-2.png)
 
-[🔗 source](https://docs.google.com/spreadsheets/d/1u3VsuAn9e7nHdj1DmC_8OVCZnQJzaphFahNaya_77G8/edit)
+[⬆️ source](https://docs.google.com/spreadsheets/d/1u3VsuAn9e7nHdj1DmC_8OVCZnQJzaphFahNaya_77G8/edit)
 
 ---
 

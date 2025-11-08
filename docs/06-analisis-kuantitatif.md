@@ -192,20 +192,24 @@ C -->|15%|G
 ##### Beberapa Contoh Decision Tree Analysis
 
 ![](img/dtree-1.png)
-[sumber](http://www.projectrisk.com/decision_trees_for_important_project_decisions.html)
+
+[⬆️ sumber](http://www.projectrisk.com/decision_trees_for_important_project_decisions.html)
 ![](img/dtree-2.png)
-[sumber](https://anti-nic.com/2020/04/06/risk-management-tools-emv-decision-tree/)
+
+
+[⬆️ sumber](https://anti-nic.com/2020/04/06/risk-management-tools-emv-decision-tree/)
 
 ![](img/dtree-3.png)
+
 [sumber](https://www.pmi.org/learning/library/decision-tree-analysis-expected-utility-8214)
 
 
 ![](img/dtree-4.png)
-[sumber](https://www.statisticshowto.com/expected-monetary-value-emv/)
+[⬆️ sumber](https://www.statisticshowto.com/expected-monetary-value-emv/)
 
 ![](img/dtree-5.png)
  
-[sumber](https://www.project-risk-manager.com/blog/expected-monetary-value/)
+[⬆️ sumber](https://www.project-risk-manager.com/blog/expected-monetary-value/)
 
 ---
 ### 4.2. Value at Risk (VaR)
