@@ -243,16 +243,9 @@ Contoh:
 
 Terdapat tiga pendekatan utama:
 
-1. **Historical Simulation**
-    
-    - Berdasarkan data historis harga aset.
+1. [**Historical Simulation**](06-var-historical-simulation.md)
         
-    - Tidak mengasumsikan distribusi tertentu.
-        
-    - Contoh: 
-	    - [Contoh Soal – Metode Historical Simulation](contoh-var-historical-1.md)
-        
-2. **Variance–Covariance (Parametric)**
+2. [**Variance–Covariance (Parametric)**](06-var-parametric.md)
     
     - Mengasumsikan bahwa return mengikuti **distribusi normal**.
         
