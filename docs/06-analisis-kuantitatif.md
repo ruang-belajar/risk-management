@@ -247,18 +247,6 @@ Terdapat tiga pendekatan utama:
         
 2. [**Variance–Covariance (Parametric)**](06-var-parametric.md)
     
-    - Mengasumsikan bahwa return mengikuti **distribusi normal**.
-        
-    - Menghitung VaR dengan formula:  
-        $$VaR = Z \times \sigma \times {V}$$
-        di mana:        
-        - $Z$: nilai dari distribusi normal sesuai tingkat kepercayaan (mis. 1.65 untuk 95%). Di Excel, $Z$ diperoleh menggunakan fungsi `=NORM.S.INV(Conficence level)`
-        - $\sigma$: standar deviasi return            
-        - $V$: nilai asset
-    
-	- Contoh:
-		- [Contoh Soal – Metode Parametric (Variance–Covariance)](contoh-var-variance-1.md)
-            
 3. **Monte Carlo Simulation**
     
     - Menghasilkan ribuan simulasi acak berdasarkan model statistik return.
