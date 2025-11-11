@@ -212,3 +212,35 @@ Perusahaan IT ingin menghitung VaR harian dari potensi kehilangan pendapatan aki
 
 **Interpretasi:**  
 Ada kemungkinan 5% bahwa kerugian harian melebihi Rp 15 juta akibat downtime sistem.
+
+---
+
+## 💼 Diskusi & Tugas
+
+### Soal 1 - VaR Historical Simulation
+
+| Hari Ke-       | Pendapatan Harian |
+| -------------- | ----------------- |
+| investasi awal | **100000000**     |
+| 1              | 100800000         |
+| 2              | 99300000          |
+| 3              | 100500000         |
+| 4              | 100100000         |
+| 5              | 100200000         |
+| 6              | 102300000         |
+| 7              | 101400000         |
+| 8              | 101900000         |
+| 9              | 100000000         |
+| 10             | 100200000         |
+| 11             | 100050000         |
+| 12             | 101850000         |
+| 13             | 102450000         |
+| 14             | 101700000         |
+| 15             | 102000000         |
+| 16             | 99500000          |
+| 17             | 100900000         |
+| 18             | 100850000         |
+| 19             | 101550000         |
+| 20             | 102550000         |
+Buat template Excel untuk menghitung VaR menggunakan pendekatan Historical Simulation.
+Asumsi, investasi awal adalah **Rp. 100.000.000**

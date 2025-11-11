@@ -646,3 +646,8 @@ Jika delay: biaya opportunity = Rp 40.000.000 (biaya delay); namun delay meningk
 🙋‍♂️ Hitung EMV kedua opsi (ingat kurangi biaya delay dari payoff pada opsi delay) dan putuskan.
 
 🙋‍♂️ Buat **Decision Tree Analysis** dari proses perhitungan EMV
+
+---
+
+### Hitung VaR
+
