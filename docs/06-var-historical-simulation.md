@@ -242,5 +242,7 @@ Ada kemungkinan 5% bahwa kerugian harian melebihi Rp 15 juta akibat downtime sis
 | 18             | 100850000         |
 | 19             | 101550000         |
 | 20             | 102550000         |
+
 Buat template Excel untuk menghitung VaR menggunakan pendekatan Historical Simulation.
+
 Asumsi, investasi awal adalah **Rp. 100.000.000**
