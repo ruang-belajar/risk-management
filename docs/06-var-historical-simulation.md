@@ -131,18 +131,18 @@ VaR tidak menunjukkan kerugian maksimum, melainkan batas probabilistik:
 
 Sebuah portofolio memiliki data return harian selama 10 hari terakhir (dalam %):
 
-|Hari|Return (%)|
-|---|---|
-|1|0.8|
-|2|-0.3|
-|3|0.5|
-|4|-1.2|
-|5|-0.8|
-|6|0.2|
-|7|-0.6|
-|8|0.9|
-|9|-1.5|
-|10|-0.4|
+| Hari | Return (%) |
+| ---- | ---------- |
+| 1    | 0.8        |
+| 2    | -0.3       |
+| 3    | 0.5        |
+| 4    | -1.2       |
+| 5    | -0.8       |
+| 6    | 0.2        |
+| 7    | -0.6       |
+| 8    | 0.9        |
+| 9    | -1.5       |
+| 10   | -0.4       |
 
 Nilai portofolio saat ini = **Rp 2.000.000.000**.  
 Hitung **VaR harian** dengan tingkat kepercayaan **90%** menggunakan **Historical Simulation Method**.
