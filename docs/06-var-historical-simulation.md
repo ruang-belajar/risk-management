@@ -123,8 +123,121 @@ VaR tidak menunjukkan kerugian maksimum, melainkan batas probabilistik:
 |Menggunakan data aktual (lebih realistis)|Butuh data historis cukup panjang|
 |Mudah diimplementasikan|Tidak responsif terhadap perubahan kondisi pasar atau sistem|
 
+
 ---
 
+## Menentukan Nilai Kuartil
+
+Perbedaan **metode interpolasi** dan **tanpa interpolasi (empiris)** dalam perhitungan VaR pada Historical Simulation terletak pada **cara menentukan nilai kuantil (percentile)** dari data kerugian historis.  
+Penjelasan berikut fokus pada konteks Excel karena proses VaR biasanya dihitung menggunakan `PERCENTILE.INC` / `PERCENTILE.EXC` (interpolasi) dan vs **sorted empirical percentile** (tanpa interpolasi).
+
+### ⭐ 1. Metode **Interpolasi**
+
+#### Bagaimana cara kerjanya?
+
+- Menghitung kuantil (misalnya 5% atau 1%) dengan **menginterpolasi** nilai antara dua observasi terdekat.
+    
+- Digunakan oleh fungsi Excel seperti:
+    
+    - `PERCENTILE.INC`
+        
+    - `PERCENTILE.EXC`
+        
+- Hasil kuantil bisa **berada di antara dua data** — artinya bukan angka yang benar-benar ada di dataset.
+    
+#### Contoh:
+
+Misalkan data P&L yang sudah diurutkan (ascending):
+
+```
+[-30.000, -20.000, -12.000, -8.000, -5.000, ...]
+```
+
+Jika ingin kuantil 5%, Excel menghitung posisi:
+
+$$pos = (n-1) \times p + 1 = 9 \times 0.05 + 1 = 1.45$$
+
+Artinya nilai kuantil ada **45% di antara nilai pertama & kedua**.  
+Maka kuantil =  
+$$-30.000 + 0.45 \times (-20.000 + 30.000) = -25.500$$
+
+→ **Hasil kuantil = -25.500**, padahal angka ini tidak ada di dataset.
+
+#### Kelebihan:
+
+- Lebih **halus**, tidak sensitif terhadap ukuran sampel kecil.
+    
+- Digunakan pada banyak software statistik, konsisten secara matematis.
+    
+- Cocok ketika dataset besar (250–1000 observasi).
+    
+
+#### Kekurangan:
+
+- Hasilnya **bukan nilai historis nyata**.
+    
+- Bagi sebagian risk manager/regulator, ini dianggap “kurang murni” karena historical VaR seharusnya memakai data sebenarnya.
+    
+
+---
+
+### ⭐ 2. Metode **Tanpa Interpolasi** (Empirical / Non-parametric)
+
+#### Bagaimana cara kerjanya?
+
+- Menentukan kuantil dengan **memilih langsung** observasi ke-k pada data yang sudah diurutkan, **tanpa menghitung titik di antaranya**.
+    
+- Dikenal sebagai _Order Statistic_ atau _Empirical Quantile_.
+    
+- Ini adalah metode VaR yang dianggap paling “murni” untuk Historical Simulation.
+    
+
+#### Rumus posisi umum:
+
+$$k = \lceil n \times p \rceil$$
+
+Contoh 10 data & 5% quantile:
+
+- $10 \times 0.05 = 0.5$
+    
+- Round up → k = 1
+    
+
+→ Kuantil = **observasi pertama** (nilai terendah) = −30.000  
+**Tidak ada interpolasi.**
+
+#### Kelebihan:
+
+- Menggunakan **nilai historis 100% apa adanya**.
+    
+- Lebih mudah dijelaskan dan dipahami.
+    
+- Sesuai dengan konsep VaR historis klasik:  
+    _“What was the worst X% of actual losses in history?”_
+    
+
+#### Kekurangan:
+
+- Hasil dapat berubah drastis jika dataset kecil (sensitif terhadap sampel).
+    
+- Bisa tidak stabil untuk 1% VaR jika observasi sedikit.
+    
+
+---
+
+### ⭐ 3. Perbedaan Inti (Ringkas)
+
+|Aspek|Interpolasi|Tanpa Interpolasi (Empiris)|
+|---|---|---|
+|Dasar metode|Mengambil nilai di antara dua data (linear interpolation)|Mengambil data apa adanya (order statistic)|
+|Hasil kuantil|Bisa nilai baru yang tidak ada di dataset|Selalu nilai yang benar-benar ada di dataset|
+|Stabilitas|Lebih halus, lebih stabil|Bisa loncat-loncat pada dataset kecil|
+|Digunakan Excel?|Ya (`PERCENTILE.INC`, `PERCENTILE.EXC`)|Tidak langsung, harus sorting + pilih observasi ke-k|
+|Cocok untuk|Dataset besar atau kebutuhan analisis statistik|VaR historis murnih / backtesting|
+|Regulasi|Beberapa regulator prefer empirical (contohnya Basel untuk backtesting)|Umumnya diterima dalam praktik konservatif|
+
+
+---
 ## 💹 Contoh Soal – Metode Historical Simulation
 
 ### Soal:

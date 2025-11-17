@@ -651,3 +651,6 @@ Jika delay: biaya opportunity = Rp 40.000.000 (biaya delay); namun delay meningk
 
 ### Hitung VaR
 
+* https://github.com/wildangunawan/Dataset-Saham-IDX
+* 
+
