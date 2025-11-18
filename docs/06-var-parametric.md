@@ -23,7 +23,7 @@ Metode ini **tidak memerlukan simulasi data historis** — cukup dengan nilai ra
 ---
 ## 2) Pilih nilai Z (z-score) sesuai tingkat kepercayaan
 
-Nilai $Z$ adalah z-score dari distribusi normal standar untuk area kumulatif sama dengan confidence level.
+Nilai $Z$ adalah z-score dari distribusi normal standar untuk area kumulatif sama dengan *confidence level*. (💡 Check penjelasan lebih lengkap tentang [Confidence Level](06-confidence-level.md))
 
 Contoh umum:
 
@@ -116,13 +116,15 @@ Keterangan:
     
 - Untuk annualized (250 hari kerja): `=STDEV(range_return)*SQRT(250)`
     
-
+ 💡 Check [Template Excel: Rumus Value at Risk (1)](https://docs.google.com/spreadsheets/d/1bvHXdbvr5LwEL5eXy-gopgNjZ6kB6RSGGMp9SFNTRBk/edit?usp=sharing) untuk melihat rumus perhitungan VaR menggunakan Excel
+ 
 ### Python
 ```python
 import numpy as np
 returns = np.array([0.02, -0.0098, 0.0198, 0.0194])
 volatility = np.std(returns, ddof=1)
 ```
+
 
 ---
 

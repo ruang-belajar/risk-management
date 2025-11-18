@@ -83,7 +83,8 @@ Untuk data 250 hari (setahun), maka:
 - Untuk 95% → ambil persentil ke **5% terburuk**, yaitu data ke-**13** (karena 5% × 250 = 12.5)
     
 - Untuk 99% → ambil persentil ke-**3** (karena 1% × 250 = 2.5)
-    
+
+>📚 Check penjelasan lebih lengkap tentang [Confidence Level](06-confidence-level.md)
 
 ---
 
@@ -96,11 +97,12 @@ Misal:
 - Dari urutan loss, nilai loss ke-13 = **Rp 40.000.000**
     
 - Maka **VaR 95% = Rp 40.000.000**
-    
 
 Artinya:
 
 > Dengan tingkat keyakinan 95%, kerugian harian **tidak akan melebihi Rp 40 juta**, berdasarkan data historis.
+
+Cara menentukan kerugian dengan cara ini menggunakan metode tanpa interpolasi. Cara lainnya Anda bisa menggunakan [Metode **Interpolasi**](#1.%20Metode%20**Interpolasi**).
 
 ---
 
@@ -111,7 +113,8 @@ VaR tidak menunjukkan kerugian maksimum, melainkan batas probabilistik:
 - Ada **5% kemungkinan** kerugian **lebih besar dari Rp 40 juta** (dalam contoh 95% VaR).
     
 - Dapat digunakan untuk menetapkan **limit risiko** atau **buffer modal cadangan**.
-    
+
+ 💡 Check [Template Excel: Rumus Value at Risk (1)](https://docs.google.com/spreadsheets/d/1bvHXdbvr5LwEL5eXy-gopgNjZ6kB6RSGGMp9SFNTRBk/edit?usp=sharing) untuk melihat rumus perhitungan VaR menggunakan Excel
 
 ---
 
@@ -131,7 +134,7 @@ VaR tidak menunjukkan kerugian maksimum, melainkan batas probabilistik:
 Perbedaan **metode interpolasi** dan **tanpa interpolasi (empiris)** dalam perhitungan VaR pada Historical Simulation terletak pada **cara menentukan nilai kuantil (percentile)** dari data kerugian historis.  
 Penjelasan berikut fokus pada konteks Excel karena proses VaR biasanya dihitung menggunakan `PERCENTILE.INC` / `PERCENTILE.EXC` (interpolasi) dan vs **sorted empirical percentile** (tanpa interpolasi).
 
-### ⭐ 1. Metode **Interpolasi**
+### 1. Metode **Interpolasi**
 
 #### Bagaimana cara kerjanya?
 
@@ -181,7 +184,7 @@ $$-30.000 + 0.45 \times (-20.000 + 30.000) = -25.500$$
 
 ---
 
-### ⭐ 2. Metode **Tanpa Interpolasi** (Empirical / Non-parametric)
+### 2. Metode **Tanpa Interpolasi** (Empirical / Non-parametric)
 
 #### Bagaimana cara kerjanya?
 
@@ -191,7 +194,6 @@ $$-30.000 + 0.45 \times (-20.000 + 30.000) = -25.500$$
     
 - Ini adalah metode VaR yang dianggap paling “murni” untuk Historical Simulation.
     
-
 #### Rumus posisi umum:
 
 $$k = \lceil n \times p \rceil$$
@@ -225,7 +227,7 @@ Contoh 10 data & 5% quantile:
 
 ---
 
-### ⭐ 3. Perbedaan Inti (Ringkas)
+### 3. Perbandingan Interpolasi dan Tanpa Interpolasi
 
 |Aspek|Interpolasi|Tanpa Interpolasi (Empiris)|
 |---|---|---|
@@ -284,10 +286,7 @@ Hitung **VaR harian** dengan tingkat kepercayaan **90%** menggunakan **Historica
 3. **Hitung nilai kerugian maksimum:**      $$VaR = 1.5\% \times 2.000.000.000 = 0.015 \times 2.000.000.000$$
 $$\boxed{VaR = Rp 30.000.000}$$
 
-### ✅ Jawaban:
-
-Value at Risk (VaR) harian pada tingkat kepercayaan 90% adalah **Rp 30 juta**.  
-Artinya, dengan keyakinan 90%, kerugian tidak akan melebihi **Rp 30 juta** dalam 1 hari.
+> Value at Risk (VaR) harian pada tingkat kepercayaan 90% adalah **Rp 30 juta**. Artinya, dengan keyakinan 90%, kerugian tidak akan melebihi **Rp 30 juta** dalam 1 hari.
 
 
 ---
@@ -325,6 +324,7 @@ Perusahaan IT ingin menghitung VaR harian dari potensi kehilangan pendapatan aki
 
 **Interpretasi:**  
 Ada kemungkinan 5% bahwa kerugian harian melebihi Rp 15 juta akibat downtime sistem.
+
 
 ---
 

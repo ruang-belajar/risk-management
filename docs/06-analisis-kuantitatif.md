@@ -254,6 +254,8 @@ Terdapat tiga pendekatan utama:
     - Hasil distribusi simulasi digunakan untuk memperkirakan VaR.
         
 
+> 💡 Check [Template Excel: Rumus Value at Risk (1)](https://docs.google.com/spreadsheets/d/1bvHXdbvr5LwEL5eXy-gopgNjZ6kB6RSGGMp9SFNTRBk/edit?usp=sharing) untuk melihat rumus perhitungan VaR menggunakan Excel
+
 ---
 
 #### Contoh Perhitungan Sederhana
@@ -651,6 +653,58 @@ Jika delay: biaya opportunity = Rp 40.000.000 (biaya delay); namun delay meningk
 
 ### Hitung VaR
 
-* https://github.com/wildangunawan/Dataset-Saham-IDX
-* 
+#### Soal 5
+- Check [dataset harga saham](https://github.com/wildangunawan/Dataset-Saham-IDX)
+- Pilih ambil 1 harga saham
+- Ambil data 1 tahun
+- Asumsikan *confidence level* 95%
+- Hitung nilai VaR nya menggunakan *Historical Simulation* dan *Parametric*.
+- 
 
+#### Soal 6: (melanjutkan Soal 1)
+- Pilih 1 daftar harga lain, ambil range waktu yang sama.
+- Asumsikan *confidence level* 95%
+- Hitung nilai VaR nya menggunakan *Historical Simulation* dan *Parametric*.
+- Bandingkan dengan hasil dari **Soal 1**, mana saham yang memiliki resiko lebih inggi?
+
+  
+---
+
+### Latihan Analisis Sensitivitas
+
+#### Soal 7 - Studi Kasus: Ekspansi Layanan Same-Day Delivery Tokopedia
+
+Tokopedia ingin meningkatkan kepuasan pelanggan dengan mempercepat waktu pengiriman melalui layanan Same-Day Delivery.
+
+**Data Awal**  
+
+| Parameter                   | Nilai Awal | Satuan       |
+| --------------------------- | ---------- | ------------ |
+| Waktu pengiriman rata-rata  | 24         | jam          |
+| Biaya operasional logistik  | 1,000,000  | IDR per hari |
+| Transaksi harian            | 10,000     | transaksi    |
+| Kepuasan pelanggan          | 70         | skor 1-100   |
+| Peningkatan biaya potensial | 15%        | persentase   |
+
+**Asumsi**  
+- Implementasi same-day delivery dapat menurunkan waktu pengiriman rata-rata hingga 30%.  
+- Efisiensi biaya dapat meningkat sampai 15%.  
+- Transaksi harian meningkat 20%.  
+- Kepuasan pelanggan meningkat 25%.
+
+**Latihan Analisis Sensitivitas**  
+
+Ubah parameter berikut satu per satu dan amati dampaknya pada total biaya operasional, transaksi, dan kepuasan pelanggan:
+
+| Variabel yang Diubah       | Rentang Perubahan   |
+|----------------------------|--------------------|
+| Tingkat penurunan waktu pengiriman | 10% - 50%             |
+| Efisiensi biaya operasional         | 5% - 20%               |
+| Peningkatan jumlah transaksi        | 10% - 30%              |
+| Peningkatan kepuasan pelanggan      | 10% - 40%              |
+ **🙋‍♂️ Pertanyaan Latihan**  
+1. Jika peningkatan transaksi harian hanya 10%, bagaimana total transaksi baru?  
+2. Bagaimana biaya operasional berubah jika efisiensi hanya 5%?  
+3. Apa dampak pada kepuasan pelanggan jika peningkatan hanya 15%?  
+4. Hitung ulang waktu pengiriman rata-rata jika penurunan hanya 20%.  
+5. Berdasarkan hasil, variabel mana yang paling sensitif dan berpengaruh pada keberhasilan ekspansi?
