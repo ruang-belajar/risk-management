@@ -4,11 +4,11 @@ Sebuah proyek pembangunan gedung menghadapi risiko penundaan perizinan dari otor
 
 ### Data Kasus
 
-|**Skenario Penundaan**|**Probabilitas (P)**|**Dampak Moneter (I) (Biaya Tambahan/Kerugian)**|
-|---|---|---|
-|**Tidak Ada Penundaan**|65% (0.65)|Rp0|
-|**Penundaan Singkat** (1-2 minggu)|25% (0.25)|Rp60.000.000|
-|**Penundaan Panjang** ( $> 2$ minggu)|10% (0.10)|Rp180.000.000|
+| **Skenario Penundaan**                | **Probabilitas (P)** | **Dampak Moneter (I) (Biaya Tambahan/Kerugian)** |
+| ------------------------------------- | -------------------- | ------------------------------------------------ |
+| **Tidak Ada Penundaan**               | 65% (0.65)           | Rp0                                              |
+| **Penundaan Singkat** (1-2 minggu)    | 25% (0.25)           | Rp60.000.000                                     |
+| **Penundaan Panjang** ( $> 2$ minggu) | 10% (0.10)           | Rp180.000.000                                    |
 
 ### Perhitungan EMV
 
