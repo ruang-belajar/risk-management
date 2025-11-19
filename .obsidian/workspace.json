@@ -8,35 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4a5c2123c90674cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "arsip/simulasi-1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "simulasi-1"
-            }
-          },
-          {
-            "id": "0ab6176163912048",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/06-var-historical-simulation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "06-var-historical-simulation"
-            }
-          },
-          {
-            "id": "9a3340502d4b8177",
+            "id": "da80e4071f3f77a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -170,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "arsip/simulasi-1.md",
+                "file": "docs/06-analisis-kuantitatif.md",
                 "followCursor": false,
                 "showSearch": true,
-                "searchQuery": "p"
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of simulasi-1"
+              "title": "Outline of 06-analisis-kuantitatif"
             }
           }
         ],
@@ -198,43 +170,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4a5c2123c90674cd",
+  "active": "da80e4071f3f77a3",
   "lastOpenFiles": [
     "docs/06-var-historical-simulation.md",
+    "docs/06-confidence-level.md",
+    "docs/06-var-parametric.md",
+    "docs/README.md",
     "docs/06-analisis-kuantitatif.md",
+    "docs/09-implementasi.md",
     "arsip/simulasi-1.md",
+    "06-confidence-level.md",
+    "docs/artikel/volatilitas-multi-aset.md",
+    "docs/artikel/contoh-var-3.md",
+    "docs/artikel/contoh-var-2.md",
+    "docs/artikel/contoh-var-1.md",
+    "docs/artikel/contoh-var-4.md",
+    "docs/artikel/contoh-var-variance-1.md",
+    "arsip/~$value-at-risk-template1-a.xlsx",
+    "arsip/value-at-risk-template1-a.xlsx",
+    "arsip/~$value-at-risk-template1.xlsx",
+    "Untitled.md",
+    "arsip/value-at-risk-template1.xlsx",
     "docs/artikel/contoh-emv-4.md",
     "docs/artikel/contoh-emv-3.md",
     "docs/artikel/contoh-emv-2.md",
     "docs/artikel/contoh-emv-1.md",
-    "docs/05-analisis-kualitatif.md",
-    "docs/04-metode-identifikasi.md",
-    "docs/03-iso-31000.md",
-    "docs/03-iso-27000.md",
-    "docs/02-framework.md",
-    "docs/01-pendahuluan.md",
-    "Untitled.md",
-    "docs/06-confidence-level.md",
-    "docs/06-var-parametric.md",
-    "docs/artikel/contoh-var-3.md",
-    "docs/artikel/contoh-var-2.md",
-    "docs/artikel/contoh-var-1.md",
-    "docs/artikel/contoh-var-variance-1.md",
-    "docs/artikel/contoh-var-4.md",
-    "arsip/~$value-at-risk-template1-a.xlsx",
-    "arsip/value-at-risk-template1-a.xlsx",
-    "arsip/~$value-at-risk-template1.xlsx",
-    "arsip/value-at-risk-template1.xlsx",
-    "docs/artikel/volatilitas-multi-aset.md",
     "docs/artikel/contoh-aplikasi-cyber-security.md",
-    "docs/README.md",
     "docs/artikel/contoh-var-historical-1.md",
     "docs/07-evaluasi.md",
+    "docs/05-analisis-kualitatif.md",
     "docs/img/dtree-5.png",
     "docs/img/dtree-4.png",
     "docs/img/dtree-3.png",
     "docs/img/dtree-2.png",
     "docs/img/dtree-1.png",
+    "docs/03-coso.md",
+    "docs/13-tools.md",
+    "docs/03-iso-27000.md",
     "ebook/MANAJEMEN-RISIKO-BUKU-AJAR.pdf",
     "ebook/Case-Unilever.pdf",
     "ebook/BukuDigital-MANAJEMENRISIKOERADIGITAL.pdf",

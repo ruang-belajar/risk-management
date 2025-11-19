@@ -18,8 +18,7 @@ Dalam konteks proyek IT:
 
 - Data bisa berupa **kerugian harian akibat downtime**, **fluktuasi biaya operasional**, atau **perubahan nilai proyek IT**.
     
-- Contoh data: nilai harian pendapatan dari sistem SaaS perusahaan IT selama 250 hari.
-    
+- Contoh data: nilai harian pendapatan dari sistem SaaS perusahaan IT selama 250 hari.    
 
 |Hari|Nilai Pendapatan (Rp)|
 |---|---|
@@ -118,7 +117,7 @@ VaR tidak menunjukkan kerugian maksimum, melainkan batas probabilistik:
 
 ---
 
-## 🔍 Kelebihan & Kelemahan Metode Historical Simulation
+## Kelebihan & Kelemahan Metode Historical Simulation
 
 |**Kelebihan**|**Kelemahan**|
 |---|---|
@@ -126,12 +125,12 @@ VaR tidak menunjukkan kerugian maksimum, melainkan batas probabilistik:
 |Menggunakan data aktual (lebih realistis)|Butuh data historis cukup panjang|
 |Mudah diimplementasikan|Tidak responsif terhadap perubahan kondisi pasar atau sistem|
 
-
 ---
 
 ## Menentukan Nilai Kuartil
 
 Perbedaan **metode interpolasi** dan **tanpa interpolasi (empiris)** dalam perhitungan VaR pada Historical Simulation terletak pada **cara menentukan nilai kuantil (percentile)** dari data kerugian historis.  
+
 Penjelasan berikut fokus pada konteks Excel karena proses VaR biasanya dihitung menggunakan `PERCENTILE.INC` / `PERCENTILE.EXC` (interpolasi) dan vs **sorted empirical percentile** (tanpa interpolasi).
 
 ### 1. Metode **Interpolasi**
@@ -174,7 +173,6 @@ $$-30.000 + 0.45 \times (-20.000 + 30.000) = -25.500$$
     
 - Cocok ketika dataset besar (250–1000 observasi).
     
-
 #### Kekurangan:
 
 - Hasilnya **bukan nilai historis nyata**.
@@ -240,7 +238,7 @@ Contoh 10 data & 5% quantile:
 
 
 ---
-## 💹 Contoh Soal – Metode Historical Simulation
+## Contoh Soal – Metode Historical Simulation
 
 ### Soal:
 

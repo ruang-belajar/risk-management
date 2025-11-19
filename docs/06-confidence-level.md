@@ -1,6 +1,6 @@
 Menentukan **confidence level (CL)** dalam perhitungan VaR bergantung pada **tujuan analisis**, **konteks regulasi**, dan **kebutuhan manajemen risiko**. Tidak ada satu angka yang “benar untuk semua situasi”, tetapi ada **pedoman jelas** yang dipakai secara umum di industri.
 
-# ⭐ 1. Apa itu Confidence Level?
+# 1. Apa itu Confidence Level?
 
 Confidence Level menunjukkan tingkat keyakinan bahwa kerugian **tidak akan melebihi** nilai VaR dalam satu periode.
 
@@ -15,11 +15,9 @@ Semakin tinggi CL → VaR makin besar (lebih konservatif).
 
 ---
 
-# ⭐ 2. **Cara Menentukan Confidence Level**
+# 2. **Cara Menentukan Confidence Level**
 
 Ada **4 pendekatan utama**, pilih sesuai kebutuhan.
-
----
 
 ## **A. Berdasarkan Regulasi (Paling Umum)**
 
@@ -83,7 +81,7 @@ Contoh:
 
 ---
 
-# ⭐ 3. Angka Confidence Level yang Umum di Industri
+# 3. Angka Confidence Level yang Umum di Industri
 
 |Industri = CL Harian Umum|Confidence Level|
 |---|---|
@@ -95,7 +93,7 @@ Contoh:
 
 ---
 
-# ⭐ 4. Rule of Thumb untuk Pemula
+# 4. Rule of Thumb untuk Pemula
 
 - **95%** → Analysis ringan, edukasi, laporan internal.
     
@@ -106,7 +104,7 @@ Contoh:
 
 ---
 
-# ⭐ 5. Jadi… bagaimana memilih yang tepat?
+# 5. Jadi… bagaimana memilih yang tepat?
 
 Jawab 3 pertanyaan:
 
@@ -126,20 +124,14 @@ Jawab 3 pertanyaan:
     
     - 95% CL → pelanggaran ~12x/tahun
         
-    - 99% CL → pelanggaran ~2–3x/tahun
-        
+    - 99% CL → pelanggaran ~2–3x/tahun        
 
 ---
 
-# ⭐ Kesimpulan
+# Kesimpulan
 
 Confidence level tidak ditentukan oleh perhitungan matematis, tetapi oleh:
-
-- **kebutuhan analisis**,
-    
-- **toleransi risiko**,
-    
-- **konteks regulasi**,
-    
-- **tujuan VaR**.
-    
+- **kebutuhan analisis**
+- **toleransi risiko** 
+- **konteks regulasi**
+- **tujuan VaR**

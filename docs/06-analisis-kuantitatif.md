@@ -30,7 +30,6 @@ Metode ini biasanya digunakan pada proyek besar, industri keuangan, kesehatan, e
     
 4. **Model Matematis / Simulasi** → untuk menghitung perkiraan dampak total.
     
-
 ---
 
 ## 4. Metode Analisis Kuantitatif
@@ -337,7 +336,6 @@ Artinya, ada 95% keyakinan bahwa kerugian **tidak akan melebihi Rp 247,5 juta da
     
 5. **Menganalisis perubahan output** dan menentukan seberapa besar sensitivitas hasil terhadap tiap variabel.
     
-
 ---
 
 #### Contoh Analisis Sensitivitas
@@ -382,7 +380,6 @@ Dengan metode ini, organisasi dapat menilai **ketahanan strategi**, **mengantisi
     
 4. **Meningkatkan kesiapan manajemen risiko** dengan memahami hasil ekstrem (worst case / best case).
     
-
 ---
 
 #### Langkah-Langkah Analisis Skenario (Kuantitatif)
@@ -412,7 +409,6 @@ Dengan metode ini, organisasi dapat menilai **ketahanan strategi**, **mengantisi
     
 5. **Bandingkan hasil** antar skenario untuk menilai sensitivitas hasil terhadap perubahan variabel.
     
-
 ---
 
 #### Contoh Tabel Analisis Skenario
@@ -435,10 +431,8 @@ Dari tabel di atas, kita bisa melihat bahwa jika inflasi dan biaya meningkat (sk
 |Tujuan|Melihat seberapa sensitif hasil terhadap satu faktor|Melihat dampak kombinasi perubahan kondisi|
 |Output|Tornado chart / garis hubungan|Tabel atau grafik perbandingan hasil skenario|
 
-
 Apakah Anda ingin saya bantu **buatkan contoh grafik (bar chart)** dari tabel skenario di atas agar bisa langsung digunakan untuk presentasi atau laporan manajemen risiko proyek?
     
-
 ---
 
 ### 4.5. Monte Carlo Simulation
@@ -471,7 +465,6 @@ Langkah-langkah umumnya:
     
 5. **Analisis hasil simulasi** dalam bentuk distribusi output — seperti nilai rata-rata, standar deviasi, dan probabilitas terjadinya skenario tertentu.
     
-
 ---
 
 #### Contoh dalam Konteks Manajemen Risiko Proyek
@@ -492,7 +485,6 @@ Setelah dilakukan 10.000 kali simulasi:
     
 - Probabilitas proyek selesai lebih dari 40 hari: **18%**
     
-
 ---
 
 #### Output yang Umum Dihasilkan
@@ -503,7 +495,6 @@ Setelah dilakukan 10.000 kali simulasi:
     
 - **Sensitivity Chart (Tornado Chart)** untuk mengidentifikasi variabel paling berpengaruh terhadap hasil
     
-
 ---
 
 #### Kelebihan Monte Carlo Simulation
@@ -520,8 +511,6 @@ Setelah dilakukan 10.000 kali simulasi:
 ❌ Membutuhkan **data yang cukup akurat** untuk menentukan distribusi probabilitas  
 ❌ Memerlukan **alat bantu perangkat lunak** (misalnya @RISK, Crystal Ball, Python, atau Excel Add-in)  
 ❌ Interpretasi hasil harus hati-hati agar tidak menyesatkan
-
-    
 
 ---
 ## 5. Perbandingan Analisis Kualitatif vs Kuantitatif
@@ -550,8 +539,6 @@ Setelah dilakukan 10.000 kali simulasi:
 📌 **Total Eksposur Risiko (EMV Total) = Rp 175 juta**
 
 Manajemen bisa menggunakan nilai ini untuk **menyediakan cadangan biaya risiko (contingency fund)**. 
-
----
 
 ---
 
@@ -702,6 +689,7 @@ Ubah parameter berikut satu per satu dan amati dampaknya pada total biaya operas
 | Efisiensi biaya operasional         | 5% - 20%               |
 | Peningkatan jumlah transaksi        | 10% - 30%              |
 | Peningkatan kepuasan pelanggan      | 10% - 40%              |
+ 
  **🙋‍♂️ Pertanyaan Latihan**  
 1. Jika peningkatan transaksi harian hanya 10%, bagaimana total transaksi baru?  
 2. Bagaimana biaya operasional berubah jika efisiensi hanya 5%?  
