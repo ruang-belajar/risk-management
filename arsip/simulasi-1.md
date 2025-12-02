@@ -10,8 +10,10 @@
 | ----------------------- | -------------------- | ------------------------------------------------ |
 | **Tidak Ada Penundaan** | 65% (0.65)           | Rp0                                              |
 | **Penundaan 1 bulan**   | 35% (0.35)           | Rp60.000.000                                     |
-	Hitung nilai EMV dari risiko project tersebut
-10. Seorang manajer proyek memiliki dua pilihan:
+
+   Hitung nilai EMV dan buat *decision tree* untuk analisa risiko pada kasus ini
+
+9. Seorang manajer proyek memiliki dua pilihan:
 	- **A: Membangun sistem sendiri**	    
 	    - Sukses (70%) → keuntungan Rp 200 juta	        
 	    - Gagal (30%) → rugi Rp 100 juta	        
