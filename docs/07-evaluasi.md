@@ -1,4 +1,4 @@
-# RISK EVALUATION (EVALUASI RISIKO)**
+# RISK EVALUATION (EVALUASI RISIKO)
 
 ## 1. Pengantar Evaluasi Risiko
 
@@ -28,9 +28,7 @@ Evaluasi risiko menjawab dua pertanyaan utama:
     
 ---
 
-## 3. Konsep Dasar dalam Evaluasi Risiko
-
-### 3.1 Risk Criteria (Kriteria Risiko)
+## 3. Risk Criteria (Kriteria Risiko)
 
 Risk criteria adalah standar yang digunakan untuk menilai apakah suatu risiko dapat diterima atau tidak.
 
@@ -896,3 +894,4 @@ Pelajari contoh kasus berikut:
 1. [Contoh Kasus Evaluasi Risiko dengan Pendekatan ALARP - Kebocoran Gas](/docs/artikel/contoh-alarp-1.md)
 2. [**Contoh Kasus Evaluasi Risiko (ALARP) – Pembangunan Sistem E-Commerce**](docs/artikel/contoh-alarp-2.md)
 3. [Contoh Kasus Evaluasi Risiko – Pendekatan ALARP - Bisnis Franchise Ayam Goreng](/docs/artikel/contoh-alarp-3.md)
+4. [Studi Kasus: "Carter Racing Team"](/case/case-carter-racing-team.md)
