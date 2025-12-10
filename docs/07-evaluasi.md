@@ -10,7 +10,6 @@ Evaluasi risiko menjawab dua pertanyaan utama:
 1. **Apakah risiko ini dapat diterima?**
     
 2. **Apa tindakan yang harus diambil terhadap risiko tersebut?**
-    
 
 ---
 
@@ -686,8 +685,6 @@ Misal:
     
 - Biaya perawatan tahunan = 1 juta
     
-
-
 ##### Langkah 6: Membandingkan Cost dan Benefit
 
 Jika:
@@ -833,27 +830,17 @@ Karena itu, CBA harus dikombinasikan dengan:
 
 ## 8. Contoh Kasus Evaluasi Risiko
 
-
 Perusahaan memiliki risiko “Downtime Server”.
-
 - Probability = 4
-    
 - Impact = 5
-    
 - Risk Score = 20 (High)
-    
 - Risk Tolerance perusahaan untuk downtime = maks 2 jam, kerugian ≤ Rp 50 juta
-    
 
 **Analisis**:
-
 - Downtime berpotensi >4 jam → melebihi toleransi
-    
 - Kerugian > Rp 150 juta → melebihi toleransi
-    
 - Masuk zona **Unacceptable / High**
     
-
 **Kesimpulan Evaluasi**:  
 → Harus dilakukan mitigasi segera: upgrade server, failover system, atau backup infrastruktur.
 
@@ -874,7 +861,7 @@ Hasil evaluasi risiko biasanya berbentuk:
 
 ---
 
- ## 10. Ringkasan
+## 10. Ringkasan
 
 |Elemen|Penjelasan|
 |---|---|
