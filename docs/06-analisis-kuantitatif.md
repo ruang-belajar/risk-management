@@ -1,3 +1,4 @@
+![](img/06-analisis-kuantitatif-header.png)
 # Metode Analisis Risiko Kuantitatif
 
 ## 1. Pendahuluan

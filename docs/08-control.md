@@ -1,3 +1,4 @@
+![](img/08-control-header.png)
 # **RISK CONTROL & TREATMENT (PENGENDALIAN DAN PENANGANAN RISIKO)**
 
 ## 1. Pendahuluan
@@ -28,35 +29,27 @@ Tujuan utama risk control & treatment adalah **meminimalkan dampak negatif risik
 Menurut **ISO 31000:2018**, terdapat beberapa opsi penanganan risiko:
 
 1. **Risk Avoidance (Menghindari Risiko)**
-    
     - Menghentikan aktivitas yang menimbulkan risiko.
-        
     - Contoh: perusahaan menolak proyek yang terlalu berisiko secara hukum.
         
 2. **Risk Reduction / Mitigation (Mengurangi Risiko)**
-    
     - Mengambil tindakan untuk menurunkan probabilitas atau dampak risiko.
-        
-    - Contoh: pemasangan CCTV, firewall, atau pelatihan K3 (Keselamatan & Kesehatan Kerja).
+    - Contoh: 
+	    - pemasangan CCTV
+	    - Pemasangan firewall
+	    - pelatihan K3 (Keselamatan & Kesehatan Kerja).
         
 3. **Risk Transfer / Sharing (Memindahkan Risiko)**
-    
     - Risiko dialihkan ke pihak lain melalui kontrak atau asuransi.
-        
     - Contoh: perusahaan membeli asuransi kebakaran untuk gudang.
         
 4. **Risk Acceptance (Menerima Risiko)**
-    
     - Menyadari risiko dan siap menanggung konsekuensinya jika terjadi.
-        
     - Cocok untuk risiko dengan probabilitas rendah dan dampak kecil.
         
 5. **Risk Exploitation / Enhancement (Mengoptimalkan Peluang)**
-    
     - Tidak semua risiko bersifat negatif; beberapa risiko dapat dikelola untuk menghasilkan keuntungan.
-        
     - Contoh: investasi pada teknologi baru yang berisiko tinggi, tetapi berpotensi besar meningkatkan keuntungan.
-        
 
 ---
 
@@ -73,7 +66,6 @@ Menurut **ISO 31000:2018**, terdapat beberapa opsi penanganan risiko:
 5. **Implementasi tindakan.**
     
 6. **Monitoring & Review** untuk memastikan efektivitas.
-    
 
 ---
 
@@ -128,7 +120,6 @@ Dokumen yang berisi rencana penanganan risiko. Biasanya memuat:
 - Risk Treatment Plan harus terdokumentasi, jelas siapa penanggung jawabnya, kapan dilaksanakan, dan statusnya.
     
 - Keberhasilan risk treatment harus terus dimonitor dan direview.
-    
 
 ---
 
@@ -141,8 +132,3 @@ Dokumen yang berisi rencana penanganan risiko. Biasanya memuat:
 3. Buat **Risk Treatment Plan** dalam bentuk tabel.
     
 4. Presentasikan hasil pilihan strategi beserta alasan pemilihan.
-    
-
----
-
-Apakah Anda mau saya buatkan juga **diagram alur Risk Treatment Options** (menghindari → mengurangi → memindahkan → menerima) dalam bentuk ilustrasi visual supaya lebih mudah dipahami mahasiswa?

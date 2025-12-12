@@ -1,3 +1,4 @@
+![](img/README-header.png)
 # Mata Kuliah: Risk Assessment Management System
 
 1. [Pendahuluan](docs/01-pendahuluan.md)

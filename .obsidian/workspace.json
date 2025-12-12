@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/07-evaluasi.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "07-evaluasi"
+              "title": "README"
             }
           },
           {
@@ -120,7 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5
+    "width": 236.5
   },
   "right": {
     "id": "79eb93681f39b98c",
@@ -184,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/07-evaluasi.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 07-evaluasi"
+              "title": "Outline of README"
             }
           }
         ],
@@ -212,10 +212,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4e7a5d0c30b775d8",
+  "active": "338aaaef668889c4",
   "lastOpenFiles": [
-    "arsip/simulasi-1.md",
+    "docs/README.md",
+    "docs/img/README-header.png",
+    "README.md",
+    "ebook/README.md",
+    "Pasted image 20251212173658.png",
+    "Pasted image 20251212173350.png",
+    "Pasted image 20251212173525.png",
+    "docs/08-control.md",
     "docs/07-evaluasi.md",
+    "docs/06-analisis-kuantitatif.md",
+    "docs/img/06-analisis-kuantitatif-header.png",
+    "docs/09-implementasi.md",
+    "docs/10-audit.md",
+    "docs/img/08-control-header.png",
+    "docs/img/07-evaluasi-header.png",
+    "arsip/simulasi-1.md",
     "case/case-carter-racing-team.md",
     "case/case-risky-corporate-action.md",
     "case/img",
@@ -225,40 +239,25 @@
     "docs/artikel/contoh-alarp-2.md",
     "Untitled 1.md",
     "Untitled.md",
-    "docs/06-analisis-kuantitatif.md",
     "docs/artikel/contoh-var-4.md",
     "docs/artikel/stride.md",
     "docs/06-var-historical-simulation.md",
     "docs/06-confidence-level.md",
     "docs/06-var-parametric.md",
-    "docs/README.md",
-    "docs/09-implementasi.md",
     "06-confidence-level.md",
     "docs/artikel/volatilitas-multi-aset.md",
     "docs/artikel/contoh-var-3.md",
     "docs/artikel/contoh-var-2.md",
-    "docs/artikel/contoh-var-1.md",
-    "docs/artikel/contoh-var-variance-1.md",
     "arsip/~$value-at-risk-template1-a.xlsx",
     "arsip/value-at-risk-template1-a.xlsx",
     "arsip/~$value-at-risk-template1.xlsx",
     "arsip/value-at-risk-template1.xlsx",
-    "docs/artikel/contoh-emv-4.md",
-    "docs/artikel/contoh-emv-3.md",
-    "docs/artikel/contoh-emv-2.md",
     "docs/img/dtree-5.png",
     "docs/img/dtree-4.png",
-    "docs/img/dtree-3.png",
-    "docs/img/dtree-2.png",
-    "docs/img/dtree-1.png",
     "ebook/MANAJEMEN-RISIKO-BUKU-AJAR.pdf",
     "ebook/Case-Unilever.pdf",
     "ebook/BukuDigital-MANAJEMENRISIKOERADIGITAL.pdf",
     "ebook/buku-tata-kelola-teknologi-informasi-2023.pdf",
-    "ebook/Buku-Kumpulan-Studi-Kasus-Manajemen-Risiko-di-Indonesia.pdf",
-    "docs/img/risk-register-1.png",
-    "docs/img/risk-register-2.png",
-    "docs/img/matriks-risiko-4.png",
-    "docs/img/martriks-risiko-3.png"
+    "ebook/Buku-Kumpulan-Studi-Kasus-Manajemen-Risiko-di-Indonesia.pdf"
   ]
 }

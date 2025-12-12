@@ -1,7 +1,8 @@
+![](img/07-evaluasi-header.png)
+
 # RISK EVALUATION (EVALUASI RISIKO)
 
 ## 1. Pengantar Evaluasi Risiko
-
 
 **Risk Evaluation** adalah tahap dalam proses manajemen risiko yang membandingkan hasil **risk analysis** (tingkat risiko) dengan **risk criteria** (kriteria penerimaan risiko) untuk menentukan apakah suatu risiko dapat diterima, perlu dikurangi, atau harus ditangani segera.
 
@@ -564,13 +565,9 @@ L = Low, M = Medium, H = High, E = Extreme
 **Cost–Benefit Analysis (CBA)** adalah metode untuk membandingkan **biaya** dari suatu tindakan mitigasi risiko dengan **manfaat** yang diperoleh dari pengurangan risiko tersebut.
 
 Tujuan CBA adalah memastikan bahwa tindakan mitigasi:
-
 - **Layak secara ekonomi**
-    
 - **Efisien** (manfaat lebih besar dari biaya)
-    
 - **Rasional** untuk diterapkan berdasarkan data risiko
-    
 
 CBA membantu memastikan bahwa sumber daya organisasi digunakan pada mitigasi yang **paling efektif** dan **proposional** terhadap risiko yang dikurangi.
 
@@ -579,21 +576,16 @@ CBA membantu memastikan bahwa sumber daya organisasi digunakan pada mitigasi yan
 Dalam evaluasi risiko, CBA digunakan untuk:
 
 1. **Menilai apakah kontrol risiko perlu diterapkan atau tidak**
-    
     - Apakah mitigasi tersebut memberikan manfaat yang sebanding dengan biaya?
         
 2. **Membandingkan berbagai alternatif kontrol risiko**
-    
     - Pilih mitigasi yang paling efisien dan memberikan nilai tambah terbesar.
         
 3. **Mendukung keputusan ALARP (As Low As Reasonably Practicable)**
-    
     - CBA menentukan apakah biaya mitigasi wajar atau tidak sebanding.
         
 4. **Justifikasi anggaran**
-    
     - Untuk meyakinkan manajemen bahwa implementasi mitigasi tertentu layak secara finansial.
-        
 
 ---
 
@@ -604,37 +596,23 @@ CBA menghitung dua elemen utama:
 ##### A. Cost (Biaya)
 
 Meliputi:
-
 - Biaya investasi awal (capital cost)
-    
 - Biaya operasional dan pemeliharaan
-    
 - Biaya pelatihan
-    
 - Biaya downtime saat implementasi
-    
 - Biaya administratif
-    
 
 ##### B. Benefit (Manfaat)
 
 Dalam konteks risiko, manfaat terutama berasal dari:
-
 - **Pengurangan likelihood (probabilitas risiko)**
-    
 - **Pengurangan consequence (dampak kerugian)**
-    
 - **Pengurangan biaya insiden** di masa depan
-    
 - **Menghindari denda/regulasi**
-    
 - **Meningkatkan produktivitas**
-    
 - **Peningkatan reputasi dan kepercayaan**
-    
 
 Manfaat sering dihitung menggunakan **Expected Monetary Value (EMV)**
-
 
 ---
 
@@ -663,36 +641,27 @@ Contoh: Memasang guard akan menurunkan probabilitas dari 10% menjadi 2%.
 
 ##### Langkah 4: Menghitung manfaat mitigasi
 
-Manfaat = pengurangan EMV
+> pengurangan EMV = Manfaat
 
 Sebelum mitigasi:
-
 - EMV = 0,10 × 200 juta = **20 juta**
-    
 
 Sesudah mitigasi:
-
 - EMV = 0,02 × 200 juta = **4 juta**
-    
 
-→ Pengurangan kerugian = 16 juta
+→ **Pengurangan kerugian = 16 juta**
 
 ##### Langkah 5: Menghitung biaya mitigasi
 
 Misal:
-
 - Biaya pemasangan guard = 8 juta (sekali biaya)
-    
 - Biaya perawatan tahunan = 1 juta
     
 ##### Langkah 6: Membandingkan Cost dan Benefit
 
 Jika:
-
 - Benefit tahunan = **Rp 16 juta**
-    
 - Cost tahunan (amortisasi + maintenance) = misal **Rp 4 juta**
-    
 
 Tindakan mitigasi **layak**, karena manfaat > biaya.
 
@@ -703,22 +672,19 @@ Tindakan mitigasi **layak**, karena manfaat > biaya.
 Ada dua metode umum:
 
 ##### A. Net Benefit
-
 $$Net Benefit = Benefit - Cost$$  
 Jika hasil positif → mitigasi layak.
 
 ##### B. Benefit–Cost Ratio (BCR)
-
 $$BCR = \frac{Benefit}{Cost}$$  
 Interpretasi:
 
 - BCR > 1 → layak
-    
 - BCR < 1 → tidak layak
     
 
 Contoh:  
-$$BCR = \frac{16}{4} = 4$$  
+$$BCR = \frac{16.000.000}{4.000.000} = 4.000.000$$  
 Artinya, setiap Rp 1 biaya mitigasi menghasilkan Rp 4 manfaat → sangat layak.
 
 ---
@@ -773,7 +739,6 @@ CBA sering digunakan untuk memutuskan apakah biaya mitigasi masih:
 - **Reasonably Practicable** atau
     
 - **Tidak sebanding dengan manfaatnya**
-    
 
 **Jika biaya >> manfaat** → mitigasi tidak wajib  
 **Jika biaya << manfaat** → mitigasi harus dilakukan
@@ -877,8 +842,110 @@ Hasil evaluasi risiko biasanya berbentuk:
 
 ## 💼 Diskusi & Tugas
 
-Pelajari contoh kasus berikut:
+### ALARP
 1. [Contoh Kasus Evaluasi Risiko dengan Pendekatan ALARP - Kebocoran Gas](/docs/artikel/contoh-alarp-1.md)
 2. [**Contoh Kasus Evaluasi Risiko (ALARP) – Pembangunan Sistem E-Commerce**](docs/artikel/contoh-alarp-2.md)
 3. [Contoh Kasus Evaluasi Risiko – Pendekatan ALARP - Bisnis Franchise Ayam Goreng](/docs/artikel/contoh-alarp-3.md)
-4. [Studi Kasus: "Carter Racing Team"](/case/case-carter-racing-team.md)
+
+
+---
+### Diskusi Kasus
+1. [Studi Kasus: "Carter Racing Team"
+
+---
+### CBA
+
+#### Soal 1 – Proyek Pengadaan Sistem Keamanan Gedung
+
+Sebuah perusahaan ingin memasang **sistem keamanan otomatis** untuk mengurangi risiko pencurian internal.
+
+**Data:**
+- Biaya investasi awal: Rp450.000.000
+- Biaya operasional tahunan: Rp40.000.000
+- Umur proyek: 5 tahun
+- Penghematan dari penurunan kerugian akibat pencurian: Rp160.000.000 per tahun
+- Tingkat diskonto: 8%
+
+**Pertanyaan:**
+1. Hitung **NPV (Net Present Value)** menggunakan analisis CBA.
+2. Apakah proyek layak dijalankan?
+
+---
+
+#### Soal 2 – Pembangunan Jalur Sepeda Kota
+
+Pemerintah kota mempertimbangkan pembangunan jalur sepeda sepanjang 10 km.
+
+**Data:**
+- Biaya konstruksi: Rp3.500.000.000
+- Biaya pemeliharaan tahunan: Rp200.000.000
+- Manfaat sosial-ekonomi tahunan:
+    - Pengurangan kemacetan: Rp600.000.000
+    - Pengurangan polusi: Rp150.000.000
+    - Peningkatan kesehatan masyarakat: Rp300.000.000
+- Horizon waktu: 10 tahun
+- Tingkat diskonto: 6%
+
+**Pertanyaan:**
+1. Hitung total manfaat per tahun.
+2. Hitung NPV proyek.
+3. Tentukan kelayakan proyek.
+
+---
+
+#### Soal 3 – Investasi Penggantian Mesin Produksi
+
+Sebuah pabrik mempertimbangkan mengganti mesin lamanya.
+
+**Data:**
+- Biaya mesin baru: Rp1.200.000.000
+- Penghematan biaya produksi: Rp350.000.000 per tahun
+- Peningkatan kualitas produk menghasilkan tambahan keuntungan: Rp150.000.000 per tahun
+- Biaya perawatan tambahan: Rp40.000.000 per tahun
+- Umur mesin: 6 tahun
+- Tingkat diskonto: 10%
+
+**Pertanyaan:**
+1. Hitung manfaat bersih tahunan.
+2. Hitung NPV proyek.
+3. Apakah penggantian mesin secara ekonomi menguntungkan?
+
+---
+
+#### Soal 4 – Proyek Aplikasi E-Learning
+
+Universitas ingin mengembangkan aplikasi e-learning internal.
+
+**Data:**
+- Biaya pengembangan awal: Rp800.000.000
+- Biaya pemeliharaan tahunan: Rp120.000.000
+- Manfaat tahunan:
+    - Penghematan biaya cetak materi: Rp100.000.000
+    - Efisiensi operasional (administrasi dan monitoring): Rp180.000.000
+    - Potensi pemasukan dari kelas online: Rp150.000.000
+- Periode proyek: 7 tahun
+- Tingkat diskonto: 7%
+
+**Pertanyaan:**
+1. Hitung total benefit dan total cost tahunan.
+2. Hitung NPV.
+3. Evaluasi apakah proyek sebaiknya dilanjutkan.
+
+---
+
+#### Soal 5 – Pengadaan Sistem Early Warning untuk Banjir
+
+Sebuah pemerintah daerah ingin memasang sistem peringatan dini banjir.
+
+**Data:**
+- Biaya pemasangan awal: Rp2.000.000.000
+- Biaya operasional tahunan: Rp250.000.000
+- Manfaat tahunan berupa pengurangan kerugian banjir: Rp700.000.000
+- Umur proyek: 10 tahun
+- Tingkat diskonto: 5%
+
+**Pertanyaan:**
+1. Hitung rasio Benefit–Cost (B/C Ratio).
+2. Hitung NPV.
+3. Interpretasikan kelayakan proyek.
+](/case/case-carter-racing-team.md)
