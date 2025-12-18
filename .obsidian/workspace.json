@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/07-evaluasi.md",
+                "file": "docs/11-reporting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "07-evaluasi"
+              "title": "11-reporting"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236.5
+    "width": 305.5
   },
   "right": {
     "id": "79eb93681f39b98c",
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/07-evaluasi.md",
+                "file": "docs/11-reporting.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 07-evaluasi"
+              "title": "Outline of 11-reporting"
             }
           }
         ],
@@ -172,15 +172,26 @@
   },
   "active": "48f0b0cdd0ce5f51",
   "lastOpenFiles": [
-    "arsip/~$cba-1.xlsx",
-    "arsip/cba-1.xlsx",
-    "[05-analisis-kualitatif](05-analisis-kualitatif.md",
+    "arsip/~$ra_sample_riskreport.doc",
+    "arsip/~$sk-management-report.docx",
+    "arsip/csra_sample_riskreport.doc",
+    "arsip/Unconfirmed 510459.crdownload",
+    "ebook/~$sk-management-report.docx",
+    "arsip/risk-management-report-openregulatory.docx",
+    "ebook/Unconfirmed 65411.crdownload",
+    "ebook/~$sk_report_template_-_august_2022.docx",
+    "arsip/risk_report_template_cambridge_-_august_2022.docx",
+    "ebook/Unconfirmed 361571.crdownload",
+    "ebook/laporan-manajemen-risiko-pt-timah-2021.pdf",
+    "docs/12-case.md",
+    "docs/11-reporting.md",
+    "docs/10-audit.md",
+    "arsip/09-implementasi.md",
+    "docs/08-control.md",
     "docs/07-evaluasi.md",
+    "[05-analisis-kualitatif](05-analisis-kualitatif.md",
     "docs/05-analisis-kualitatif.md",
     "[05-analisis-kualitatif](docs/05-analisis-kualitatif.md",
-    "docs/09-implementasi.md",
-    "[05-analisis-kualitatif](docs",
-    "docs/11-reporting.md",
     "docs/06-analisis-kuantitatif.md",
     "docs/03-iso-31000.md",
     "docs/04-metode-identifikasi.md",
@@ -195,28 +206,17 @@
     "Pasted image 20251212173658.png",
     "Pasted image 20251212173350.png",
     "Pasted image 20251212173525.png",
-    "docs/08-control.md",
     "docs/img/06-analisis-kuantitatif-header.png",
-    "docs/10-audit.md",
     "docs/img/08-control-header.png",
     "docs/img/07-evaluasi-header.png",
     "arsip/simulasi-1.md",
     "case/case-risky-corporate-action.md",
-    "case/img",
     "case/img/carter-racing-team-1.png",
     "Untitled 1.md",
     "Untitled.md",
     "docs/artikel/contoh-var-4.md",
     "docs/artikel/stride.md",
-    "docs/06-var-historical-simulation.md",
-    "arsip/~$value-at-risk-template1-a.xlsx",
-    "arsip/value-at-risk-template1-a.xlsx",
-    "arsip/~$value-at-risk-template1.xlsx",
-    "arsip/value-at-risk-template1.xlsx",
     "docs/img/dtree-5.png",
-    "docs/img/dtree-4.png",
-    "ebook/MANAJEMEN-RISIKO-BUKU-AJAR.pdf",
-    "ebook/Case-Unilever.pdf",
-    "ebook/BukuDigital-MANAJEMENRISIKOERADIGITAL.pdf"
+    "docs/img/dtree-4.png"
   ]
 }

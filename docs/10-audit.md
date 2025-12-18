@@ -1,19 +1,11 @@
-Baik, mari kita buat materi khusus mengenai **Audit & Monitoring Risiko** sebagai bagian penting dalam siklus manajemen risiko.
-
----
-
 # **AUDIT & MONITORING RISIKO**
 
 ## 1. Pendahuluan
 
 Dalam sistem manajemen risiko, proses **audit dan monitoring** berfungsi untuk memastikan bahwa semua kegiatan pengendalian risiko telah:
-
 - Dijalankan sesuai kebijakan, prosedur, dan standar.
-    
 - Efektif dalam menurunkan tingkat risiko.
-    
 - Memberikan informasi bagi manajemen untuk perbaikan berkelanjutan.
-    
 
 **Monitoring** adalah kegiatan pemantauan risiko secara berkelanjutan.  
 **Audit Risiko** adalah pemeriksaan formal dan sistematis terhadap efektivitas manajemen risiko.
@@ -161,17 +153,3 @@ Audit risiko adalah pemeriksaan **independen dan sistematis** untuk menilai keef
 
 ---
 
-## 📌 Tugas Mahasiswa
-
-1. Pilih satu bidang risiko (contoh: IT, kesehatan, pendidikan, manufaktur).
-    
-2. Tentukan **Key Risk Indicators (KRI)** minimal 3 indikator.
-    
-3. Buatlah **template Risk Monitoring Report** sederhana.
-    
-4. Susun **checklist audit risiko** untuk memeriksa efektivitas kontrol.
-    
-
----
-
-Apakah Anda ingin saya buatkan juga **contoh template Audit Checklist Risiko (dalam tabel Excel/Word)** agar mahasiswa bisa langsung praktik menyusun instrumen audit risiko?
