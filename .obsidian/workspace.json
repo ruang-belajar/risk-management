@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/11-reporting.md",
+                "file": "docs/10-audit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11-reporting"
+              "title": "10-audit"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/11-reporting.md",
+                "file": "docs/10-audit.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 11-reporting"
+              "title": "Outline of 10-audit"
             }
           }
         ],
@@ -172,6 +172,9 @@
   },
   "active": "48f0b0cdd0ce5f51",
   "lastOpenFiles": [
+    "docs/12-case.md",
+    "docs/11-reporting.md",
+    "docs/10-audit.md",
     "arsip/~$ra_sample_riskreport.doc",
     "arsip/~$sk-management-report.docx",
     "arsip/csra_sample_riskreport.doc",
@@ -182,10 +185,6 @@
     "ebook/~$sk_report_template_-_august_2022.docx",
     "arsip/risk_report_template_cambridge_-_august_2022.docx",
     "ebook/Unconfirmed 361571.crdownload",
-    "ebook/laporan-manajemen-risiko-pt-timah-2021.pdf",
-    "docs/12-case.md",
-    "docs/11-reporting.md",
-    "docs/10-audit.md",
     "arsip/09-implementasi.md",
     "docs/08-control.md",
     "docs/07-evaluasi.md",

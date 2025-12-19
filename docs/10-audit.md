@@ -65,21 +65,16 @@ Audit risiko adalah pemeriksaan **independen dan sistematis** untuk menilai keef
 ### Tahapan Audit Risiko:
 
 1. **Perencanaan Audit**
-    
     - Menentukan ruang lingkup (scope), tujuan, dan metode audit.
         
 2. **Pengumpulan Data**
-    
     - Wawancara, kuesioner, observasi, dan telaah dokumen (risk register, RTP).
         
 3. **Evaluasi Efektivitas Kontrol**
-    
     - Apakah mitigasi risiko berjalan sesuai rencana.
         
 4. **Pelaporan Hasil Audit**
-    
     - Menyusun laporan audit risiko yang berisi temuan, kelemahan, dan rekomendasi.
-        
 5. **Tindak Lanjut (Follow-up)**
     
     - Manajemen melakukan perbaikan berdasarkan rekomendasi auditor.
@@ -90,40 +85,56 @@ Audit risiko adalah pemeriksaan **independen dan sistematis** untuk menilai keef
 ## 5. Alat & Dokumen Pendukung
 
 - **Risk Register** → daftar risiko dan mitigasinya.
-    
 - **Risk Monitoring Report** → laporan status risiko.
-    
 - **Checklist Audit Risiko** → panduan pemeriksaan kontrol.
-    
 - **Heatmap Risiko** → visualisasi tingkat risiko.
-    
 - **Dashboard KRI** → pemantauan berbasis indikator.
     
 
 ---
 
-## 6. Contoh Penerapan
+## 6. Contoh: Rencana Audit Manajemen Risiko Keamanan Siber
 
-**Kasus: Audit Risiko di Perusahaan Manufaktur**
+Berikut adalah contoh draf **Rencana Audit (Audit Plan)** sederhana. Kita akan mengambil contoh kasus pada industri perbankan dengan fokus pada **Risiko Keamanan Siber (Cybersecurity)**, karena ini adalah risiko yang paling dinamis saat ini.
 
-- Risiko utama: kebakaran pabrik, kecelakaan kerja, keterlambatan pasokan bahan baku.
-    
-- Monitoring:
-    
-    - Laporan insiden kerja setiap bulan.
-        
-    - KRI: jumlah near-miss accident, downtime mesin.
-        
-- Audit Risiko:
-    
-    - Audit internal 2 kali setahun.
-        
-    - Hasil: ditemukan SOP K3 belum dilaksanakan penuh.
-        
-    - Rekomendasi: pelatihan tambahan & inspeksi mendadak.
-        
-- Hasil: angka kecelakaan kerja menurun 40% dalam 1 tahun.
-    
+### Project Detail
+
+- Unit Kerja yang Diaudit: Departemen IT & Operasional Digital
+- Periode Audit: Kuartal I - 2026
+- Tingkat Risiko: Tinggi (High)
+
+### I. Tujuan Audit
+
+1. Memastikan kebijakan keamanan data telah diimplementasikan sesuai standar (misal: ISO 27001).
+2. Mengevaluasi efektivitas pengendalian teknis dalam mencegah akses tidak sah.
+3. Memvalidasi bahwa rencana pemulihan bencana (_Disaster Recovery Plan_) berfungsi dengan baik.
+
+### II. Ruang Lingkup Audit
+
+- Infrastruktur jaringan dan server.
+- Prosedur akses pengguna (Manajemen Password & MFA).
+- Keamanan aplikasi _mobile banking_.
+- Kepatuhan terhadap regulasi perlindungan data pribadi (UU PDP).
+
+### III. Prosedur Audit (Langkah Kerja)
+
+|**No**|**Aktivitas Audit**|**Teknik Audit**|
+|---|---|---|
+|1|**Tinjauan Kebijakan**|Memeriksa dokumen prosedur standar (SOP) keamanan informasi terbaru.|
+|2|**Uji Penetrasi (_Pentest_)**|Melakukan simulasi serangan terbatas untuk melihat celah keamanan sistem.|
+|3|**Verifikasi Akses**|Mengambil sampel data karyawan yang sudah _resign_ untuk memastikan akses mereka telah dicabut.|
+|4|**Uji Coba Backup**|Memverifikasi hasil _backup_ data terakhir dan mencoba proses _restore_ data.|
+|5|**Review Monitoring**|Memeriksa log aktivitas sistem untuk memastikan setiap anomali terdeteksi oleh tim monitoring.|
+
+### IV. Alokasi Waktu & Sumber Daya
+
+- **Durasi:** 10 Hari Kerja.
+- **Tim:** 1 Lead Auditor, 2 Auditor IT Spesialis.
+
+### Perbedaan Peran dalam Kasus Ini:
+
+- **Tim Monitoring (Lini 1 & 2):** Setiap hari melihat layar _dashboard_ untuk memantau serangan masuk secara _real-time_. Jika ada serangan, mereka langsung bertindak.
+- **Tim Audit (Lini 3):** Datang sebulan sekali atau setahun sekali untuk bertanya: _"Apakah tim monitoring sudah bekerja dengan benar? Apakah alat monitoring mereka sudah cukup canggih? Apakah ada serangan yang mereka lewatkan?"_
 
 ---
 
@@ -136,20 +147,5 @@ Audit risiko adalah pemeriksaan **independen dan sistematis** untuk menilai keef
 - Kurangnya sumber daya (auditor, waktu, biaya).
     
 - Risiko baru yang muncul lebih cepat daripada proses review formal.
-    
 
----
-
-## 8. Ringkasan
-
-- **Monitoring risiko** = pemantauan terus-menerus terhadap indikator risiko.
-    
-- **Audit risiko** = pemeriksaan formal efektivitas manajemen risiko.
-    
-- Kedua proses ini menjamin bahwa manajemen risiko **relevan, efektif, dan akuntabel**.
-    
-- Hasil audit & monitoring menjadi dasar **perbaikan berkelanjutan (continuous improvement)** dalam manajemen risiko.
-    
-
----
-
+	

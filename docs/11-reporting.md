@@ -10,7 +10,6 @@ Menurut ISO 31000, risk communication merupakan bagian integral dari proses **ri
 - Risiko dipahami dengan benar,
 - Keputusan risiko dapat diterima secara rasional,
 - Tindakan pengendalian risiko mendapat dukungan pihak terkait.
-    
 
 Risk communication **bukan sekadar penyampaian informasi**, tetapi mencakup dialog dua arah dan pengelolaan persepsi risiko.
 
@@ -105,8 +104,6 @@ Risk communication yang efektif harus memenuhi prinsip berikut:
         
 7. **Dua arah**
     - Memberi ruang umpan balik dan diskusi.
-
----
 
 ---
 
