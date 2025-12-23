@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/11-reporting.md",
+                "file": "docs/08-control.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11-reporting"
+              "title": "08-control"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/11-reporting.md",
+                "file": "docs/08-control.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 11-reporting"
+              "title": "Outline of 08-control"
             }
           }
         ],
@@ -186,16 +186,16 @@
   },
   "active": "48f0b0cdd0ce5f51",
   "lastOpenFiles": [
+    "docs/07-evaluasi.md",
+    "docs/08-control.md",
+    "arsip/~$cba-1.xlsx",
     "docs/09-communication.md",
     "docs/11-reporting.md",
-    "docs/08-control.md",
-    "docs/07-evaluasi.md",
     "docs/06-var-parametric.md",
     "docs/10-audit.md",
     "case/tabletop-execise-risk-communication-critical-1.md",
     "arsip/RPS RASM.pdf",
     "arsip/cba-1~FE5F1.tmp",
-    "arsip/~$cba-1.xlsx",
     "docs/12-case.md",
     "arsip/~$ra_sample_riskreport.doc",
     "arsip/~$sk-management-report.docx",
@@ -229,7 +229,6 @@
     "case/case-risky-corporate-action.md",
     "case/img/carter-racing-team-1.png",
     "Untitled 1.md",
-    "docs/artikel/contoh-var-4.md",
     "docs/img/dtree-5.png",
     "docs/img/dtree-4.png"
   ]

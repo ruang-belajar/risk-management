@@ -24,7 +24,9 @@ Tujuan utama risk control & treatment adalah **meminimalkan dampak negatif risik
 
 ---
 
-## 3. Strategi Penanganan Risiko (Risk Treatment Options)
+## 3. Proses Risk Treatment
+
+### 3.1 Identifikasi Opsi Risk Treatment
 
 Menurut **ISO 31000:2018**, terdapat beberapa opsi penanganan risiko:
 
@@ -50,38 +52,56 @@ Menurut **ISO 31000:2018**, terdapat beberapa opsi penanganan risiko:
 5. **Risk Exploitation / Enhancement (Mengoptimalkan Peluang)**
     - Tidak semua risiko bersifat negatif; beberapa risiko dapat dikelola untuk menghasilkan keuntungan.
     - Contoh: investasi pada teknologi baru yang berisiko tinggi, tetapi berpotensi besar meningkatkan keuntungan.
+    
+### 3.2 Evaluasi dan Pemilihan Opsi Risk Treatment
+
+Setiap opsi dianalisis menggunakan kriteria seperti:
+- Tingkat pengurangan risiko (residual risk),
+- Kesesuaian dengan risk appetite,
+- Biaya dan manfaat (Cost-Benefit Analysis / CBA),
+- Kelayakan teknis dan operasional,
+- Dampak terhadap proses bisnis lain,
+- Kepatuhan terhadap regulasi.
+
+Output tahap ini adalah **opsi treatment terpilih** untuk setiap risiko prioritas.
+
+### 3.3 Penyusunan Risk Treatment Plan (RTP)
+
+Risk treatment plan merupakan dokumen formal yang memuat:
+- Risiko yang ditangani,
+- Strategi treatment yang dipilih,
+- Tindakan pengendalian spesifik,
+- Penanggung jawab (risk owner),
+- Sumber daya dan anggaran,
+- Jadwal implementasi,
+- Target level residual risk,
+- Indikator kinerja dan efektivitas kontrol.
+
+RTP menjadi acuan utama dalam implementasi.
+
+### 3.4 Implementasi Risk Treatment
+
+Pada tahap ini, organisasi:
+- Menerapkan kontrol yang telah direncanakan,
+- Mengintegrasikan kontrol ke dalam proses bisnis,
+- Mengkomunikasikan perubahan kepada pihak terkait,
+- Memberikan pelatihan dan sosialisasi bila diperlukan.
+
+Keberhasilan tahap ini sangat bergantung pada **komitmen manajemen** dan **disiplin operasional**.
+
+### 3.5 Monitoring dan Review Risk Treatment
+
+Setelah implementasi, efektivitas risk treatment harus dipantau melalui:
+- Key Risk Indicators (KRI),
+- Audit internal,
+- Insiden dan near-miss,
+- Review berkala tingkat residual risk.
+
+Jika risk treatment tidak efektif atau konteks berubah, maka dilakukan **penyesuaian atau treatment ulang**.
 
 ---
 
-## 4. Proses Risk Treatment
-
-1. **Identifikasi opsi penanganan risiko.**
-    
-2. **Analisis efektivitas biaya (Cost-Benefit Analysis).**
-    
-3. **Pilih strategi kontrol risiko yang paling sesuai.**
-    
-4. **Rencanakan tindakan mitigasi dalam Risk Treatment Plan.**
-    
-5. **Implementasi tindakan.**
-    
-6. **Monitoring & Review** untuk memastikan efektivitas.
-
----
-
-## 5. Risk Treatment Plan (RTP)
-
-Dokumen yang berisi rencana penanganan risiko. Biasanya memuat:
-
-|Risiko|Strategi Penanganan|Tindakan Mitigasi|Penanggung Jawab|Waktu Implementasi|Status|
-|---|---|---|---|---|---|
-|Kebocoran data|Risk Reduction|Upgrade firewall & pelatihan IT security|Divisi IT|3 bulan|On Progress|
-|Kebakaran gudang|Risk Transfer|Membeli asuransi kebakaran|Divisi Keuangan|1 bulan|Completed|
-|Turnover karyawan|Risk Mitigation|Program retensi & penghargaan karyawan|Divisi HR|6 bulan|On Progress|
-
----
-
-## 6. Faktor yang Dipertimbangkan dalam Risk Treatment
+## 4. Faktor yang Dipertimbangkan dalam Risk Treatment
 
 - **Kriteria Risiko:** apakah level risiko melebihi risk appetite organisasi.
     
@@ -96,7 +116,7 @@ Dokumen yang berisi rencana penanganan risiko. Biasanya memuat:
 
 ---
 
-## 7. Contoh Kasus
+## 5. Contoh Kasus
 
 **Kasus: Risiko Gangguan Sistem E-Learning di Perguruan Tinggi**
 
@@ -108,18 +128,6 @@ Dokumen yang berisi rencana penanganan risiko. Biasanya memuat:
     
 - Hasil: Probabilitas gangguan berkurang dari “tinggi” menjadi “rendah”.
     
-
----
-
-## 8. Ringkasan
-
-- Risk Control & Treatment adalah langkah memilih strategi terbaik untuk menangani risiko.
-    
-- Pilihan strategi: **Avoidance, Reduction, Transfer, Acceptance, Enhancement.**
-    
-- Risk Treatment Plan harus terdokumentasi, jelas siapa penanggung jawabnya, kapan dilaksanakan, dan statusnya.
-    
-- Keberhasilan risk treatment harus terus dimonitor dan direview.
 
 ---
 
