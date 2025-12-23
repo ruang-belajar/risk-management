@@ -1,176 +1,6 @@
-# **RISK COMMUNICATION & REPORTING**
+# RISK REPORTING
 
----
-## Risk Communication
-### 1.1. Pengertian Risk Communication
-
-**Risk Communication** adalah proses **pertukaran informasi, pandangan, dan persepsi mengenai risiko** antara organisasi dan para pemangku kepentingan (stakeholders), baik internal maupun eksternal, secara **terstruktur, transparan, dan berkelanjutan**, dengan tujuan mendukung **pengambilan keputusan yang tepat terkait risiko**.
-
-Menurut ISO 31000, risk communication merupakan bagian integral dari proses **risk management**, yang memastikan bahwa:
-- Risiko dipahami dengan benar,
-- Keputusan risiko dapat diterima secara rasional,
-- Tindakan pengendalian risiko mendapat dukungan pihak terkait.
-
-Risk communication **bukan sekadar penyampaian informasi**, tetapi mencakup dialog dua arah dan pengelolaan persepsi risiko.
-
----
-
-### 1.2. Tujuan Risk Communication
-
-Risk communication bertujuan untuk:
-
-1. **Meningkatkan pemahaman risiko**
-    - Menjelaskan sifat risiko, sumber, dampak, dan tingkat keparahan.
-        
-2. **Menyelaraskan persepsi risiko**
-    - Mengurangi kesenjangan antara risiko yang dinilai secara teknis dan risiko yang dirasakan (perceived risk).
-        
-3. **Mendukung pengambilan keputusan**
-    - Memberikan dasar informasi yang memadai untuk risk acceptance, risk treatment, atau risk transfer.
-        
-4. **Membangun kepercayaan (trust)**
-    - Transparansi meningkatkan kredibilitas organisasi.
-        
-5. **Mendorong kepatuhan dan partisipasi**
-    - Stakeholder memahami peran dan tanggung jawab mereka dalam pengelolaan risiko.
-        
----
-
-### 1.3. Posisi Risk Communication dalam Risk Management System
-
-Dalam kerangka **ISO 31000**, risk communication tidak berdiri sendiri, melainkan:
-
-- Terintegrasi dengan:
-    - Risk Identification
-    - Risk Analysis
-    - Risk Evaluation
-    - Risk Treatment
-        
-- Berjalan **sepanjang siklus risk management**, bukan hanya di awal atau akhir.
-    
-
-Secara praktis, risk communication menjadi **jembatan** antara:
-- Analis risiko → Manajemen
-- Manajemen → Operasional
-- Organisasi → Regulator / Publik
-
----
-
-### 1.4. Stakeholders dalam Risk Communication
-
-**Stakeholder Internal**
-- Dewan direksi
-- Manajemen puncak
-- Manajer unit
-- Karyawan operasional
-- Tim K3, audit, compliance, risk officer
-
-**Stakeholder Eksternal**
-- Regulator
-- Investor dan pemegang saham
-- Pelanggan
-- Pemasok
-- Masyarakat sekitar
-- Media massa
-
-Setiap stakeholder memiliki:
-- Tingkat pemahaman risiko yang berbeda,
-- Kepentingan dan sensitivitas yang berbeda,
-- Kebutuhan komunikasi yang berbeda.
-
----
-
-### 1.4. Prinsip-Prinsip Risk Communication yang Efektif
-
-Risk communication yang efektif harus memenuhi prinsip berikut:
-
-1. **Kejelasan (clarity)**
-    - Bahasa sederhana, tidak ambigu.
-        
-2. **Akurasi**
-    - Berdasarkan data, fakta, dan analisis yang valid.
-        
-3. **Keterbukaan (transparency)**
-    - Risiko disampaikan apa adanya, termasuk ketidakpastian.
-        
-4. **Relevansi**
-    - Informasi disesuaikan dengan kepentingan audiens.
-        
-5. **Konsistensi**
-    - Pesan yang sama di seluruh level organisasi.
-        
-6. **Tepat waktu**
-    - Risiko disampaikan sebelum berdampak besar.
-        
-7. **Dua arah**
-    - Memberi ruang umpan balik dan diskusi.
-
----
-
-### 1.5. Risk Communication dalam Situasi Krisis
-
-Dalam kondisi krisis (misalnya kecelakaan, kebocoran data, bencana):
-
-Risk communication harus:
-1. Cepat dan faktual
-2. Tidak defensif
-3. Menunjukkan empati
-4. Menjelaskan langkah mitigasi
-5. Memberikan pembaruan berkala
-
-Kegagalan komunikasi risiko dalam krisis sering kali **lebih merusak daripada risiko itu sendiri**.
-
----
-
-### 1.6. Tantangan dalam Risk Communication
-
-Beberapa tantangan umum:
-- Perbedaan persepsi antara ahli dan non-ahli
-- Bahasa teknis yang sulit dipahami
-- Kepentingan politik dan reputasi
-- Informasi yang tidak lengkap atau berubah
-- Resistensi terhadap pesan risiko
-
-Manajemen risiko yang baik harus mampu **mengelola tantangan komunikasi ini**, bukan menghindarinya.
-
----
-
-### 1.7. Contoh Penerapan Risk Communication
-
-### Contoh Kasus:
-
-Dalam proyek konstruksi berisiko tinggi:
-- Risiko kecelakaan kerja dikomunikasikan melalui:
-    - Safety briefing harian
-    - Poster risiko
-    - Pelatihan K3
-        
-- Kepada manajemen:
-    - Laporan tingkat risiko dan tren kecelakaan
-        
-- Kepada publik:
-    - Informasi pengamanan area proyek
-
----
-
-### 1.8. Hubungan Risk Communication dengan Risk Culture
-
-Risk communication berperan penting dalam membangun:
-- **Risk awareness**
-- **Risk ownership**
-- **Risk culture**
-
-Organisasi dengan risk communication yang baik cenderung memiliki:
-- Karyawan yang proaktif melaporkan risiko,
-- Keputusan yang lebih rasional,
-- Tingkat kejadian risiko yang lebih rendah.
-    
-
----
-
-## 2. Risk Reporting
-
-### 2.1. Pengertian Risk Reporting
+## 1. Pengertian Risk Reporting
 
 **Risk Reporting** adalah proses **penyusunan, penyajian, dan penyampaian informasi risiko** kepada pihak-pihak terkait (manajemen, dewan direksi, regulator, dan pemangku kepentingan lainnya) secara **terstruktur, akurat, relevan, dan tepat waktu**, guna mendukung **pengambilan keputusan** dan **pengawasan risiko**.
 
@@ -182,7 +12,7 @@ Risk reporting menjawab pertanyaan kunci:
 
 ---
 
-### 2.2. Tujuan Risk Reporting
+## 2. Tujuan Risk Reporting
 
 Tujuan utama risk reporting meliputi:
 
@@ -203,29 +33,107 @@ Tujuan utama risk reporting meliputi:
 
 ---
 
-### 2.3. Prinsip-Prinsip Risk Reporting yang Baik
+## 3. Prinsip-Prinsip Risk Reporting yang Baik
 
-Risk reporting yang efektif harus memenuhi prinsip berikut:
+### a. Relevan dan Berorientasi pada Pengambilan Keputusan
 
-1. **Akurat dan dapat diandalkan**  
-    Data risiko harus berbasis fakta, valid, dan konsisten.
-    
-2. **Relevan**  
-    Informasi disesuaikan dengan kebutuhan pengguna laporan (direksi, manajemen, unit kerja).
-    
-3. **Jelas dan ringkas**  
-    Disajikan dalam format yang mudah dipahami, tidak berlebihan, dan fokus pada risiko utama.
-    
-4. **Tepat waktu (timely)**  
-    Laporan disampaikan sesuai siklus manajemen risiko dan kebutuhan pengambilan keputusan.
-    
-5. **Konsisten**  
-    Menggunakan metodologi, skala risiko, dan indikator yang konsisten antar periode.
-    
+Risk report harus **fokus pada informasi risiko yang material** dan berdampak langsung terhadap pencapaian tujuan organisasi.
+
+**Implikasi praktis:**
+- Menyajikan _key risks_ dan _top risks_, bukan seluruh daftar risiko operasional.
+- Mengaitkan risiko dengan sasaran strategis, KPI, dan nilai organisasi.
+- Menjelaskan implikasi risiko terhadap keputusan manajerial.
+
+### b. Akurat, Andal, dan Dapat Dipertanggungjawabkan
+
+Informasi yang dilaporkan harus **berdasarkan data yang valid, metode yang konsisten, dan asumsi yang jelas**.
+
+**Implikasi praktis:**
+- Menggunakan metodologi penilaian risiko yang terdokumentasi.
+- Menyertakan sumber data, asumsi, dan batasan analisis.
+- Memastikan adanya _review_ dan _quality assurance_ sebelum laporan disampaikan.
+
+### c. Tepat Waktu (Timeliness)
+
+Risk reporting harus disampaikan **pada waktu yang tepat**, sehingga masih relevan untuk tindakan korektif atau keputusan strategis.
+
+**Implikasi praktis:**
+- Frekuensi laporan disesuaikan dengan tingkat risiko (bulanan, triwulanan, ad-hoc).
+- Risiko signifikan dan kejadian insiden dilaporkan segera (_exception reporting_).
+- Menghindari laporan yang terlalu terlambat sehingga bersifat reaktif.
+
+### d. Jelas, Ringkas, dan Mudah Dipahami
+
+Laporan risiko harus **mudah dibaca dan dipahami oleh audiens non-teknis**, khususnya manajemen puncak dan dewan.
+
+**Implikasi praktis:**
+- Menggunakan visualisasi seperti _risk matrix_, _heat map_, dan grafik tren.
+- Menghindari jargon teknis berlebihan tanpa penjelasan.
+- Menyajikan ringkasan eksekutif (_executive summary_).
+
+### e. Disesuaikan dengan Audiens (Audience-Driven)
+
+Risk reporting yang baik bersifat **tailored**, menyesuaikan isi, detail, dan bahasa dengan kebutuhan penerima laporan.
+
+**Contoh:**
+- **Dewan Komisaris/Direksi**: fokus pada risiko strategis, risiko reputasi, dan risiko kepatuhan.
+- **Manajemen operasional**: fokus pada risiko proses, kontrol, dan rencana mitigasi.
+- **Regulator**: fokus pada kepatuhan dan transparansi.
+
+### f. Konsisten dan Terstandarisasi
+
+Laporan risiko harus **konsisten antar periode dan antar unit**, sehingga memudahkan analisis tren dan perbandingan.
+
+**Implikasi praktis:**
+- Menggunakan skala risiko dan kriteria evaluasi yang sama.
+- Format laporan yang baku.
+- Definisi risiko, likelihood, dan impact yang seragam.
 
 ---
 
-### 2.4. Pihak-Pihak yang Terlibat dalam Risk Reporting
+### g. Transparan dan Seimbang
+
+Risk reporting yang baik **tidak hanya menampilkan risiko negatif**, tetapi juga keterbatasan kontrol dan ketidakpastian yang ada.
+
+**Implikasi praktis:**
+- Mengungkapkan risiko residual secara jujur.
+- Menyampaikan area kelemahan kontrol.
+- Tidak “menyembunyikan” risiko demi citra organisasi.
+
+### h. Berorientasi pada Tindakan (Action-Oriented)
+
+Laporan risiko harus **mengarah pada keputusan dan tindak lanjut**, bukan sekadar dokumentasi.
+
+**Implikasi praktis:**
+- Menyertakan status mitigasi dan _risk treatment plan_.
+- Menjelaskan siapa _risk owner_ dan target waktu penyelesaian.
+- Mengaitkan risiko dengan rekomendasi tindakan.
+
+---
+
+### i. Terintegrasi dengan Sistem Manajemen Organisasi
+
+Risk reporting yang baik terintegrasi dengan **perencanaan strategis, penganggaran, pengendalian internal, dan kinerja**.
+
+**Implikasi praktis:**
+- Sinkron dengan sistem KPI dan performance management.
+- Mendukung proses _risk-based decision making_.
+- Menjadi bagian dari siklus tata kelola perusahaan (_governance cycle_).
+
+---
+
+### j. Mendukung Budaya Risiko (Risk Culture)
+
+Risk reporting harus mendorong **keterbukaan, kesadaran risiko, dan akuntabilitas** di seluruh organisasi.
+
+**Implikasi praktis:**
+- Mendorong pelaporan risiko tanpa budaya saling menyalahkan.
+- Menunjukkan komitmen manajemen terhadap pengelolaan risiko.
+- Menjadi sarana komunikasi risiko, bukan alat kontrol semata.
+
+---
+
+## 4. Pihak-Pihak yang Terlibat dalam Risk Reporting
 
 * **Penyusun Laporan**
 	- Risk Management Unit / Enterprise Risk Management (ERM)
@@ -239,7 +147,7 @@ Risk reporting yang efektif harus memenuhi prinsip berikut:
 
 ---
 
-### 2.5. Jenis-Jenis Risk Reporting
+## 5. Jenis-Jenis Risk Reporting
 
 #### Berdasarkan Tingkat Organisasi
 
@@ -253,15 +161,12 @@ Risk reporting yang efektif harus memenuhi prinsip berikut:
     Ditujukan kepada direksi dan dewan, berisi risiko strategis dan risiko utama (key risks).
 
 #### Berdasarkan Waktu
-
 - **Periodic reporting** (bulanan, triwulanan, tahunan)
-    
 - **Ad-hoc reporting** (jika terjadi insiden besar atau perubahan signifikan)
-    
 
 ---
 
-### 2.6. Isi Utama Risk Report
+## 6. Isi Utama Risk Report
 
 Risk report umumnya memuat elemen berikut:
 
@@ -296,7 +201,7 @@ Risk report umumnya memuat elemen berikut:
 
 ---
 
-### 2.7. Format dan Media Risk Reporting
+## 7. Format dan Media Risk Reporting
 
 Risk reporting dapat disajikan dalam berbagai bentuk, antara lain:
 
@@ -314,7 +219,7 @@ Berikut beberapa contoh template yang bisa digunakan untuk risk reporting:
 
 ---
 
-### 2.8. Tantangan dalam Risk Reporting
+## 8. Tantangan dalam Risk Reporting
 
 Beberapa tantangan umum meliputi:
 - Data risiko tidak konsisten antar unit
@@ -324,10 +229,11 @@ Beberapa tantangan umum meliputi:
 
 ---
 
-### 2.9. Contoh Risk Reporting
+## 9. Contoh Risk Reporting
 
 Berikut beberapa contoh nyata laporan pelaksanaan *risk assesment*
 1. [laporan-manajemen-risiko-pta-jakarta](../ebook/laporan-manajemen-risiko-pta-jakarta.pdf) ([sumber](https://www.pta-jakarta.go.id/filepdf/risk-register/LAPORAN%20MANAJEMEN%20RISIKO%20PTA%20JAKARTA.pdf))    
 2. [laporan-pelaksanaan-penilaian-risiko-bp2d-jabar-2024](../ebook/laporan-pelaksanaan-penilaian-risiko-bp2d-jabar-2024.pdf) ([sumber](https://bp2d.jabarprov.go.id/assets/document/other/laporan-pelaksanaan-penilaian-risiko-bp2d-jabar-2024.pdf))
 3. [WIKA IR - Manajemen Risiko - Annual Report 2023](https://investor.wika.co.id/misc/AR/flipbook/AR2023/660/)
 4. [laporan-manajemen-risiko-pt-timah-2021](../ebook/laporan-manajemen-risiko-pt-timah-2021.pdf)
+
