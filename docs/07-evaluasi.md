@@ -644,21 +644,16 @@ Manajemen mempertimbangkan **opsi mitigasi** berupa program _preventive maintena
 ##### Perhitungan Expected Monetary Value (EMV)
 
 **1. EMV Tanpa Mitigasi**
-$$
-\begin{aligned}
-EMV_{tanpa}​ &= 0,20×Rp500.000.000\\\\
-&=Rp100.000.000
-\end{aligned}
-$$
+EMV_{tanpa}​ = 0,20×Rp500.000.000
+
+=Rp100.000.000
+
 
 **2. EMV Dengan Mitigasi**
-$$
-\begin{aligned}
-EMV_{dengan} &= (0,05×Rp500.000.000)+Rp60.000.000\\\\
-&= Rp25.000.000+Rp60.000.000\\\\
-&= Rp85.000.000
-\end{aligned}
-$$
+
+EMV_{dengan} = (0,05×Rp500.000.000)+Rp60.000.000
+= Rp25.000.000+Rp60.000.000
+= Rp85.000.000
 
 ##### Analisis Cost–Benefit
 
