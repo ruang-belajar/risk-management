@@ -656,9 +656,8 @@ $$
 
 $$
 \begin{align}
-EMV_{dengan} &= (0,05×Rp500.000.000)+Rp60.000.000\\
-&= Rp25.000.000+Rp60.000.000\\
-&= Rp85.000.000\\
+EMV_{dengan} &= (0,05×Rp500.000.000)\\
+&= Rp25.000.000
 \end{align}
 $$
 
@@ -674,13 +673,12 @@ $$Benefit=Rp100.000.000−Rp25.000.000=Rp75.000.000$$
 
 $$Cost=Rp60.000.000$$
 
----
+**Net Benefit**
 
-##### Net Benefit
 $$
 \begin{align}
-Net Benefit &= Benefit−Cost\\\\
-&= Rp75.000.000 − Rp60.000.000\\\\
+Net Benefit &= Benefit−Cost\\
+&= Rp75.000.000 − Rp60.000.000\\
 &= Rp15.000.000
 \end{align}
 $$
@@ -694,7 +692,7 @@ $$
 
 > 💡 Contoh ini menunjukkan bahwa dalam evaluasi risiko keputusan tidak hanya berbasis probabilitas dan dampak, tetapi juga mempertimbangkan **rasionalitas ekonomi** dari tindakan pengendalian.
 
-> 💡 Check [cba-1.xlsx](/arsip/cba-1.xlsx) untuk melihat simulasi perhitungan dalam format Excel.
+> 💡 Check [cba-2.xlsx](/arsip/cba-2.xlsx) untuk melihat simulasi perhitungan dalam format Excel.
 
 ---
 

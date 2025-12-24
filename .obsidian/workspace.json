@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/08-control.md",
+                "file": "docs/07-evaluasi.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "08-control"
+              "title": "07-evaluasi"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/08-control.md",
+                "file": "docs/07-evaluasi.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 08-control"
+              "title": "Outline of 07-evaluasi"
             }
           }
         ],
@@ -186,10 +186,15 @@
   },
   "active": "48f0b0cdd0ce5f51",
   "lastOpenFiles": [
-    "docs/07-evaluasi.md",
-    "docs/08-control.md",
+    "arsip/~$cba-2.xlsx",
+    "arsip/cba-2.xlsx",
     "arsip/~$cba-1.xlsx",
     "docs/09-communication.md",
+    "docs/img/09-communication-header.png",
+    "docs/08-control.md",
+    "docs/07-evaluasi.md",
+    "docs/img/08-control-header 1.png",
+    "docs/img/08-control-header.png",
     "docs/11-reporting.md",
     "docs/06-var-parametric.md",
     "docs/10-audit.md",
@@ -203,7 +208,6 @@
     "arsip/Unconfirmed 510459.crdownload",
     "ebook/~$sk-management-report.docx",
     "arsip/risk-management-report-openregulatory.docx",
-    "ebook/Unconfirmed 65411.crdownload",
     "arsip/09-implementasi.md",
     "[05-analisis-kualitatif](05-analisis-kualitatif.md",
     "docs/05-analisis-kualitatif.md",
@@ -223,13 +227,10 @@
     "Pasted image 20251212173350.png",
     "Pasted image 20251212173525.png",
     "docs/img/06-analisis-kuantitatif-header.png",
-    "docs/img/08-control-header.png",
     "docs/img/07-evaluasi-header.png",
     "arsip/simulasi-1.md",
     "case/case-risky-corporate-action.md",
     "case/img/carter-racing-team-1.png",
-    "Untitled 1.md",
-    "docs/img/dtree-5.png",
-    "docs/img/dtree-4.png"
+    "Untitled 1.md"
   ]
 }
