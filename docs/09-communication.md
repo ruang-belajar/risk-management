@@ -64,7 +64,7 @@ Setiap stakeholder memiliki:
 
 Berikut adalah penjelasan **Prinsip Utama dalam Klausul Communication & Consultation** berdasarkan **ISO 31000:2018**.
 
-### 1. Terencana dan Terstruktur (Planned & Structured)
+### 4.1. Terencana dan Terstruktur (Planned & Structured)
 
 > Communication & Consultation harus dirancang secara formal sebagai bagian dari sistem manajemen risiko, bukan aktivitas ad hoc.
 
@@ -79,7 +79,7 @@ Berikut adalah penjelasan **Prinsip Utama dalam Klausul Communication & Consulta
 **Risiko jika diabaikan:**  
 Informasi risiko menjadi sporadis, tidak konsisten, dan sulit ditindaklanjuti.
 
-### 2. Berkelanjutan (Ongoing)
+### 4.2. Berkelanjutan (Ongoing)
 
 > Komunikasi dan konsultasi dilakukan **sepanjang siklus manajemen risiko**, bukan hanya pada tahap tertentu.
 
@@ -90,7 +90,7 @@ Informasi risiko menjadi sporadis, tidak konsisten, dan sulit ditindaklanjuti.
 **Nilai tambah:**  
 Organisasi mampu mendeteksi perubahan profil risiko lebih dini.
 
-### 3. Inklusif dan Melibatkan Pemangku Kepentingan (Inclusive)
+### 4.3. Inklusif dan Melibatkan Pemangku Kepentingan (Inclusive)
 
 > ISO 31000 menekankan pentingnya melibatkan stakeholder yang relevan, baik internal maupun eksternal.
 
@@ -104,7 +104,7 @@ Organisasi mampu mendeteksi perubahan profil risiko lebih dini.
 **Contoh stakeholder:**  
 Manajemen puncak, unit operasional, auditor, regulator, mitra bisnis.
 
-### 4. Dua Arah dan Partisipatif (Two-Way Process)
+### 4.4. Dua Arah dan Partisipatif (Two-Way Process)
 
 > Communication & Consultation bukan sekadar penyampaian informasi satu arah, melainkan dialog.
 
@@ -114,9 +114,9 @@ Manajemen puncak, unit operasional, auditor, regulator, mitra bisnis.
 
 **Dampak positif:**
 - Meningkatkan akurasi penilaian risiko.
-- Memperkuat kepemilikan risiko (_risk ownership_).
+- Memperkuat kredibilitas.
 
-### 5. Relevan dan Kontekstual (Relevant & Context-Specific)
+### 4.5. Relevan dan Kontekstual (Relevant & Context-Specific)
 
 > Informasi risiko harus disesuaikan dengan kebutuhan, peran, dan kepentingan audiens.
 
@@ -128,7 +128,7 @@ Manajemen puncak, unit operasional, auditor, regulator, mitra bisnis.
 **Prinsip kunci:**  
 Satu pesan risiko tidak cocok untuk semua pihak.
 
-### 6. Jelas, Akurat, dan Dapat Dipahami (Clear & Accurate)
+### 4.6. Jelas, Akurat, dan Dapat Dipahami (Clear & Accurate)
 
 > Informasi risiko harus berbasis data yang valid dan disampaikan secara sederhana.
 
@@ -139,7 +139,7 @@ Satu pesan risiko tidak cocok untuk semua pihak.
 **Konsekuensi jika gagal:**  
 Kesalahpahaman risiko dan keputusan yang keliru.
 
-### 7. Tepat Waktu (Timely)
+### 4.7. Tepat Waktu (Timely)
 
 > Informasi risiko harus disampaikan saat masih relevan untuk pengambilan keputusan.
 
@@ -150,7 +150,7 @@ Kesalahpahaman risiko dan keputusan yang keliru.
 **Contoh:**  
 Peringatan dini risiko keselamatan kerja sebelum terjadi insiden.
 
-### 8. Mendukung Pengambilan Keputusan (Decision-Oriented)
+### 4.8. Mendukung Pengambilan Keputusan (Decision-Oriented)
 
 > Communication & Consultation harus mengarahkan pada tindakan, bukan sekadar pelaporan.
 
@@ -162,15 +162,15 @@ Informasi risiko dikaitkan dengan:
 **Nilai strategis:**  
 Manajemen dapat membuat keputusan yang sadar risiko (_risk-informed decision_).
 
-### 9. Membangun Kepercayaan dan Kredibilitas (Trust & Credibility)
+### 4.9. Membangun Kepercayaan dan Kredibilitas (Trust & Credibility)
 
 > Keberhasilan komunikasi risiko sangat bergantung pada kepercayaan terhadap sumber informasi.
 
 **Implikasi praktis:**
-- Penyampai risiko memiliki kompetensi dan otoritas.
+- Orang yang mengkomunikasikan risiko memiliki kompetensi dan otoritas.
 - Konsistensi pesan meningkatkan kredibilitas.
 
-### 10. Terintegrasi dengan Sistem Manajemen Risiko
+### 4.10. Terintegrasi dengan Sistem Manajemen Risiko
 
 >Communication & Consultation harus menyatu dengan proses dan tata kelola RMS.
 
@@ -230,14 +230,14 @@ Implikasinya, pendekatan komunikasi risiko harus **adaptif dan responsif**.
 
 ### 5.4. Prinsip Kunci Risk Communication dalam Situasi Kritis
 
-#### 1. Kecepatan dan Ketepatan (Speed with Accuracy)
+#### Kecepatan dan Ketepatan (Speed with Accuracy)
 - Informasi harus disampaikan **secepat mungkin**, meskipun belum sepenuhnya lengkap.
 - Ketidakpastian perlu dinyatakan secara terbuka.
 
 **Prinsip operasional:**
 > “First, fast, and factual.”
 
-#### 2. Kejelasan dan Kesederhanaan Pesan
+#### Kejelasan dan Kesederhanaan Pesan
 - Gunakan pesan singkat, langsung, dan tidak ambigu.
 - Fokus pada:
     - Apa yang terjadi
@@ -245,30 +245,29 @@ Implikasinya, pendekatan komunikasi risiko harus **adaptif dan responsif**.
     - Apa yang harus dilakukan
 
 **Hindari:**  
-Bahasa teknis dan penjelasan panjang.
+- Bahasa teknis dan penjelasan panjang.
 
-#### 3. Konsistensi Sumber dan Pesan
+#### Konsistensi Sumber dan Pesan
 - Tetapkan **satu sumber resmi** (spokesperson).
 - Pastikan semua saluran menyampaikan pesan yang sejalan.
 
 **Tujuan:**  
-Menghindari pesan yang saling bertentangan dan rumor.
+- Menghindari pesan yang saling bertentangan dan rumor.
 
-#### 4. Transparansi dan Kejujuran
+#### Transparansi dan Kejujuran
 - Jangan menunda atau menutup-nutupi fakta penting.
 - Akui keterbatasan informasi dan kesalahan bila terjadi.
 
-**Dampak positif:**  
-Transparansi menurunkan eskalasi krisis reputasi.
+**Dampak positif:** Transparansi menurunkan eskalasi krisis reputasi.
 
-#### 5. Empati dan Sensitivitas
+#### Empati dan Sensitivitas
 - Akui dampak emosional terhadap korban dan stakeholder.
 - Hindari nada defensif atau menyalahkan pihak lain.
 
 **Contoh pendekatan:**  
 Menyampaikan kepedulian sebelum penjelasan teknis.
 
-#### 6. Berorientasi Tindakan (Action-Oriented)
+#### Berorientasi Tindakan (Action-Oriented)
 - Setiap komunikasi harus memuat **instruksi jelas**.
 - Menjawab pertanyaan: _“Apa yang harus saya lakukan sekarang?”_
 
@@ -570,4 +569,60 @@ Organisasi dengan risk communication yang baik cenderung memiliki:
 ## 💼 Diskusi & Tugas
 
 1. [Tabletop Exercise - Risk Communication #1](../case/tabletop-execise-risk-communication-critical-1.md)
+2. [Tabletop Exercise - Risk Communication #2](../case/tabletop-execise-risk-communication-critical-2.md)
 
+---
+
+## 📚 Referensi
+
+### Referensi Utama (Standar & Kerangka Resmi)
+
+1. **ISO. (2018).**  
+    _ISO 31000:2018 – Risk Management – Guidelines._  
+    International Organization for Standardization, Geneva.  
+    → Referensi inti untuk konsep risk communication sebagai bagian dari proses manajemen risiko.
+    
+2. **ISO/IEC. (2019).**  
+    _ISO Guide 73: Risk Management – Vocabulary._  
+    International Organization for Standardization.  
+    → Digunakan untuk definisi istilah risiko dan komunikasi risiko secara konsisten.
+    
+3. **COSO. (2017).**  
+    _Enterprise Risk Management – Integrating with Strategy and Performance._  
+    Committee of Sponsoring Organizations of the Treadway Commission.  
+    → Rujukan untuk integrasi risk communication dalam ERM dan pengambilan keputusan strategis.
+    
+### Referensi Pendukung (Buku & Literatur Akademik)
+
+4. **Aven, T. (2016).**  
+    _Risk Assessment and Risk Management: Review of Recent Advances on Their Foundation._  
+    European Journal of Operational Research.  
+    → Digunakan untuk pemahaman risiko, ketidakpastian, dan pentingnya komunikasi risiko.
+    
+5. **Lundgren, R. E., & McMakin, A. H. (2018).**  
+    _Risk Communication: A Handbook for Communicating Environmental, Safety, and Health Risks._  
+    Wiley-IEEE Press.  
+    → Referensi klasik dan praktis terkait prinsip dan teknik risk communication.
+    
+6. **Covello, V. T., & Sandman, P. M. (2001).**  
+    _Risk Communication: Evolution and Revolution._  
+    Dalam _Solutions to an Environment in Peril_.  
+    → Digunakan untuk konsep perbedaan antara _actual risk_ dan _perceived risk_.
+    
+### Referensi Praktik & Implementasi
+
+7. **Hopkin, P. (2018).**  
+    _Fundamentals of Risk Management: Understanding, Evaluating and Implementing Effective Risk Management._  
+    Kogan Page.  
+    → Digunakan untuk contoh implementasi komunikasi risiko dalam organisasi.
+    
+8. **Hillson, D. (2009).**  
+    _Managing Risk in Projects._  
+    Gower Publishing.  
+    → Referensi penerapan risk communication dalam konteks proyek dan pemangku kepentingan.
+    
+9. **OECD. (2015).**  
+    _Scientific Advice for Policy Making: The Role and Responsibility of Expert Bodies and Individual Scientists._  
+    Organisation for Economic Co-operation and Development.  
+    → Digunakan untuk komunikasi risiko kepada regulator dan publik.
+    

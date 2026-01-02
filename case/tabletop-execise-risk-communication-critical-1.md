@@ -32,15 +32,15 @@ Tabletop Exercise ini bertujuan untuk:
 
 ### Pembagian Peran (Role Assignment)
 
-|Peran|Tanggung Jawab Utama|
-|---|---|
-|Incident Commander|Pengambilan keputusan utama|
-|Risk Manager|Analisis risiko dan eskalasi|
-|Communication Officer|Menyusun dan menyampaikan pesan|
-|Operasional/IT/K3|Informasi teknis kejadian|
-|Legal & Compliance|Kepatuhan dan implikasi hukum|
-|HR|Komunikasi internal & kesejahteraan|
-|Observer (opsional)|Evaluasi proses dan perilaku|
+| Peran                 | Tanggung Jawab Utama                |
+| --------------------- | ----------------------------------- |
+| Incident Commander    | Pengambilan keputusan utama         |
+| Risk Manager          | Analisis risiko dan eskalasi        |
+| Communication Officer | Menyusun dan menyampaikan pesan     |
+| Operasional/IT/K3     | Informasi teknis kejadian           |
+| Legal & Compliance    | Kepatuhan dan implikasi hukum       |
+| HR                    | Komunikasi internal & kesejahteraan |
+| Observer (opsional)   | Evaluasi proses dan perilaku        |
 
 ---
 
@@ -71,9 +71,7 @@ Simulasi dilakukan dalam **beberapa fase**, masing-masing disertai _inject_ (inf
 #### Tugas Peserta
 
 - Menentukan:
-    
     - Apakah ini sudah masuk situasi krisis?
-        
     - Siapa yang harus diberi tahu terlebih dahulu?
         
 - Menyusun **pesan internal awal** (maks. 3 kalimat)
