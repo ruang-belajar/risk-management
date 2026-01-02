@@ -1,4 +1,4 @@
-![](img/09-communication-header.png)
+ ![](img/09-communication-header.png)
 # **RISK COMMUNICATION
 
 ---

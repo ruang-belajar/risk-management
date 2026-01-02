@@ -1,3 +1,4 @@
+![](img/11-reporting-header.png)
 # RISK REPORTING
 
 ## 1. Pengertian Risk Reporting

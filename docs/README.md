@@ -14,5 +14,7 @@
 	3. [Confidence Level](06-confidence-level.md)
 7. [Evaluasi Risiko](07-evaluasi.md)
 8. [Pengendalian dan Penanganan Risiko](08-control.md)
+9. [Komunikasi Risiko](09-communication.md)
+	1. [Crisis and Emergency Risk Communication (CERC)](../09-communication-cerc.md)
 
 ---

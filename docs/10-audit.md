@@ -1,3 +1,5 @@
+![](img/10-audit-header.png)
+
 # **AUDIT & MONITORING RISIKO**
 
 ## 1. Pendahuluan
