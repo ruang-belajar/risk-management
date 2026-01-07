@@ -230,14 +230,15 @@ Implikasinya, pendekatan komunikasi risiko harus **adaptif dan responsif**.
 
 ### 5.4. Prinsip Kunci Risk Communication dalam Situasi Kritis
 
-#### Kecepatan dan Ketepatan (Speed with Accuracy)
+#### 🔷 Kecepatan dan Ketepatan (Speed with Accuracy)
+
 - Informasi harus disampaikan **secepat mungkin**, meskipun belum sepenuhnya lengkap.
 - Ketidakpastian perlu dinyatakan secara terbuka.
 
 **Prinsip operasional:**
 > “First, fast, and factual.”
 
-#### Kejelasan dan Kesederhanaan Pesan
+#### 🔷 Kejelasan dan Kesederhanaan Pesan
 - Gunakan pesan singkat, langsung, dan tidak ambigu.
 - Fokus pada:
     - Apa yang terjadi
@@ -247,27 +248,28 @@ Implikasinya, pendekatan komunikasi risiko harus **adaptif dan responsif**.
 **Hindari:**  
 - Bahasa teknis dan penjelasan panjang.
 
-#### Konsistensi Sumber dan Pesan
+#### 🔷 Konsistensi Sumber dan Pesan
 - Tetapkan **satu sumber resmi** (spokesperson).
 - Pastikan semua saluran menyampaikan pesan yang sejalan.
+- Pesan yang disampaikan harus konsisten
 
 **Tujuan:**  
 - Menghindari pesan yang saling bertentangan dan rumor.
 
-#### Transparansi dan Kejujuran
+#### 🔷 Transparansi dan Kejujuran
 - Jangan menunda atau menutup-nutupi fakta penting.
 - Akui keterbatasan informasi dan kesalahan bila terjadi.
 
 **Dampak positif:** Transparansi menurunkan eskalasi krisis reputasi.
 
-#### Empati dan Sensitivitas
+#### 🔷 Empati dan Sensitivitas
 - Akui dampak emosional terhadap korban dan stakeholder.
-- Hindari nada defensif atau menyalahkan pihak lain.
+- Hindari nada defensif atau menyalahkan pihak lain.- 
 
 **Contoh pendekatan:**  
 Menyampaikan kepedulian sebelum penjelasan teknis.
 
-#### Berorientasi Tindakan (Action-Oriented)
+#### 🔷 Berorientasi Tindakan (Action-Oriented)
 - Setiap komunikasi harus memuat **instruksi jelas**.
 - Menjawab pertanyaan: _“Apa yang harus saya lakukan sekarang?”_
 
@@ -295,15 +297,7 @@ Menyampaikan kepedulian sebelum penjelasan teknis.
 
 ---
 
-### 5.6. Kesalahan Umum dalam Risk Communication Krisis
-
-- Terlambat menyampaikan informasi awal
-- Pesan berubah-ubah
-- Nada defensif atau menyangkal
-- Mengabaikan dampak emosional
-- Tidak memberikan arahan tindakan
- 
-### 5.7. Contoh Skenario Risk Communication
+### 5.6. Contoh Skenario Risk Communication
 
 #### SKENARIO 1: Kecelakaan Kerja Serius di Area Produksi
 
@@ -400,6 +394,11 @@ Proyek strategis mengalami keterlambatan signifikan yang berpotensi mengganggu t
 - Kontekstual terhadap tujuan organisasi
 - Berbasis risiko dan opsi respon
 
+#### STUDY KASUS: Indodax Hacked
+
+1. [INDODAX ACADEMY: Whaling Attack: Modus Tipu CEO yang Rugikan Kripto](https://indodax.com/academy/whaling-attack/)
+2. [INDODAX ACADEMY: Peretasan Kripto Makin Gila! Sepanjang Juli Tembus Rp2 T](https://indodax.com/academy/peretasan-kripto-juli-2025/) 
+
 ---
 
 ## 6. Tantangan dalam Risk Communication
@@ -408,7 +407,7 @@ Berikut adalah penjelasan **tantangan utama dalam Risk Communication**, disusun 
 
 ### 1. Ketidakpastian Informasi (Uncertainty)
 
-**Penjelasan**  
+**Penjelasan**
 Dalam banyak kasus, terutama risiko strategis dan krisis, informasi:
 - Belum lengkap
 - Masih berkembang

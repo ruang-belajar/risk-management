@@ -4,150 +4,403 @@
 
 ## 1. Pendahuluan
 
-Dalam sistem manajemen risiko, proses **audit dan monitoring** berfungsi untuk memastikan bahwa semua kegiatan pengendalian risiko telah:
-- Dijalankan sesuai kebijakan, prosedur, dan standar.
-- Efektif dalam menurunkan tingkat risiko.
-- Memberikan informasi bagi manajemen untuk perbaikan berkelanjutan.
+Audit dan monitoring risiko merupakan bagian penting dalam siklus manajemen risiko. Keduanya berfungsi untuk memastikan bahwa proses manajemen risiko berjalan efektif, konsisten, dan selaras dengan tujuan organisasi. Dalam konteks ISO 31000, audit dan monitoring bukanlah aktivitas terpisah, melainkan bagian integral dari prinsip _continual improvement_.
 
-**Monitoring** adalah kegiatan pemantauan risiko secara berkelanjutan.  
-**Audit Risiko** adalah pemeriksaan formal dan sistematis terhadap efektivitas manajemen risiko.
+Materi ini membahas konsep, tujuan, ruang lingkup, proses, serta praktik terbaik audit dan monitoring risiko, dengan mengacu pada standar dan praktik internasional.
 
 ---
 
-## 2. Tujuan Audit & Monitoring Risiko
+## 2. Konsep Dasar Audit Risiko
 
-1. Memastikan risiko yang diidentifikasi dan ditangani sesuai dengan rencana.
-    
-2. Mengevaluasi efektivitas kontrol risiko yang telah diterapkan.
-    
-3. Mengidentifikasi kelemahan dalam proses manajemen risiko.
-    
-4. Memberikan rekomendasi perbaikan.
-    
-5. Menjamin kepatuhan terhadap regulasi dan standar (misalnya ISO 31000, ISO 9001, OHSAS 18001).
-    
+### 2.1 Definisi Audit Risiko
 
----
+Audit risiko adalah proses penilaian yang sistematis, independen, dan terdokumentasi untuk mengevaluasi kecukupan, efektivitas, dan kesesuaian penerapan manajemen risiko dalam suatu organisasi.
 
-## 3. Monitoring Risiko
+Audit risiko berfokus pada pertanyaan utama:
 
-Monitoring dilakukan **secara terus-menerus** dengan fokus pada:
-
-- **Key Risk Indicators (KRI):** indikator kuantitatif untuk mengukur perkembangan risiko.
+- Apakah risiko telah diidentifikasi secara memadai?
     
-- **Laporan Berkala:** status risiko dilaporkan ke manajemen secara bulanan/kuartalan.
+- Apakah penilaian risiko dilakukan dengan metodologi yang tepat?
     
-- **Early Warning System:** sistem peringatan dini atas potensi risiko besar.
+- Apakah pengendalian dan perlakuan risiko berjalan efektif?
     
-- **Update Risk Register:** memperbarui risiko baru atau perubahan level risiko.
+- Apakah manajemen risiko mendukung pencapaian tujuan organisasi?
     
 
-### Metode Monitoring:
+### 2.2 Tujuan Audit Risiko
 
-- **Observasi langsung** (contoh: inspeksi lapangan).
+Tujuan utama audit risiko meliputi:
+
+1. Menilai efektivitas kerangka kerja manajemen risiko.
     
-- **Analisis data** (contoh: laporan produksi, tingkat kecelakaan kerja).
+2. Memastikan kepatuhan terhadap kebijakan, standar, dan regulasi.
     
-- **Sistem IT RMS** (Risk Management System berbasis digital).
+3. Mengidentifikasi kelemahan dalam proses pengelolaan risiko.
     
-
----
-
-## 4. Audit Risiko
-
-Audit risiko adalah pemeriksaan **independen dan sistematis** untuk menilai keefektifan sistem manajemen risiko.
-
-### Jenis Audit Risiko:
-
-1. **Internal Audit Risiko** → dilakukan oleh tim audit internal organisasi.
+4. Memberikan rekomendasi perbaikan berbasis risiko.
     
-2. **External Audit Risiko** → dilakukan oleh pihak ketiga (auditor eksternal, regulator).
+5. Mendukung tata kelola (governance) yang baik.
     
 
-### Tahapan Audit Risiko:
+### 2.3 Ruang Lingkup Audit Risiko
 
-1. **Perencanaan Audit**
-    - Menentukan ruang lingkup (scope), tujuan, dan metode audit.
-        
-2. **Pengumpulan Data**
-    - Wawancara, kuesioner, observasi, dan telaah dokumen (risk register, RTP).
-        
-3. **Evaluasi Efektivitas Kontrol**
-    - Apakah mitigasi risiko berjalan sesuai rencana.
-        
-4. **Pelaporan Hasil Audit**
-    - Menyusun laporan audit risiko yang berisi temuan, kelemahan, dan rekomendasi.
-5. **Tindak Lanjut (Follow-up)**
+Ruang lingkup audit risiko dapat mencakup:
+
+- Kerangka kerja manajemen risiko (risk management framework).
     
-    - Manajemen melakukan perbaikan berdasarkan rekomendasi auditor.
-        
-
----
-
-## 5. Alat & Dokumen Pendukung
-
-- **Risk Register** → daftar risiko dan mitigasinya.
-- **Risk Monitoring Report** → laporan status risiko.
-- **Checklist Audit Risiko** → panduan pemeriksaan kontrol.
-- **Heatmap Risiko** → visualisasi tingkat risiko.
-- **Dashboard KRI** → pemantauan berbasis indikator.
+- Proses manajemen risiko (identifikasi, analisis, evaluasi, perlakuan risiko).
+    
+- Risk register dan risk profile.
+    
+- Risk appetite dan risk tolerance.
+    
+- Efektivitas pengendalian (controls).
+    
+- Pelaporan dan komunikasi risiko.
     
 
 ---
 
-## 6. Contoh: Rencana Audit Manajemen Risiko Keamanan Siber
+## 3. Proses Audit Risiko
 
-Berikut adalah contoh draf **Rencana Audit (Audit Plan)** sederhana. Kita akan mengambil contoh kasus pada industri perbankan dengan fokus pada **Risiko Keamanan Siber (Cybersecurity)**, karena ini adalah risiko yang paling dinamis saat ini.
+### 3.1 Perencanaan Audit Risiko
 
-### Project Detail
+Tahap perencanaan meliputi:
 
-- Unit Kerja yang Diaudit: Departemen IT & Operasional Digital
-- Periode Audit: Kuartal I - 2026
-- Tingkat Risiko: Tinggi (High)
+- Penentuan tujuan dan lingkup audit.
+    
+- Pemahaman konteks organisasi dan profil risiko.
+    
+- Identifikasi area berisiko tinggi (risk-based audit approach).
+    
+- Penyusunan program audit dan kriteria audit.
+    
 
-### I. Tujuan Audit
+### 3.2 Pelaksanaan Audit Risiko
 
-1. Memastikan kebijakan keamanan data telah diimplementasikan sesuai standar (misal: ISO 27001).
-2. Mengevaluasi efektivitas pengendalian teknis dalam mencegah akses tidak sah.
-3. Memvalidasi bahwa rencana pemulihan bencana (_Disaster Recovery Plan_) berfungsi dengan baik.
+Pada tahap ini auditor melakukan:
 
-### II. Ruang Lingkup Audit
+- Pengumpulan bukti (dokumen, wawancara, observasi).
+    
+- Penilaian desain dan efektivitas pengendalian risiko.
+    
+- Evaluasi kesesuaian praktik dengan kebijakan dan standar.
+    
 
-- Infrastruktur jaringan dan server.
-- Prosedur akses pengguna (Manajemen Password & MFA).
-- Keamanan aplikasi _mobile banking_.
-- Kepatuhan terhadap regulasi perlindungan data pribadi (UU PDP).
+### 3.3 Pelaporan Hasil Audit
 
-### III. Prosedur Audit (Langkah Kerja)
+Laporan audit risiko umumnya memuat:
 
-|**No**|**Aktivitas Audit**|**Teknik Audit**|
-|---|---|---|
-|1|**Tinjauan Kebijakan**|Memeriksa dokumen prosedur standar (SOP) keamanan informasi terbaru.|
-|2|**Uji Penetrasi (_Pentest_)**|Melakukan simulasi serangan terbatas untuk melihat celah keamanan sistem.|
-|3|**Verifikasi Akses**|Mengambil sampel data karyawan yang sudah _resign_ untuk memastikan akses mereka telah dicabut.|
-|4|**Uji Coba Backup**|Memverifikasi hasil _backup_ data terakhir dan mencoba proses _restore_ data.|
-|5|**Review Monitoring**|Memeriksa log aktivitas sistem untuk memastikan setiap anomali terdeteksi oleh tim monitoring.|
+- Temuan audit (audit findings).
+    
+- Analisis dampak dan akar penyebab (root cause analysis).
+    
+- Tingkat risiko residual.
+    
+- Rekomendasi perbaikan.
+    
 
-### IV. Alokasi Waktu & Sumber Daya
+### 3.4 Tindak Lanjut Audit
 
-- **Durasi:** 10 Hari Kerja.
-- **Tim:** 1 Lead Auditor, 2 Auditor IT Spesialis.
+Audit risiko tidak berhenti pada laporan, tetapi dilanjutkan dengan:
 
-### Perbedaan Peran dalam Kasus Ini:
-
-- **Tim Monitoring (Lini 1 & 2):** Setiap hari melihat layar _dashboard_ untuk memantau serangan masuk secara _real-time_. Jika ada serangan, mereka langsung bertindak.
-- **Tim Audit (Lini 3):** Datang sebulan sekali atau setahun sekali untuk bertanya: _"Apakah tim monitoring sudah bekerja dengan benar? Apakah alat monitoring mereka sudah cukup canggih? Apakah ada serangan yang mereka lewatkan?"_
+- Monitoring implementasi rekomendasi.
+    
+- Penilaian ulang risiko pasca-perbaikan.
+    
+- Pelaporan status tindak lanjut kepada manajemen.
+    
 
 ---
 
-## 7. Tantangan Audit & Monitoring Risiko
+## 4. Konsep Dasar Monitoring Risiko
 
-- Data risiko tidak lengkap atau tidak valid.
-    
-- Resistensi dari unit kerja terhadap proses audit.
-    
-- Kurangnya sumber daya (auditor, waktu, biaya).
-    
-- Risiko baru yang muncul lebih cepat daripada proses review formal.
+### 4.1 Definisi Monitoring Risiko
 
-	
+Monitoring risiko adalah proses berkelanjutan untuk mengawasi, meninjau, dan mengevaluasi perubahan risiko, efektivitas pengendalian, serta kesesuaian strategi perlakuan risiko.
+
+Monitoring bersifat:
+
+- Kontinu (ongoing monitoring).
+    
+- Periodik (periodic review).
+    
+
+### 4.2 Tujuan Monitoring Risiko
+
+Tujuan monitoring risiko antara lain:
+
+1. Memastikan pengendalian risiko tetap efektif.
+    
+2. Mendeteksi perubahan konteks dan risiko baru.
+    
+3. Menilai kesesuaian risiko dengan risk appetite.
+    
+4. Mendukung pengambilan keputusan berbasis risiko.
+    
+
+---
+
+## 5. Aktivitas dan Teknik Monitoring Risiko
+
+### 5.1 Indikator Risiko (Key Risk Indicators – KRI)
+
+KRI digunakan untuk memberikan sinyal dini terhadap potensi peningkatan risiko. KRI yang baik harus:
+
+- Relevan dengan risiko utama.
+    
+- Terukur dan dapat dipantau.
+    
+- Memiliki ambang batas (threshold).
+    
+
+### 5.2 Review Risiko Berkala
+
+Review risiko dilakukan secara periodik untuk:
+
+- Memperbarui risk register.
+    
+- Menilai risiko residual.
+    
+- Mengevaluasi efektivitas risk treatment.
+    
+
+### 5.3 Pelaporan Monitoring Risiko
+
+Hasil monitoring disampaikan melalui:
+
+- Laporan risiko manajemen.
+    
+- Dashboard risiko.
+    
+- Laporan kepada komite risiko atau dewan.
+    
+
+---
+
+## 6. Hubungan Audit dan Monitoring Risiko
+
+Audit dan monitoring memiliki peran yang saling melengkapi:
+- Monitoring bersifat berkelanjutan dan operasional.
+- Audit bersifat independen dan evaluatif.
+
+Monitoring membantu mendeteksi masalah secara dini, sedangkan audit memberikan penilaian objektif dan rekomendasi strategis untuk perbaikan sistem manajemen risiko.
+
+---
+
+## 7. Audit & Monitoring Risiko dalam ISO 31000
+
+Dalam ISO 31000, audit dan monitoring terkait erat dengan:
+
+- Prinsip _continual improvement_.
+    
+- Klausul _Monitoring and Review_.
+    
+- Penekanan pada integrasi manajemen risiko ke dalam proses organisasi.
+    
+
+ISO 31000 menegaskan bahwa organisasi harus:
+
+- Memantau efektivitas kerangka kerja dan proses risiko.
+    
+- Meninjau kesesuaian manajemen risiko dengan tujuan organisasi.
+    
+- Menggunakan hasil audit dan monitoring sebagai dasar peningkatan berkelanjutan.
+
+---
+
+## 💼 Diskusi & Tugas
+
+### 1. Studi Kasus Audit & Monitoring Risiko
+
+#### Latar Belakang Kasus
+
+PT Alpha Manufaktur adalah perusahaan manufaktur komponen otomotif dengan skala menengah yang memasok produk ke beberapa produsen kendaraan nasional. Dalam dua tahun terakhir, perusahaan mengalami peningkatan keluhan pelanggan terkait keterlambatan pengiriman dan kualitas produk. Manajemen menduga bahwa permasalahan tersebut berkaitan dengan lemahnya pengelolaan risiko operasional dan rantai pasok.
+
+Perusahaan telah memiliki kebijakan manajemen risiko yang mengacu pada ISO 31000, lengkap dengan risk register dan penetapan risk owner. Namun, fungsi audit internal menemukan indikasi bahwa proses monitoring risiko tidak berjalan konsisten, dan hasil evaluasi risiko jarang diperbarui.
+
+---
+
+#### Profil Risiko Utama
+
+Beberapa risiko utama yang tercatat dalam risk register PT Alpha Manufaktur antara lain:
+
+1. Risiko keterlambatan pasokan bahan baku dari pemasok utama.
+    
+2. Risiko kegagalan mesin produksi akibat perawatan yang tidak optimal.
+    
+3. Risiko cacat produk (defect rate) yang melebihi standar mutu pelanggan.
+    
+4. Risiko ketergantungan pada satu pemasok kritis.
+    
+
+Setiap risiko telah dinilai dari sisi kemungkinan dan dampak, serta dilengkapi dengan rencana perlakuan risiko (risk treatment).
+
+---
+
+#### Fokus Audit Risiko
+
+Audit internal melakukan audit risiko dengan pendekatan berbasis risiko (risk-based audit) dengan fokus pada:
+
+- Efektivitas proses monitoring risiko operasional.
+    
+- Kesesuaian implementasi risk treatment dengan kebijakan manajemen risiko.
+    
+- Keandalan Key Risk Indicators (KRI) yang digunakan.
+    
+
+---
+
+#### Temuan Audit
+
+Hasil audit risiko menunjukkan beberapa temuan utama:
+1. Monitoring risiko tidak dilakukan secara berkala; risk register hanya diperbarui setahun sekali.
+2. Beberapa KRI tidak memiliki ambang batas (threshold) yang jelas.
+3. Laporan monitoring risiko tidak terintegrasi dengan laporan kinerja operasional.
+4. Tindak lanjut atas risiko residual tinggi tidak terdokumentasi dengan baik.
+    
+
+---
+
+#### Analisis Risiko
+
+Audit menyimpulkan bahwa meskipun risiko telah diidentifikasi dan dinilai, lemahnya monitoring menyebabkan:
+- Risiko operasional tidak terdeteksi sejak dini.
+- Pengendalian tidak dievaluasi efektivitasnya secara berkelanjutan.
+- Manajemen tidak memperoleh informasi risiko yang memadai untuk pengambilan keputusan.
+    
+
+---
+
+#### Rekomendasi Audit
+
+Audit internal memberikan rekomendasi sebagai berikut:
+1. Menetapkan jadwal monitoring risiko triwulanan untuk risiko operasional utama.
+2. Menyempurnakan KRI dengan indikator yang terukur dan threshold yang disepakati.
+3. Mengintegrasikan laporan monitoring risiko ke dalam dashboard manajemen.
+4. Memperkuat mekanisme tindak lanjut dan pelaporan status rekomendasi audit.
+
+---
+
+#### Pertanyaan Diskusi untuk Mahasiswa
+
+1. Risiko apa yang seharusnya menjadi prioritas utama dalam audit risiko PT Alpha Manufaktur? Jelaskan alasannya.
+2. Bagaimana peran monitoring risiko dalam mencegah keterlambatan pengiriman dan penurunan kualitas produk?
+3. Apakah pendekatan audit yang digunakan sudah sesuai dengan prinsip ISO 31000? Jelaskan.
+4. KRI apa saja yang relevan untuk memantau risiko operasional dalam kasus ini?
+5. Bagaimana hubungan antara hasil monitoring risiko dan proses audit risiko selanjutnya?
+
+---
+
+### 2. Studi Kasus Audit & Monitoring Risiko (Sektor IT – Kuantitatif)
+
+#### Latar Belakang Kasus
+
+PT Beta Digital Services adalah perusahaan penyedia layanan _cloud-based application_ dan data center yang melayani klien korporasi dan institusi pemerintah. Operasional perusahaan sangat bergantung pada ketersediaan sistem (system availability), keamanan informasi, dan keandalan infrastruktur TI.
+
+Dalam satu tahun terakhir, perusahaan mengalami beberapa insiden TI, antara lain:
+- Downtime sistem melebihi SLA yang disepakati.
+- Peningkatan jumlah insiden keamanan (security incident).
+- Keterlambatan pemulihan layanan setelah gangguan sistem.
+
+Manajemen telah menerapkan manajemen risiko TI yang mengacu pada ISO 31000 dan COBIT, serta menyusun risk register TI. Audit internal kemudian melakukan audit & monitoring risiko untuk menilai efektivitas implementasinya.
+
+---
+
+#### Skala Penilaian Risiko
+
+Perusahaan menggunakan matriks risiko 5×5 dengan ketentuan berikut:
+
+**Skala Likelihood (L):** 1 = Sangat jarang (≤ 1 kali/tahun) 2 = Jarang (2–3 kali/tahun) 3 = Sedang (4–6 kali/tahun) 4 = Sering (7–10 kali/tahun) 5 = Sangat sering (>10 kali/tahun)
+
+**Skala Impact (I):** 1 = Dampak sangat rendah (gangguan < 30 menit, tanpa dampak finansial) 2 = Dampak rendah (gangguan ≤ 2 jam, dampak finansial < Rp50 juta) 3 = Dampak sedang (gangguan ≤ 8 jam, keluhan pelanggan) 4 = Dampak tinggi (gangguan ≤ 24 jam, penalti SLA) 5 = Dampak sangat tinggi (gangguan > 24 jam, kehilangan pelanggan/kasus hukum)
+
+**Skor Risiko = L × I**
+
+---
+
+#### Data Risk Register (Sebelum Audit)
+
+|Kode|Risiko TI Utama|Likelihood (L)|Impact (I)|Skor Risiko|Level Risiko|
+|---|---|---|---|---|---|
+|R1|Downtime data center|4|5|20|Tinggi|
+|R2|Serangan siber (ransomware)|3|5|15|Tinggi|
+|R3|Kegagalan backup & recovery|3|4|12|Sedang|
+|R4|Human error administrator sistem|4|3|12|Sedang|
+|R5|Keterlambatan patching sistem|5|3|15|Tinggi|
+
+Risk appetite perusahaan ditetapkan maksimum pada skor risiko **≤ 10**.
+
+---
+
+#### Fokus Audit Risiko
+
+Audit internal melakukan audit berbasis risiko dengan fokus pada:
+- Efektivitas monitoring risiko TI.
+- Keandalan Key Risk Indicators (KRI).
+- Efektivitas pengendalian risiko untuk risiko di atas risk appetite.
+
+---
+
+#### Key Risk Indicators (KRI) yang Digunakan
+
+|   |   |   |   |
+|---|---|---|---|
+|Risiko|KRI|Target|Realisasi|
+|R1|Persentase system availability|≥ 99,9%|99,2%|
+|R2|Jumlah security incident/bulan|≤ 1|3|
+|R3|Waktu pemulihan (RTO)|≤ 4 jam|7 jam|
+|R5|Persentase sistem belum ter-patch|≤ 5%|18%|
+
+---
+
+#### Temuan Audit Kuantitatif
+
+1. 3 dari 5 risiko utama memiliki skor di atas risk appetite (>10).
+2. 4 dari 4 KRI utama berada di luar ambang batas yang ditetapkan.
+3. Monitoring KRI dilakukan tidak konsisten (tidak real-time, hanya bulanan).
+4. Tidak terdapat mekanisme eskalasi otomatis ketika KRI melewati threshold.
+    
+
+---
+
+#### Analisis Risiko Residual (Setelah Evaluasi Kontrol)
+
+|   |   |   |   |
+|---|---|---|---|
+|Risiko|Skor Awal|Efektivitas Kontrol (%)|Skor Residual|
+|R1|20|30%|14|
+|R2|15|40%|9|
+|R5|15|20%|12|
+
+Hasil menunjukkan bahwa risiko R1 dan R5 masih berada di atas risk appetite.
+
+---
+
+#### Rekomendasi Audit
+
+1. Meningkatkan monitoring real-time melalui dashboard KRI berbasis sistem.
+2. Menetapkan mekanisme eskalasi otomatis jika KRI melewati threshold.
+3. Memperkuat kontrol preventif (redundancy system, automated patching).
+4. Melakukan review risiko TI dan penilaian ulang skor risiko setiap triwulan.
+
+---
+
+#### Pertanyaan Diskusi untuk Mahasiswa
+
+1. Risiko TI mana yang harus menjadi prioritas utama audit lanjutan? Jelaskan secara kuantitatif.
+2. Apakah KRI yang digunakan sudah mencerminkan risiko utama? Berikan alternatif KRI tambahan.
+3. Bagaimana hubungan antara efektivitas kontrol dan penurunan skor risiko residual?
+4. Jika risk appetite diturunkan menjadi ≤ 8, risiko apa saja yang memerlukan perlakuan tambahan?
+5. Bagaimana peran audit internal dalam meningkatkan kematangan monitoring risiko TI?
+
+---
+
+## 📚 Referensi
+
+1. ISO. (2018). _ISO 31000: Risk Management – Guidelines_. International Organization for Standardization.
+2. COSO. (2017). _Enterprise Risk Management – Integrating with Strategy and Performance_. Committee of Sponsoring Organizations of the Treadway Commission.
+3. Moeller, R. (2011). _COSO Enterprise Risk Management: Establishing Effective Governance, Risk, and Compliance Processes_. John Wiley & Sons.
+4. Hopkin, P. (2018). _Fundamentals of Risk Management_. Kogan Page.
+5. Institute of Internal Auditors (IIA). (2017). _International Professional Practices Framework (IPPF)_.
+    

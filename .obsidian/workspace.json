@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "case/tabletop-execise-risk-communication-critical-2.md",
+                "file": "docs/10-audit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tabletop-execise-risk-communication-critical-2"
+              "title": "10-audit"
             }
           },
           {
@@ -55,16 +55,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/09-communication.md",
+                "file": "docs/11-reporting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "09-communication"
+              "title": "11-reporting"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/09-communication.md",
+                "file": "docs/10-audit.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 09-communication"
+              "title": "Outline of 10-audit"
             }
           }
         ],
@@ -213,16 +213,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2828817062111f15",
+  "active": "7a4db5b4dca3d5da",
   "lastOpenFiles": [
+    "docs/11-reporting.md",
+    "docs/10-audit.md",
+    "docs/README.md",
+    "docs/13-tools.md",
+    "docs/12-case.md",
+    "docs/09-communication.md",
     "case/tabletop-execise-risk-communication-critical-2.md",
     "case/tabletop-execise-risk-communication-critical-1.md",
-    "docs/09-communication.md",
-    "docs/11-reporting.md",
     "docs/img/11-reporting-header.png",
-    "docs/10-audit.md",
     "docs/img/10-audit-header.png",
-    "docs/README.md",
     "09-communication-cerc.md",
     "docs/08-control.md",
     "docs/07-evaluasi.md",
@@ -235,7 +237,6 @@
     "docs/06-var-parametric.md",
     "arsip/RPS RASM.pdf",
     "arsip/cba-1~FE5F1.tmp",
-    "docs/12-case.md",
     "arsip/~$ra_sample_riskreport.doc",
     "arsip/~$sk-management-report.docx",
     "arsip/csra_sample_riskreport.doc",
@@ -259,7 +260,6 @@
     "Pasted image 20251212173350.png",
     "Pasted image 20251212173525.png",
     "docs/img/06-analisis-kuantitatif-header.png",
-    "arsip/simulasi-1.md",
-    "case/case-risky-corporate-action.md"
+    "arsip/simulasi-1.md"
   ]
 }
