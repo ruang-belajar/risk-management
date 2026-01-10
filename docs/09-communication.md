@@ -36,35 +36,11 @@ Menurut ISO 31000, risk communication bertujuan untuk:
 
 ---
 
-## 3. Stakeholders dalam Risk Communication
-
-**Stakeholder Internal**
-- Dewan direksi
-- Manajemen puncak
-- Manajer unit
-- Karyawan operasional
-- Tim K3, audit, compliance, risk officer
-
-**Stakeholder Eksternal**
-- Regulator
-- Investor dan pemegang saham
-- Pelanggan
-- Pemasok
-- Masyarakat sekitar
-- Media massa
-
-Setiap stakeholder memiliki:
-- Tingkat pemahaman risiko yang berbeda,
-- Kepentingan dan sensitivitas yang berbeda,
-- Kebutuhan komunikasi yang berbeda.
-
----
-
-## 4. Prinsip-Prinsip Risk Communication
+## 3. Prinsip-Prinsip Risk Communication
 
 Berikut adalah penjelasan **Prinsip Utama dalam Klausul Communication & Consultation** berdasarkan **ISO 31000:2018**.
 
-### 4.1. Terencana dan Terstruktur (Planned & Structured)
+### 3.1. Terencana dan Terstruktur (Planned & Structured)
 
 > Communication & Consultation harus dirancang secara formal sebagai bagian dari sistem manajemen risiko, bukan aktivitas ad hoc.
 
@@ -79,7 +55,7 @@ Berikut adalah penjelasan **Prinsip Utama dalam Klausul Communication & Consulta
 **Risiko jika diabaikan:**  
 Informasi risiko menjadi sporadis, tidak konsisten, dan sulit ditindaklanjuti.
 
-### 4.2. Berkelanjutan (Ongoing)
+### 3.2. Berkelanjutan (Ongoing)
 
 > Komunikasi dan konsultasi dilakukan **sepanjang siklus manajemen risiko**, bukan hanya pada tahap tertentu.
 
@@ -90,7 +66,7 @@ Informasi risiko menjadi sporadis, tidak konsisten, dan sulit ditindaklanjuti.
 **Nilai tambah:**  
 Organisasi mampu mendeteksi perubahan profil risiko lebih dini.
 
-### 4.3. Inklusif dan Melibatkan Pemangku Kepentingan (Inclusive)
+### 3.3. Inklusif dan Melibatkan Pemangku Kepentingan (Inclusive)
 
 > ISO 31000 menekankan pentingnya melibatkan stakeholder yang relevan, baik internal maupun eksternal.
 
@@ -104,7 +80,7 @@ Organisasi mampu mendeteksi perubahan profil risiko lebih dini.
 **Contoh stakeholder:**  
 Manajemen puncak, unit operasional, auditor, regulator, mitra bisnis.
 
-### 4.4. Dua Arah dan Partisipatif (Two-Way Process)
+### 3.4. Dua Arah dan Partisipatif (Two-Way Process)
 
 > Communication & Consultation bukan sekadar penyampaian informasi satu arah, melainkan dialog.
 
@@ -116,7 +92,7 @@ Manajemen puncak, unit operasional, auditor, regulator, mitra bisnis.
 - Meningkatkan akurasi penilaian risiko.
 - Memperkuat kredibilitas.
 
-### 4.5. Relevan dan Kontekstual (Relevant & Context-Specific)
+### 3.5. Relevan dan Kontekstual (Relevant & Context-Specific)
 
 > Informasi risiko harus disesuaikan dengan kebutuhan, peran, dan kepentingan audiens.
 
@@ -128,7 +104,7 @@ Manajemen puncak, unit operasional, auditor, regulator, mitra bisnis.
 **Prinsip kunci:**  
 Satu pesan risiko tidak cocok untuk semua pihak.
 
-### 4.6. Jelas, Akurat, dan Dapat Dipahami (Clear & Accurate)
+### 3.6. Jelas, Akurat, dan Dapat Dipahami (Clear & Accurate)
 
 > Informasi risiko harus berbasis data yang valid dan disampaikan secara sederhana.
 
@@ -139,7 +115,7 @@ Satu pesan risiko tidak cocok untuk semua pihak.
 **Konsekuensi jika gagal:**  
 Kesalahpahaman risiko dan keputusan yang keliru.
 
-### 4.7. Tepat Waktu (Timely)
+### 3.7. Tepat Waktu (Timely)
 
 > Informasi risiko harus disampaikan saat masih relevan untuk pengambilan keputusan.
 
@@ -150,7 +126,7 @@ Kesalahpahaman risiko dan keputusan yang keliru.
 **Contoh:**  
 Peringatan dini risiko keselamatan kerja sebelum terjadi insiden.
 
-### 4.8. Mendukung Pengambilan Keputusan (Decision-Oriented)
+### 3.8. Mendukung Pengambilan Keputusan (Decision-Oriented)
 
 > Communication & Consultation harus mengarahkan pada tindakan, bukan sekadar pelaporan.
 
@@ -162,7 +138,7 @@ Informasi risiko dikaitkan dengan:
 **Nilai strategis:**  
 Manajemen dapat membuat keputusan yang sadar risiko (_risk-informed decision_).
 
-### 4.9. Membangun Kepercayaan dan Kredibilitas (Trust & Credibility)
+### 3.9. Membangun Kepercayaan dan Kredibilitas (Trust & Credibility)
 
 > Keberhasilan komunikasi risiko sangat bergantung pada kepercayaan terhadap sumber informasi.
 
@@ -170,7 +146,7 @@ Manajemen dapat membuat keputusan yang sadar risiko (_risk-informed decision_).
 - Orang yang mengkomunikasikan risiko memiliki kompetensi dan otoritas.
 - Konsistensi pesan meningkatkan kredibilitas.
 
-### 4.10. Terintegrasi dengan Sistem Manajemen Risiko
+### 3.10. Terintegrasi dengan Sistem Manajemen Risiko
 
 >Communication & Consultation harus menyatu dengan proses dan tata kelola RMS.
 
@@ -180,9 +156,9 @@ Manajemen dapat membuat keputusan yang sadar risiko (_risk-informed decision_).
 
 ---
 
-## 5. Risk Communication dalam Situasi Krisis
+## 4. Risk Communication dalam Situasi Krisis
 
-### 5.1. Pengertian
+### 4.1. Pengertian
 
 **Risk Communication dalam situasi kritis** adalah proses penyampaian dan pertukaran informasi risiko yang dilakukan **dalam kondisi darurat atau krisis**, ketika:
 - Risiko telah terwujud atau hampir terwujud
@@ -194,26 +170,7 @@ Tujuan utamanya adalah **melindungi keselamatan**, **mengendalikan dampak**, dan
 
 ---
 
-### 5.2. Karakteristik Situasi Kritis
-
-Situasi kritis memiliki ciri khas yang membedakannya dari kondisi normal:
-
-- **Waktu terbatas** untuk pengambilan keputusan
-    
-- **Informasi belum lengkap** dan terus berubah
-    
-- **Dampak signifikan** (keselamatan, reputasi, keuangan, hukum)
-    
-- **Tingkat kepanikan dan emosi tinggi**
-    
-- **Sorotan publik dan media** meningkat
-    
-
-Implikasinya, pendekatan komunikasi risiko harus **adaptif dan responsif**.
-
----
-
-### 5.3. Tujuan Utama Risk Communication dalam Situasi Kritis
+### 4.3. Tujuan Utama Risk Communication dalam Situasi Kritis
 
 1. **Melindungi keselamatan jiwa dan aset**
     
@@ -228,7 +185,7 @@ Implikasinya, pendekatan komunikasi risiko harus **adaptif dan responsif**.
 
 ---
 
-### 5.4. Prinsip Kunci Risk Communication dalam Situasi Kritis
+### 4.4. Prinsip Kunci Risk Communication dalam Situasi Kritis
 
 #### 🔷 Kecepatan dan Ketepatan (Speed with Accuracy)
 
@@ -275,7 +232,7 @@ Menyampaikan kepedulian sebelum penjelasan teknis.
 
 ---
 
-### 5.5. Tahapan Risk Communication dalam Situasi Kritis
+### 4.5. Tahapan Risk Communication dalam Situasi Kritis
 
 #### 1. Fase Pra-Krisis
 - Menyusun **crisis communication plan**
@@ -297,7 +254,7 @@ Menyampaikan kepedulian sebelum penjelasan teknis.
 
 ---
 
-### 5.6. Contoh Skenario Risk Communication
+### 4.6. Contoh Skenario Risk Communication
 
 #### SKENARIO 1: Kecelakaan Kerja Serius di Area Produksi
 
@@ -394,6 +351,8 @@ Proyek strategis mengalami keterlambatan signifikan yang berpotensi mengganggu t
 - Kontekstual terhadap tujuan organisasi
 - Berbasis risiko dan opsi respon
 
+---
+
 #### STUDY KASUS: Indodax Hacked
 
 1. [INDODAX ACADEMY: Whaling Attack: Modus Tipu CEO yang Rugikan Kripto](https://indodax.com/academy/whaling-attack/)
@@ -401,7 +360,7 @@ Proyek strategis mengalami keterlambatan signifikan yang berpotensi mengganggu t
 
 ---
 
-## 6. Tantangan dalam Risk Communication
+## 5. Tantangan dalam Risk Communication
 
 Berikut adalah penjelasan **tantangan utama dalam Risk Communication**, disusun dalam kerangka **manajemen risiko organisasi** dan selaras dengan prinsip **ISO 31000 (Communication & Consultation)**.
 
@@ -533,7 +492,7 @@ Pesan yang benar pun bisa tidak efektif jika:
 
 ---
 
-## 7. Contoh Penerapan Risk Communication
+## 6. Contoh Penerapan Risk Communication
 
 **Contoh Kasus:**
 
@@ -551,7 +510,7 @@ Dalam proyek konstruksi berisiko tinggi:
 
 ---
 
-## 8. Hubungan Risk Communication dengan Risk Culture
+## 7. Hubungan Risk Communication dengan Risk Culture
 
 Risk communication berperan penting dalam membangun:
 - **Risk awareness**

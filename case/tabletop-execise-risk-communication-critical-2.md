@@ -66,5 +66,4 @@ Tim IT mengonfirmasi bahwa ada celah keamanan yang sempat dieksploitasi. Data al
         
     2. Bagaimana bentuk kompensasi atau langkah mitigasi yang ditawarkan kepada pengguna terdampak?
         
-    3. Apa pesan yang disampaikan untuk orang awam?
-        
+    3. Apa pesan yang disampaikan untuk pelanggan
