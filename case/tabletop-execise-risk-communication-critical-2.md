@@ -28,8 +28,6 @@ Saat promosi besar-besaran "Flash Sale Tanggal Kembar", aplikasi dan situs web t
         
     2. Saluran komunikasi apa yang diprioritaskan?
         
-    3. Bagaimana koordinasi antara tim IT dan tim PR agar informasi yang disampaikan akurat?
-        
 
 ---
 
@@ -68,5 +66,5 @@ Tim IT mengonfirmasi bahwa ada celah keamanan yang sempat dieksploitasi. Data al
         
     2. Bagaimana bentuk kompensasi atau langkah mitigasi yang ditawarkan kepada pengguna terdampak?
         
-    3. Bagaimana cara menyampaikan informasi teknis yang rumit menjadi bahasa yang menenangkan bagi orang awam?
+    3. Apa pesan yang disampaikan untuk orang awam?
         

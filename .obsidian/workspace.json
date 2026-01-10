@@ -13,40 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "case/tabletop-execise-risk-communication-critical-1.md",
+                "file": "case/tabletop-execise-risk-communication-critical-2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tabletop-execise-risk-communication-critical-1"
-            }
-          },
-          {
-            "id": "7a4db5b4dca3d5da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/10-audit.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "10-audit"
-            }
-          },
-          {
-            "id": "0d5055def270a753",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "09-communication-cerc.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "09-communication-cerc"
+              "title": "tabletop-execise-risk-communication-critical-2"
             }
           },
           {
@@ -63,8 +35,7 @@
               "title": "11-reporting"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -185,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/10-audit.md",
+                "file": "case/tabletop-execise-risk-communication-critical-2.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 10-audit"
+              "title": "Outline of tabletop-execise-risk-communication-critical-2"
             }
           }
         ],
@@ -213,19 +184,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7a4db5b4dca3d5da",
+  "active": "4e7a5d0c30b775d8",
   "lastOpenFiles": [
+    "case/tabletop-execise-risk-communication-critical-1.md",
     "docs/11-reporting.md",
+    "09-communication-cerc.md",
     "docs/10-audit.md",
     "docs/README.md",
     "docs/13-tools.md",
     "docs/12-case.md",
     "docs/09-communication.md",
     "case/tabletop-execise-risk-communication-critical-2.md",
-    "case/tabletop-execise-risk-communication-critical-1.md",
     "docs/img/11-reporting-header.png",
     "docs/img/10-audit-header.png",
-    "09-communication-cerc.md",
     "docs/08-control.md",
     "docs/07-evaluasi.md",
     "arsip/~$cba-2.xlsx",
