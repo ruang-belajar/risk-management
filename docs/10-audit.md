@@ -300,7 +300,6 @@ Monitoring bersifat:
 
 ### 6.2 Tujuan Monitoring Risiko
 
-
 Monitoring risiko bukan sekadar aktivitas pelaporan, melainkan **mekanisme pengendalian manajerial** untuk memastikan bahwa risiko dikelola secara efektif dan tetap selaras dengan tujuan organisasi.
 
 #### 1. Memastikan Risiko Tetap dalam Risk Appetite dan Risk Tolerance
@@ -890,7 +889,15 @@ ISO 31000 menegaskan bahwa organisasi harus:
 
 ## 💼 Diskusi & Tugas
 
-### 1. Studi Kasus Audit & Monitoring Risiko
+### 1. Review
+1. Apa saja ruang lingkup audit risiko
+2. Sebutkan tujuan audit risiko
+3. Sebut langkah-langkah proses audit risiko
+4. Apa itu KRI? Jelaskan secara singkat.
+5. Sebutkan karakterisitk KRI yang efektif
+6. Sebutkan apa saja aktivitas monitoring risiko 
+
+### 2. Studi Kasus Audit & Monitoring Risiko
 
 #### Latar Belakang Kasus
 
@@ -961,7 +968,7 @@ Audit internal memberikan rekomendasi sebagai berikut:
 
 ---
 
-### 2. Studi Kasus Audit & Monitoring Risiko (Sektor IT – Kuantitatif)
+### 3. Studi Kasus Audit & Monitoring Risiko (Sektor IT – Kuantitatif)
 
 #### Latar Belakang Kasus
 
