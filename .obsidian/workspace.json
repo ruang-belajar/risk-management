@@ -8,31 +8,57 @@
         "type": "tabs",
         "children": [
           {
-            "id": "48f0b0cdd0ce5f51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "case/tabletop-execise-risk-communication-critical-2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "tabletop-execise-risk-communication-critical-2"
-            }
-          },
-          {
             "id": "bc610a2038d863ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/09-communication.md",
+                "file": "docs/11-reporting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "09-communication"
+              "title": "11-reporting"
+            }
+          },
+          {
+            "id": "7a4be753783ecf17",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/10-audit.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "10-audit"
+            }
+          },
+          {
+            "id": "f8a4d58ba14d4289",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "arsip/10-audit-skenario-2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "10-audit-skenario-2"
+            }
+          },
+          {
+            "id": "1f8b332d2c4dff42",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "arsip/AUDIT-BERBASIS-RISIKO-1.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "AUDIT-BERBASIS-RISIKO-1"
             }
           },
           {
@@ -171,13 +197,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/09-communication.md",
+                "file": "docs/10-audit.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 09-communication"
+              "title": "Outline of 10-audit"
             }
           }
         ],
@@ -199,53 +225,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bc610a2038d863ec",
+  "active": "7a4be753783ecf17",
   "lastOpenFiles": [
-    "case/tabletop-execise-risk-communication-critical-2.md",
-    "case/tabletop-execise-risk-communication-critical-1.md",
-    "docs/11-reporting.md",
-    "09-communication-cerc.md",
+    "arsip/10-audit-skenario-2.md",
+    "arsip/10-audit-skenario-1.md",
+    "Untitled 1.md",
     "docs/10-audit.md",
+    "docs/11-reporting.md",
+    "arsip/laporan_audit_intern.pdf",
+    "arsip/Unconfirmed 924958.crdownload",
+    "arsip/RISIKO AUDIT - Dr. Jan Hoesada_Part1.pdf",
+    "arsip/Unconfirmed 401748.crdownload",
+    "arsip/Information-about-Writing-a-Risk-Assessment-and-Management-Plan.pdf",
+    "arsip/Unconfirmed 283302.crdownload",
+    "docs/03-iso-31000.md",
+    "arsip/AUDIT-BERBASIS-RISIKO-1.pdf",
+    "docs/02-framework.md",
+    "arsip/10-audit.md",
+    "Untitled.md",
+    "case/tabletop-execise-risk-communication-critical-2.md",
+    "arsip/Unconfirmed 516710.crdownload",
+    "docs/09-communication.md",
+    "case/tabletop-execise-risk-communication-critical-1.md",
+    "09-communication-cerc.md",
     "docs/README.md",
     "docs/13-tools.md",
     "docs/12-case.md",
-    "docs/09-communication.md",
     "docs/img/11-reporting-header.png",
     "docs/img/10-audit-header.png",
     "docs/08-control.md",
     "docs/07-evaluasi.md",
     "arsip/~$cba-2.xlsx",
     "arsip/cba-2.xlsx",
-    "arsip/~$cba-1.xlsx",
     "docs/img/09-communication-header.png",
     "docs/img/08-control-header 1.png",
     "docs/img/08-control-header.png",
     "docs/06-var-parametric.md",
-    "arsip/RPS RASM.pdf",
-    "arsip/cba-1~FE5F1.tmp",
-    "arsip/~$ra_sample_riskreport.doc",
-    "arsip/~$sk-management-report.docx",
-    "arsip/csra_sample_riskreport.doc",
-    "arsip/Unconfirmed 510459.crdownload",
-    "ebook/~$sk-management-report.docx",
     "arsip/09-implementasi.md",
     "[05-analisis-kualitatif](05-analisis-kualitatif.md",
     "docs/05-analisis-kualitatif.md",
     "[05-analisis-kualitatif](docs/05-analisis-kualitatif.md",
     "docs/06-analisis-kuantitatif.md",
-    "docs/03-iso-31000.md",
     "docs/04-metode-identifikasi.md",
     "docs/artikel/contoh-alarp-3.md",
-    "docs/artikel/contoh-alarp-2.md",
-    "docs/artikel/contoh-alarp-1.md",
-    "case/case-carter-racing-team.md",
-    "README.md",
     "docs/img/README-header.png",
-    "ebook/README.md",
     "Pasted image 20251212173658.png",
     "Pasted image 20251212173350.png",
     "Pasted image 20251212173525.png",
-    "docs/img/06-analisis-kuantitatif-header.png",
-    "arsip/simulasi-1.md"
+    "docs/img/06-analisis-kuantitatif-header.png"
   ]
 }
