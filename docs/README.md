@@ -15,6 +15,8 @@
 7. [Evaluasi Risiko](07-evaluasi.md)
 8. [Pengendalian dan Penanganan Risiko](08-control.md)
 9. [Komunikasi Risiko](09-communication.md)
-	1. [Crisis and Emergency Risk Communication (CERC)](../09-communication-cerc.md)
+	1. [Crisis and Emergency Risk Communication (CERC)](09-communication-cerc.md)
+10. [Audit & Monitoring Risiko](10-audit.md)
+11. [Risk Reporting](11-reporting.md)
 
 ---
