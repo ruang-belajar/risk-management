@@ -129,14 +129,3 @@ Jika risk treatment tidak efektif atau konteks berubah, maka dilakukan **penyesu
 - Hasil: Probabilitas gangguan berkurang dari “tinggi” menjadi “rendah”.
     
 
----
-
-## 📌 Tugas Mahasiswa
-
-1. Pilih 5 risiko dari **Risk Register (Bab 4)**.
-    
-2. Tentukan strategi penanganan yang sesuai (Avoid, Reduce, Transfer, Accept, atau Enhance).
-    
-3. Buat **Risk Treatment Plan** dalam bentuk tabel.
-    
-4. Presentasikan hasil pilihan strategi beserta alasan pemilihan.

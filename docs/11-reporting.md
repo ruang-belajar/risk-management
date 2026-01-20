@@ -36,9 +36,11 @@ Tujuan utama risk reporting meliputi:
 
 ## 3. Prinsip-Prinsip Risk Reporting yang Baik
 
+Berikut beberapa prinsip penting yang perlu Anda perhatikan dalam menyusun *risk report*.
+
 ### a. Relevan dan Berorientasi pada Pengambilan Keputusan
 
-Risk report harus **fokus pada informasi risiko yang material** dan berdampak langsung terhadap pencapaian tujuan organisasi.
+Risk report harus **fokus pada informasi risiko yang material** dan berdampak langsung terhadap pencapaian tujuan organisasi, bukan sekedar memberikan informasi tanpa tujuan yang jelas.
 
 **Implikasi praktis:**
 - Menyajikan _key risks_ dan _top risks_, bukan seluruh daftar risiko operasional.
@@ -191,7 +193,16 @@ Risk report umumnya memuat elemen berikut:
         
 5. **Risk Heat Map**
     - Visualisasi posisi risiko terhadap risk appetite
-        
+    - Contoh penyajian laporan dalam bentuk *heat map*.
+
+**contoh 1:**
+
+![](img/11-reporting-heatmap-1.png)
+
+**contoh 2:**
+
+![](img/11-reporint-heatmap-2.png)
+
 6. **Key Risk Indicators (KRI)**
     - Indikator peringatan dini
     - Status threshold (normal, warning, critical)
@@ -233,8 +244,25 @@ Beberapa tantangan umum meliputi:
 ## 9. Contoh Risk Reporting
 
 Berikut beberapa contoh nyata laporan pelaksanaan *risk assesment*
-1. [laporan-manajemen-risiko-pta-jakarta](../ebook/laporan-manajemen-risiko-pta-jakarta.pdf) ([sumber](https://www.pta-jakarta.go.id/filepdf/risk-register/LAPORAN%20MANAJEMEN%20RISIKO%20PTA%20JAKARTA.pdf))    
+1. [Laporan Manajeme Risiko - Pengadilan Tinggi Agama Jakarta 2023](../ebook/laporan-manajemen-risiko-pta-jakarta.pdf) ([sumber](https://www.pta-jakarta.go.id/filepdf/risk-register/LAPORAN%20MANAJEMEN%20RISIKO%20PTA%20JAKARTA.pdf))    
 2. [laporan-pelaksanaan-penilaian-risiko-bp2d-jabar-2024](../ebook/laporan-pelaksanaan-penilaian-risiko-bp2d-jabar-2024.pdf) ([sumber](https://bp2d.jabarprov.go.id/assets/document/other/laporan-pelaksanaan-penilaian-risiko-bp2d-jabar-2024.pdf))
 3. [WIKA IR - Manajemen Risiko - Annual Report 2023](https://investor.wika.co.id/misc/AR/flipbook/AR2023/660/)
-4. [laporan-manajemen-risiko-pt-timah-2021](../ebook/laporan-manajemen-risiko-pt-timah-2021.pdf)
+4. [Laporan Manajemen Risiko PT TIMAT 2021](../ebook/laporan-manajemen-risiko-pt-timah-2021.pdf)
 
+---
+
+## 💼 Diskusi & Tugas
+
+### PT TIMAH 2021
+Pelajari [Laporan Manajemen Risiko PT TIMAT 2021](../ebook/laporan-manajemen-risiko-pt-timah-2021.pdf), diskusikan beberapa poin berikut:
+
+1. Ada berapa orang yang secara khusus bertanggungjawab dalam pengelolaan risiko?
+2. Apa upaya yang dilakukan untuk mempersiapkan personil pengelola risiko?
+3. Apa yang menjadi acuan menetapkan jenis resiko?
+4. Apa yang Anda bisa ceritakan dengan data yang ditampilkan ada grafik _Efektifitas Pengendalian Risiko PT TIMAH Tbk_?
+5. Jika melihat _Pengukuran Maturitas Manajemen Risiko_, apakah implementasi manajemen risiko di PT TIMAH membaik atau sebaliknya?
+6. Apa saja perkara hukum dan sanksi administratif yang diterima pada tahun 2021?
+
+### PTAJ 2024
+Pelajari [Laporan Manajeme Risiko - Pengadilan Tinggi Agama Jakarta 2023](../ebook/laporan-manajemen-risiko-pta-jakarta.pdf) ([sumber](https://www.pta-jakarta.go.id/filepdf/risk-register/LAPORAN%20MANAJEMEN%20RISIKO%20PTA%20JAKARTA.pdf))    
+1. Apa hubungan antara *Lampiran Form 1, Form 2 dan Form 3*.
