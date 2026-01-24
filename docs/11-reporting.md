@@ -254,7 +254,7 @@ Berikut beberapa contoh nyata laporan pelaksanaan *risk assesment*
 ## 💼 Diskusi & Tugas
 
 ### PT TIMAH 2021
-Pelajari [Laporan Manajemen Risiko PT TIMAT 2021](../ebook/laporan-manajemen-risiko-pt-timah-2021.pdf), diskusikan beberapa poin berikut:
+Pelajari [Laporan Manajemen Risiko PT TIMAH 2021](../ebook/laporan-manajemen-risiko-pt-timah-2021.pdf), diskusikan beberapa poin berikut:
 
 1. Ada berapa orang yang secara khusus bertanggungjawab dalam pengelolaan risiko?
 2. Apa upaya yang dilakukan untuk mempersiapkan personil pengelola risiko?

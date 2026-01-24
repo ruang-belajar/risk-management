@@ -241,25 +241,16 @@ Ketiganya membantu organisasi membuat keputusan yang konsisten, terukur, dan sel
 **Risk Appetite** adalah tingkat risiko yang _siap_ atau _bersedia_ diterima organisasi dalam upaya mencapai tujuan strategisnya.
 
 Risk appetite mencerminkan:
-
 - Budaya risiko (risk culture) perusahaan
-    
 - Keberanian mengambil peluang (risk-taking capacity)
-    
 - Orientasi bisnis: konservatif vs agresif
-    
 - Preferensi stakeholder
     
 Karakteristik Risk Appetite:
-
 - Bersifat **strategis** dan jangka panjang
-    
 - Ditentukan oleh pimpinan puncak (Top Management / Board)
-    
 - Tidak selalu bersifat kuantitatif—dapat berupa pernyataan umum
-    
 - Menjadi acuan dalam penyusunan risk tolerance dan risk limit
-
 
 Pernyataan _Risk Appetite_ (Selera Risiko) adalah komponen krusial dalam kerangka kerja manajemen risiko. Pernyataan ini berfungsi sebagai panduan bagi manajemen untuk memutuskan apakah suatu risiko harus **diterima**, **dihindari**, atau **dimitigasi**.
 
@@ -354,13 +345,9 @@ Dalam dokumen evaluasi risiko, pernyataan di atas diterjemahkan ke dalam tindaka
 Jika risk appetite adalah “niat strategis”, maka risk tolerance adalah **angka operasional** yang konkret.
 
 Risk tolerance dapat berupa:
-
 - batas kuantitatif (data angka, KPI, indikator)
-    
 - standar minimum atau maksimum
-    
 - batas waktu kerusakan
-    
 - batas biaya kerugian
 
 #### Hubungan dengan Risk Appetite
@@ -397,17 +384,11 @@ Contoh:
 ### 5.3. Risk Acceptance
 
 **Risk Acceptance** adalah keputusan untuk menerima risiko tertentu tanpa tindakan mitigasi tambahan, karena risiko tersebut:
-
 - rendah
-    
 - biayanya tidak layak untuk diturunkan
-    
 - sudah berada dalam batas risk tolerance
-    
 - mitigasi tidak memberikan manfaat signifikan
-    
 - berada dalam zona ALARP (As Low As Reasonably Practicable)
-    
 
 Risk acceptance harus **didokumentasikan** dan **disetujui secara formal**.
 
@@ -459,18 +440,12 @@ B --> C[RISK ACCEPTANCE]
 “Kami menerima risiko moderat terkait down-time untuk menjaga efisiensi biaya.”
 
 **Risk Tolerance:**
-
 - Maksimal downtime sistem: 2 jam per bulan
-    
 - Maksimal keluhan pengguna: 1% dari total transaksi
-    
 
 **Risk Acceptance:**
-
 - Perusahaan menerima risiko downtime 20 menit saat patching sistem mingguan
-    
 - Karena durasinya masih jauh di bawah batas toleransi (2 jam)
-    
 
 ---
 

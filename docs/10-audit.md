@@ -557,8 +557,8 @@ Berikut langkah-langkah sistematis dalam proses penetapan KRI
 
 #### 1️⃣ Identifikasi Key Risks (Risiko Utama)
 
-**Tujuan**\
-Menentukan risiko-risiko yang **paling signifikan** dan perlu dimonitor secara aktif.
+**Tujuan**
+- Menentukan risiko-risiko yang **paling signifikan** dan perlu dimonitor secara aktif.
 
 **Aktivitas**
 - Review risk register
@@ -568,13 +568,13 @@ Menentukan risiko-risiko yang **paling signifikan** dan perlu dimonitor secara a
     - Risiko strategis atau kritikal
 - Pertimbangkan risiko residual, bukan hanya inherent risk
 
-**Output**\
-Daftar **key risks** yang akan memiliki KRI.
+**Output**:
+- Daftar **key risks** yang akan memiliki KRI.
 
 #### 2️⃣ Memahami Penyebab dan Driver Risiko (Risk Drivers)
 
 ##### Tujuan
-Mengidentifikasi faktor-faktor yang **mendorong terjadinya risiko**.
+- Mengidentifikasi faktor-faktor yang **mendorong terjadinya risiko**.
 
 ##### Aktivitas
 - Analisis sebab-akibat
@@ -583,10 +583,10 @@ Mengidentifikasi faktor-faktor yang **mendorong terjadinya risiko**.
 - Diskusi dengan risk owner
 
 ##### Prinsip Penting
-KRI yang baik **mengukur penyebab risiko**, bukan sekadar akibatnya.
+- KRI yang baik **mengukur penyebab risiko**, bukan sekadar akibatnya.
 
 ##### Output
-Daftar **risk drivers** utama.
+- Daftar **risk drivers** utama.
 
 #### 3️⃣ Menentukan Indikator yang Relevan dan Sensitif
 
@@ -608,7 +608,7 @@ Memilih indikator yang **paling mampu memberikan sinyal dini** terhadap peningka
 #### 4️⃣ Menentukan Metode Pengukuran dan Definisi KRI
 
 ##### Tujuan
-Menghindari ambiguitas dan perbedaan interpretasi.
+- Menghindari ambiguitas dan perbedaan interpretasi.
 
 ##### Aktivitas
 - Mendefinisikan:
@@ -625,7 +625,7 @@ Menghindari ambiguitas dan perbedaan interpretasi.
 #### 5️⃣ Menetapkan Threshold dan Toleransi Risiko
 
 ##### Tujuan
-Menentukan batas yang memicu **tindakan atau eskalasi**.
+- Menentukan batas yang memicu **tindakan atau eskalasi**.
 
 ##### Aktivitas
 - Mengacu pada:
@@ -676,7 +676,7 @@ Menjamin **akuntabilitas dan respons yang jelas**.
 - Menentukan alur komunikasi
 
 ##### Prinsip
-Tanpa ownership yang jelas, KRI menjadi formalitas.
+- Tanpa ownership yang jelas, KRI menjadi formalitas.
 
 #### 8️⃣ Menentukan Tindakan dan Mekanisme Eskalasi
 
