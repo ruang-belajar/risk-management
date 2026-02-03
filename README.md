@@ -7,6 +7,7 @@ _Disclaimer_: sebagian besar dari materi di repository ini dibuat menggunakan ba
 **Daftar Isi:**
 1. [Materi Kuliah](docs/README.md)
 2. [Studi Kasus](case/README.md)
+3. [🎁 Soal UTS](https://docs.google.com/forms/d/e/1FAIpQLSfuNO7QpzKQcc5r8DkghPXffeGogCERt2X2YRhKUSs_eQS2mg/viewform?usp=dialog)
 
 ---
 Disusun oleh En Tay
